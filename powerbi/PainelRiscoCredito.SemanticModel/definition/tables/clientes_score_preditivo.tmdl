@@ -1,0 +1,63 @@
+table clientes_score_preditivo
+	lineageTag: 2b91f221-ec6f-4576-abe0-97894a18a64c
+
+	column cliente_id
+		dataType: string
+		isHidden
+		lineageTag: 38c50863-e83a-4bef-818c-a703a7a9daf4
+		summarizeBy: none
+		sourceColumn: cliente_id
+
+	column probabilidade_default
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 3b2bb9aa-d68c-4964-87d6-f9e807cfeddd
+		summarizeBy: none
+		sourceColumn: probabilidade_default
+
+	column faixa_risco
+		dataType: string
+		lineageTag: fc952186-40c4-4b3a-83a5-e168feee2169
+		summarizeBy: none
+		sourceColumn: faixa_risco
+
+	column fator_risco_1
+		dataType: string
+		lineageTag: 48abefeb-0769-4ee6-b797-a9e25a8f9ca6
+		summarizeBy: none
+		sourceColumn: fator_risco_1
+
+	column fator_risco_2
+		dataType: string
+		lineageTag: 0f0a4327-8d5b-40cd-8cbd-6752b5907c28
+		summarizeBy: none
+		sourceColumn: fator_risco_2
+
+	column fator_risco_3
+		dataType: string
+		lineageTag: f5532e3f-f757-4a58-85cc-43a6b8aaaa0f
+		summarizeBy: none
+		sourceColumn: fator_risco_3
+
+	/// PD calculada em T-9m (fora da amostra) — usada no backtest do simulador What-If.
+	column pd_backtest
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 4869fe74-090f-43f4-be9e-a66264b1f822
+		summarizeBy: none
+		sourceColumn: pd_backtest
+
+	partition clientes_score_preditivo = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "clientes_score_preditivo.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalhos = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalhos, {
+				        {"cliente_id", type text}, {"probabilidade_default", type number}, {"faixa_risco", type text},
+				        {"fator_risco_1", type text}, {"fator_risco_2", type text}, {"fator_risco_3", type text},
+				        {"pd_backtest", type number}
+				    }, "en-US")
+				in
+				    Tipos
+

@@ -1,0 +1,91 @@
+table fato_faturas
+	lineageTag: caedd947-8b9c-421f-b8ce-1a2884ea7e72
+
+	column fatura_id
+		dataType: string
+		isKey
+		lineageTag: 7c216ac0-2081-4633-8433-6e8c540c5d4c
+		summarizeBy: none
+		sourceColumn: fatura_id
+
+	column cliente_id
+		dataType: string
+		isHidden
+		lineageTag: 2420d143-d986-4a68-94d7-4151bf3b40c0
+		summarizeBy: none
+		sourceColumn: cliente_id
+
+	column data_emissao
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: c05e3a59-e697-422e-9da4-d8f8acb6b8e3
+		summarizeBy: none
+		sourceColumn: data_emissao
+
+	column data_vencimento
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: da3f58a2-34ac-415b-8b20-43d381a165f0
+		summarizeBy: none
+		sourceColumn: data_vencimento
+
+	column data_pagamento
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 2baf2321-beb4-4129-a634-667361661437
+		summarizeBy: none
+		sourceColumn: data_pagamento
+
+	column valor_fatura
+		dataType: double
+		formatString: \R$ #,0.00
+		lineageTag: e9489fa0-4339-46c9-8042-8862fae2240b
+		summarizeBy: sum
+		sourceColumn: valor_fatura
+
+	column status_fatura
+		dataType: string
+		lineageTag: d6d5efba-0969-4193-a65e-b8bdb544843e
+		summarizeBy: none
+		sourceColumn: status_fatura
+
+	/// Dias de atraso na DATA DE CORTE (só faturas em aberto; liquidadas = BLANK).
+	/// Sem CALCULATE, MAX() varre a coluna inteira = última data de emissão = data de corte.
+	column dias_atraso_corte =
+			VAR _corte = MAX ( fato_faturas[data_emissao] )
+			RETURN
+			    IF ( ISBLANK ( fato_faturas[data_pagamento] ), INT ( _corte - fato_faturas[data_vencimento] ) )
+		dataType: int64
+		formatString: 0
+		lineageTag: 1bbec83d-9e66-410d-9199-42a3fdae9796
+		summarizeBy: none
+
+	/// Faixa de Aging estática (na data de corte). ALLNOBLANKROW evita dependência circular com o relacionamento.
+	column faixa_aging =
+			VAR _dias = fato_faturas[dias_atraso_corte]
+			RETURN
+			    IF (
+			        NOT ISBLANK ( _dias ),
+			        MAXX (
+			            FILTER ( ALLNOBLANKROW ( dim_aging ), _dias >= dim_aging[DiasMin] && _dias <= dim_aging[DiasMax] ),
+			            dim_aging[Faixa]
+			        )
+			    )
+		dataType: string
+		lineageTag: 415dd644-4f3b-43d3-855d-e78905b19f5b
+		summarizeBy: none
+
+	partition fato_faturas = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "fato_faturas.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalhos = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalhos, {
+				        {"fatura_id", type text}, {"cliente_id", type text},
+				        {"data_emissao", type date}, {"data_vencimento", type date}, {"data_pagamento", type date},
+				        {"valor_fatura", type number}, {"status_fatura", type text}
+				    }, "en-US")
+				in
+				    Tipos
+

@@ -1,0 +1,8 @@
+﻿variavel,coeficiente_logit,efeito,importancia_pct,importancia_rf_pct
+Score de bureau,-1.0896,Reduz o risco,0.3496,0.3445
+Comprometimento do limite,0.5819,Aumenta o risco,0.1718,0.1388
+Segmento Varejo,0.3413,Aumenta o risco,0.1342,0.0135
+% faturas pagas com atraso,0.3744,Aumenta o risco,0.1298,0.1632
+Tempo de relacionamento,-0.4066,Reduz o risco,0.1149,0.051
+Histórico de atraso 12m,0.173,Aumenta o risco,0.0557,0.0632
+Pior atraso (dias),0.1488,Aumenta o risco,0.044,0.2258

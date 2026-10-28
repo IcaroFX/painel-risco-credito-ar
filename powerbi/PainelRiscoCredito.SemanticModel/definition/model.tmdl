@@ -1,0 +1,26 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["PastaDados","dim_clientes","fato_faturas","clientes_score_preditivo","feature_importance"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table clientes_score_preditivo
+ref table 'Corte PD'
+ref table dim_aging
+ref table dim_calendario
+ref table dim_clientes
+ref table fato_faturas
+ref table feature_importance
+ref table 'Margem Contribuição'
+ref table _Medidas
+
+ref cultureInfo pt-BR
+

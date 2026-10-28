@@ -1,0 +1,23 @@
+relationship rel_faturas_clientes
+	fromColumn: fato_faturas.cliente_id
+	toColumn: dim_clientes.cliente_id
+
+relationship rel_score_clientes
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: clientes_score_preditivo.cliente_id
+	toColumn: dim_clientes.cliente_id
+
+relationship rel_faturas_emissao
+	fromColumn: fato_faturas.data_emissao
+	toColumn: dim_calendario.Date
+
+relationship rel_faturas_pagamento
+	isActive: false
+	fromColumn: fato_faturas.data_pagamento
+	toColumn: dim_calendario.Date
+
+relationship rel_faturas_aging
+	fromColumn: fato_faturas.faixa_aging
+	toColumn: dim_aging.Faixa
+

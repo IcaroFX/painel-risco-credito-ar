@@ -1,0 +1,24 @@
+/// Parâmetro What-If: margem de contribuição do negócio (5% a 40%).
+table 'Margem Contribuição'
+	lineageTag: e171fbbe-1507-4694-92ce-ad5214d5e734
+
+	measure 'Valor Margem Contribuição' = SELECTEDVALUE ( 'Margem Contribuição'[Margem Contribuição], 0.10 )
+		formatString: 0%
+		lineageTag: 5411bafe-c686-4ca1-b05b-68fc3dc93820
+
+	column 'Margem Contribuição'
+		dataType: double
+		formatString: 0%
+		lineageTag: 968cc237-bbbf-4b77-ae7b-bb72cba498ac
+		summarizeBy: none
+		sourceColumn: [Margem Contribuição]
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 0
+				}
+
+	partition 'Margem Contribuição' = calculated
+		mode: import
+		source = SELECTCOLUMNS ( GENERATESERIES ( 5, 40, 1 ), "Margem Contribuição", [Value] / 100 )
+

@@ -1,0 +1,108 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "gTradeoff",
+  "position": {
+    "x": 24,
+    "y": 292,
+    "z": 12000,
+    "width": 1232,
+    "height": 320,
+    "tabOrder": 12000
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Corte PD"
+                    }
+                  },
+                  "Property": "Corte PD"
+                }
+              },
+              "queryRef": "Corte PD.Corte PD",
+              "nativeQueryRef": "Corte PD"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Sim PDD Evitada (Economia de Risco)"
+                }
+              },
+              "queryRef": "_Medidas.Sim PDD Evitada (Economia de Risco)",
+              "nativeQueryRef": "Sim PDD Evitada (Economia de Risco)",
+              "displayName": "PDD evitada"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Sim Margem Perdida"
+                }
+              },
+              "queryRef": "_Medidas.Sim Margem Perdida",
+              "nativeQueryRef": "Sim Margem Perdida",
+              "displayName": "Margem perdida"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Sim Impacto Líquido"
+                }
+              },
+              "queryRef": "_Medidas.Sim Impacto Líquido",
+              "nativeQueryRef": "Sim Impacto Líquido",
+              "displayName": "Impacto líquido"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Curva de trade-off Receita × Risco — o pico da linha de impacto líquido é o corte ótimo'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

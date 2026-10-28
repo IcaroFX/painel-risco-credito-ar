@@ -1,0 +1,61 @@
+/// Régua de Aging e PDD (matriz de provisão — CPC 48 / IFRS 9, abordagem simplificada).
+/// Única fonte da verdade: mudar uma taxa aqui muda a PDD do relatório inteiro.
+table dim_aging
+	lineageTag: 377be022-5867-4e69-9a48-d18bfef09845
+
+	column Ordem
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: fc0fcf44-190b-4f25-8600-a0004502d975
+		summarizeBy: none
+		sourceColumn: [Ordem]
+
+	column Faixa
+		dataType: string
+		lineageTag: abd50f9f-3b16-45d5-8732-8c196060fa33
+		summarizeBy: none
+		sourceColumn: [Faixa]
+		sortByColumn: Ordem
+
+	column DiasMin
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 111060b8-0d57-40f1-8a38-7f5c995537d5
+		summarizeBy: none
+		sourceColumn: [DiasMin]
+
+	column DiasMax
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: e6dd9c30-8bcc-4133-b829-ca4a19dd9464
+		summarizeBy: none
+		sourceColumn: [DiasMax]
+
+	column TaxaPDD
+		dataType: double
+		formatString: 0%
+		lineageTag: ce53f0d0-e945-4ec6-b93b-80b9c82aea6a
+		summarizeBy: none
+		sourceColumn: [TaxaPDD]
+
+	partition dim_aging = calculated
+		mode: import
+		source =
+				DATATABLE (
+				    "Ordem",   INTEGER,
+				    "Faixa",   STRING,
+				    "DiasMin", INTEGER,
+				    "DiasMax", INTEGER,
+				    "TaxaPDD", DOUBLE,
+				    {
+				        { 1, "A Vencer",    -99999,     0, 0.00 },
+				        { 2, "1–30 dias",        1,    30, 0.02 },
+				        { 3, "31–60 dias",      31,    60, 0.10 },
+				        { 4, "61–90 dias",      61,    90, 0.30 },
+				        { 5, "90+ dias",        91, 99999, 1.00 }
+				    }
+				)
+

@@ -1,0 +1,2001 @@
+﻿cliente_id,nome_cliente,segmento,regiao,tempo_relacionamento_meses,limite_credito,score_bureau_externo,historico_atraso_12m
+C00001,Barbosa & Rodrigues Farma Ltda,Middle Market,Nordeste,14,196000.0,432,2
+C00002,Barbosa & Martins Farma ME,Varejo,Nordeste,7,66000.0,714,1
+C00003,Barbosa & Pinto Alimentos Ltda,Middle Market,Sudeste,21,54000.0,581,2
+C00004,Rocha & Santos Supermercados Ltda,Middle Market,Centro-Oeste,20,65000.0,442,1
+C00005,Costa & Moura Papelaria ME,Varejo,Centro-Oeste,17,212000.0,769,0
+C00006,Teixeira & Cardoso Tecnologia S.A.,Corporate,Norte,83,443000.0,776,0
+C00007,Freitas & Gomes Distribuidora Ltda,Middle Market,Sul,33,433000.0,913,0
+C00008,Silva & Freitas Comércio Ltda,Middle Market,Norte,61,125000.0,834,0
+C00009,Barbosa & Souza Química ME,Varejo,Nordeste,16,51000.0,434,2
+C00010,Santos & Gomes Móveis ME,Varejo,Nordeste,59,87000.0,560,2
+C00011,Castro & Rocha Tecnologia ME,Varejo,Sudeste,34,43000.0,573,2
+C00012,Castro & Rodrigues Agronegócio S.A.,Corporate,Centro-Oeste,69,1983000.0,991,0
+C00013,Freitas & Carvalho Calçados Ltda,Middle Market,Nordeste,50,190000.0,717,0
+C00014,Ribeiro & Souza Distribuidora Ltda,Middle Market,Sul,22,220000.0,664,1
+C00015,Cardoso & Pereira Autopeças ME,Varejo,Norte,16,53000.0,518,0
+C00016,Almeida & Dias Atacadista ME,Varejo,Sudeste,16,87000.0,539,0
+C00017,Rocha & Nunes Bebidas ME,Varejo,Sul,10,162000.0,725,1
+C00018,Moreira & Oliveira Materiais Elétricos ME,Varejo,Sudeste,5,58000.0,540,1
+C00019,Rodrigues & Martins Farma Ltda,Middle Market,Sul,52,393000.0,602,1
+C00020,Araújo & Ribeiro Alimentos Ltda,Middle Market,Sudeste,68,120000.0,588,2
+C00021,Oliveira & Freitas Calçados Ltda,Middle Market,Sudeste,47,237000.0,577,1
+C00022,Oliveira & Pinto Calçados ME,Varejo,Sudeste,19,65000.0,351,4
+C00023,Rodrigues & Vieira Bebidas S.A.,Corporate,Sudeste,226,446000.0,767,0
+C00024,Barbosa & Dias Química Ltda,Middle Market,Sudeste,20,225000.0,848,2
+C00025,Cardoso & Pinto Metalúrgica Ltda,Middle Market,Nordeste,42,169000.0,622,1
+C00026,Martins & Almeida Supermercados ME,Varejo,Sudeste,43,45000.0,660,0
+C00027,Teixeira & Gomes Distribuidora ME,Varejo,Sudeste,7,50000.0,193,4
+C00028,Campos & Martins Supermercados ME,Varejo,Sudeste,31,73000.0,634,1
+C00029,Carvalho & Moura Distribuidora ME,Varejo,Sudeste,62,61000.0,551,1
+C00030,Barbosa & Campos Móveis Ltda,Middle Market,Sudeste,35,157000.0,580,3
+C00031,Almeida & Oliveira Construtora Ltda,Middle Market,Norte,39,168000.0,675,0
+C00032,Souza & Pinto Papelaria S.A.,Corporate,Sul,33,592000.0,686,2
+C00033,Duarte & Pinto Química ME,Varejo,Sudeste,28,49000.0,255,5
+C00034,Teixeira & Moreira Papelaria ME,Varejo,Sul,10,51000.0,671,1
+C00035,Moreira & Araújo Distribuidora ME,Varejo,Sudeste,19,245000.0,581,2
+C00036,Cardoso & Souza Móveis ME,Varejo,Nordeste,5,30000.0,495,2
+C00037,Ferreira & Duarte Tecnologia ME,Varejo,Norte,1,40000.0,401,3
+C00038,Moura & Rodrigues Bebidas ME,Varejo,Sudeste,13,39000.0,338,4
+C00039,Moura & Santos Tecnologia ME,Varejo,Sudeste,13,179000.0,575,1
+C00040,Barbosa & Moreira Atacadista Ltda,Middle Market,Sul,25,106000.0,867,0
+C00041,Costa & Gomes Tecnologia ME,Varejo,Sudeste,34,81000.0,585,1
+C00042,Vieira & Silva Farma Ltda,Middle Market,Sudeste,70,165000.0,474,2
+C00043,Lima & Barbosa Autopeças Ltda,Middle Market,Nordeste,44,210000.0,684,1
+C00044,Oliveira & Teixeira Bebidas ME,Varejo,Sul,32,117000.0,548,3
+C00045,Vieira & Rodrigues Alimentos Ltda,Middle Market,Sudeste,18,347000.0,758,0
+C00046,Barbosa & Silva Comércio Ltda,Middle Market,Nordeste,14,146000.0,719,1
+C00047,Vieira & Barbosa Embalagens ME,Varejo,Sudeste,29,42000.0,135,5
+C00048,Souza & Ferreira Têxtil ME,Varejo,Sudeste,7,26000.0,617,4
+C00049,Ribeiro & Souza Autopeças Ltda,Middle Market,Nordeste,11,156000.0,492,6
+C00050,Nunes & Rocha Atacadista ME,Varejo,Sul,105,36000.0,400,1
+C00051,Lima & Araújo Supermercados ME,Varejo,Sul,21,56000.0,522,1
+C00052,Mendes & Moura Química ME,Varejo,Nordeste,13,28000.0,601,1
+C00053,Vieira & Teixeira Alimentos Ltda,Middle Market,Sul,21,167000.0,409,1
+C00054,Martins & Souza Comércio Ltda,Middle Market,Centro-Oeste,9,79000.0,730,0
+C00055,Lima & Moreira Química Ltda,Middle Market,Sul,43,203000.0,759,1
+C00056,Gomes & Freitas Logística Ltda,Middle Market,Sudeste,27,93000.0,649,0
+C00057,Ribeiro & Araújo Agronegócio ME,Varejo,Nordeste,39,37000.0,438,3
+C00058,Lima & Ferreira Atacadista ME,Varejo,Sudeste,29,98000.0,416,2
+C00059,Moreira & Pereira Calçados ME,Varejo,Nordeste,15,96000.0,689,3
+C00060,Barbosa & Cardoso Embalagens ME,Varejo,Sudeste,2,88000.0,326,3
+C00061,Rocha & Vieira Farma Ltda,Middle Market,Sul,37,424000.0,797,0
+C00062,Duarte & Vieira Embalagens ME,Varejo,Nordeste,19,42000.0,524,1
+C00063,Ribeiro & Pinto Calçados ME,Varejo,Sul,2,130000.0,524,1
+C00064,Duarte & Vieira Agronegócio Ltda,Middle Market,Sudeste,47,66000.0,415,6
+C00065,Costa & Vieira Alimentos Ltda,Middle Market,Sudeste,12,242000.0,613,0
+C00066,Mendes & Costa Papelaria ME,Varejo,Nordeste,40,54000.0,646,1
+C00067,Costa & Pinto Metalúrgica ME,Varejo,Norte,19,32000.0,360,7
+C00068,Dias & Ferreira Agronegócio ME,Varejo,Sul,12,91000.0,613,1
+C00069,Cardoso & Nunes Alimentos ME,Varejo,Sudeste,23,102000.0,562,1
+C00070,Martins & Almeida Calçados ME,Varejo,Sudeste,22,91000.0,459,1
+C00071,Teixeira & Ferreira Atacadista ME,Varejo,Sul,22,78000.0,669,0
+C00072,Vieira & Araújo Têxtil ME,Varejo,Sudeste,37,48000.0,250,1
+C00073,Oliveira & Barbosa Farma Ltda,Middle Market,Centro-Oeste,42,234000.0,700,2
+C00074,Dias & Moreira Construtora ME,Varejo,Sul,11,89000.0,769,0
+C00075,Moura & Mendes Química ME,Varejo,Sudeste,16,98000.0,747,1
+C00076,Gomes & Rocha Farma ME,Varejo,Sudeste,50,74000.0,621,3
+C00077,Santos & Martins Materiais Elétricos ME,Varejo,Sudeste,10,91000.0,500,0
+C00078,Nunes & Ferreira Calçados Ltda,Middle Market,Sul,47,71000.0,565,0
+C00079,Moreira & Moura Farma ME,Varejo,Sul,38,57000.0,516,3
+C00080,Barbosa & Vieira Embalagens Ltda,Middle Market,Sudeste,50,93000.0,732,0
+C00081,Santos & Castro Distribuidora Ltda,Middle Market,Nordeste,37,178000.0,535,1
+C00082,Almeida & Campos Farma ME,Varejo,Sudeste,24,158000.0,656,3
+C00083,Moura & Silva Atacadista Ltda,Middle Market,Sul,52,172000.0,956,0
+C00084,Vieira & Moura Embalagens ME,Varejo,Centro-Oeste,10,66000.0,533,6
+C00085,Costa & Martins Distribuidora ME,Varejo,Sudeste,20,75000.0,360,4
+C00086,Ribeiro & Gomes Autopeças ME,Varejo,Sudeste,77,19000.0,394,3
+C00087,Campos & Carvalho Papelaria Ltda,Middle Market,Centro-Oeste,48,146000.0,764,0
+C00088,Rodrigues & Ribeiro Logística ME,Varejo,Sudeste,22,75000.0,541,0
+C00089,Dias & Almeida Embalagens ME,Varejo,Sudeste,15,16000.0,668,2
+C00090,Lima & Ferreira Distribuidora ME,Varejo,Nordeste,10,36000.0,467,1
+C00091,Carvalho & Pereira Supermercados ME,Varejo,Sul,24,121000.0,667,1
+C00092,Moreira & Carvalho Bebidas Ltda,Middle Market,Norte,44,280000.0,630,3
+C00093,Oliveira & Moreira Móveis ME,Varejo,Sul,19,68000.0,445,3
+C00094,Silva & Lima Metalúrgica ME,Varejo,Sul,98,97000.0,539,2
+C00095,Freitas & Lima Papelaria ME,Varejo,Sudeste,11,58000.0,375,3
+C00096,Campos & Duarte Logística Ltda,Middle Market,Sudeste,15,280000.0,914,0
+C00097,Nunes & Teixeira Materiais Elétricos ME,Varejo,Sul,15,53000.0,532,5
+C00098,Gomes & Lima Supermercados ME,Varejo,Sudeste,19,72000.0,638,1
+C00099,Cardoso & Moreira Comércio ME,Varejo,Sul,10,42000.0,467,1
+C00100,Freitas & Lima Autopeças S.A.,Corporate,Sudeste,69,1275000.0,630,0
+C00101,Pereira & Carvalho Distribuidora S.A.,Corporate,Sudeste,75,1602000.0,748,0
+C00102,Duarte & Gomes Metalúrgica Ltda,Middle Market,Sul,57,393000.0,814,0
+C00103,Santos & Pereira Materiais Elétricos ME,Varejo,Sul,13,48000.0,471,1
+C00104,Carvalho & Costa Atacadista S.A.,Corporate,Sudeste,139,446000.0,698,0
+C00105,Vieira & Cardoso Embalagens Ltda,Middle Market,Nordeste,54,335000.0,680,0
+C00106,Araújo & Teixeira Distribuidora Ltda,Middle Market,Sudeste,19,238000.0,707,1
+C00107,Rodrigues & Moreira Materiais Elétricos ME,Varejo,Sudeste,10,90000.0,772,0
+C00108,Santos & Gomes Distribuidora ME,Varejo,Norte,16,48000.0,595,3
+C00109,Mendes & Vieira Materiais Elétricos ME,Varejo,Centro-Oeste,26,85000.0,642,1
+C00110,Araújo & Moreira Comércio S.A.,Corporate,Sudeste,83,483000.0,886,0
+C00111,Moura & Campos Logística ME,Varejo,Sudeste,31,74000.0,393,4
+C00112,Cardoso & Mendes Química ME,Varejo,Centro-Oeste,74,113000.0,446,3
+C00113,Oliveira & Barbosa Autopeças ME,Varejo,Sul,3,120000.0,386,2
+C00114,Rocha & Costa Supermercados ME,Varejo,Sudeste,18,74000.0,360,5
+C00115,Teixeira & Rocha Química ME,Varejo,Sudeste,70,36000.0,689,1
+C00116,Lima & Moura Alimentos Ltda,Middle Market,Sudeste,59,199000.0,702,0
+C00117,Pinto & Ferreira Comércio Ltda,Middle Market,Nordeste,14,501000.0,646,0
+C00118,Costa & Teixeira Móveis Ltda,Middle Market,Sul,40,76000.0,287,1
+C00119,Moreira & Carvalho Embalagens ME,Varejo,Sudeste,17,78000.0,834,1
+C00120,Duarte & Campos Metalúrgica Ltda,Middle Market,Sudeste,29,310000.0,518,3
+C00121,Nunes & Rodrigues Atacadista ME,Varejo,Sudeste,13,109000.0,831,0
+C00122,Rocha & Barbosa Farma Ltda,Middle Market,Nordeste,38,490000.0,446,3
+C00123,Vieira & Pinto Agronegócio ME,Varejo,Centro-Oeste,42,39000.0,447,2
+C00124,Vieira & Pinto Móveis ME,Varejo,Sul,14,27000.0,236,3
+C00125,Araújo & Rodrigues Logística ME,Varejo,Nordeste,31,122000.0,605,4
+C00126,Moura & Araújo Atacadista ME,Varejo,Sudeste,35,30000.0,403,6
+C00127,Rocha & Costa Farma ME,Varejo,Sul,47,50000.0,414,2
+C00128,Nunes & Araújo Logística ME,Varejo,Sudeste,9,49000.0,349,4
+C00129,Oliveira & Moreira Química ME,Varejo,Sudeste,20,117000.0,657,2
+C00130,Rodrigues & Freitas Construtora ME,Varejo,Sul,12,93000.0,643,1
+C00131,Santos & Ribeiro Embalagens ME,Varejo,Centro-Oeste,21,98000.0,802,0
+C00132,Teixeira & Moreira Distribuidora S.A.,Corporate,Sudeste,62,577000.0,677,0
+C00133,Araújo & Vieira Embalagens ME,Varejo,Sul,7,118000.0,571,3
+C00134,Ribeiro & Nunes Construtora ME,Varejo,Centro-Oeste,22,390000.0,369,7
+C00135,Cardoso & Campos Materiais Elétricos ME,Varejo,Nordeste,77,88000.0,535,3
+C00136,Cardoso & Pinto Atacadista ME,Varejo,Sul,28,62000.0,480,4
+C00137,Rocha & Lima Atacadista S.A.,Corporate,Sudeste,17,411000.0,811,1
+C00138,Santos & Oliveira Química ME,Varejo,Centro-Oeste,9,52000.0,684,0
+C00139,Lima & Almeida Metalúrgica Ltda,Middle Market,Sudeste,34,173000.0,785,0
+C00140,Rocha & Mendes Metalúrgica ME,Varejo,Sudeste,9,42000.0,423,4
+C00141,Freitas & Pereira Agronegócio ME,Varejo,Sudeste,46,72000.0,703,5
+C00142,Lima & Moreira Agronegócio ME,Varejo,Sul,5,151000.0,533,3
+C00143,Moreira & Cardoso Construtora S.A.,Corporate,Sul,84,1389000.0,741,0
+C00144,Moreira & Martins Têxtil ME,Varejo,Nordeste,4,52000.0,439,5
+C00145,Cardoso & Campos Calçados ME,Varejo,Sul,19,32000.0,469,1
+C00146,Silva & Moura Alimentos ME,Varejo,Norte,8,150000.0,785,0
+C00147,Duarte & Mendes Tecnologia ME,Varejo,Sul,32,64000.0,598,2
+C00148,Pinto & Santos Atacadista ME,Varejo,Sul,41,27000.0,585,0
+C00149,Rocha & Campos Embalagens ME,Varejo,Sudeste,26,87000.0,515,2
+C00150,Oliveira & Rocha Embalagens ME,Varejo,Sudeste,42,141000.0,904,0
+C00151,Souza & Oliveira Metalúrgica Ltda,Middle Market,Sul,2,58000.0,810,0
+C00152,Santos & Mendes Calçados Ltda,Middle Market,Nordeste,39,104000.0,548,1
+C00153,Martins & Rocha Agronegócio ME,Varejo,Sudeste,28,58000.0,514,3
+C00154,Gomes & Souza Têxtil ME,Varejo,Sul,31,89000.0,525,1
+C00155,Costa & Pinto Farma ME,Varejo,Sudeste,27,50000.0,573,1
+C00156,Duarte & Gomes Distribuidora Ltda,Middle Market,Sudeste,55,105000.0,561,2
+C00157,Santos & Cardoso Metalúrgica ME,Varejo,Sudeste,22,96000.0,611,1
+C00158,Campos & Teixeira Agronegócio Ltda,Middle Market,Sudeste,11,159000.0,836,0
+C00159,Araújo & Costa Papelaria Ltda,Middle Market,Sudeste,22,188000.0,455,3
+C00160,Lima & Rodrigues Distribuidora Ltda,Middle Market,Centro-Oeste,80,87000.0,516,1
+C00161,Nunes & Araújo Alimentos ME,Varejo,Nordeste,42,30000.0,494,4
+C00162,Almeida & Ferreira Materiais Elétricos S.A.,Corporate,Sudeste,82,1071000.0,724,0
+C00163,Carvalho & Ribeiro Calçados ME,Varejo,Sudeste,33,91000.0,836,0
+C00164,Dias & Lima Farma ME,Varejo,Sul,39,114000.0,700,0
+C00165,Costa & Moreira Distribuidora ME,Varejo,Sudeste,28,54000.0,685,1
+C00166,Barbosa & Dias Bebidas ME,Varejo,Nordeste,45,41000.0,526,3
+C00167,Oliveira & Moura Tecnologia Ltda,Middle Market,Sul,77,335000.0,632,0
+C00168,Oliveira & Moreira Têxtil Ltda,Middle Market,Centro-Oeste,161,71000.0,519,0
+C00169,Freitas & Santos Atacadista ME,Varejo,Sudeste,13,129000.0,653,2
+C00170,Santos & Cardoso Comércio S.A.,Corporate,Norte,39,1542000.0,828,0
+C00171,Moreira & Teixeira Embalagens ME,Varejo,Nordeste,26,114000.0,732,1
+C00172,Carvalho & Castro Tecnologia ME,Varejo,Nordeste,67,45000.0,547,4
+C00173,Oliveira & Rocha Farma ME,Varejo,Norte,47,42000.0,544,5
+C00174,Freitas & Teixeira Papelaria S.A.,Corporate,Sul,104,714000.0,822,0
+C00175,Campos & Teixeira Embalagens ME,Varejo,Sudeste,50,37000.0,691,1
+C00176,Rodrigues & Campos Papelaria ME,Varejo,Sul,29,31000.0,348,2
+C00177,Campos & Carvalho Logística ME,Varejo,Nordeste,16,95000.0,649,0
+C00178,Pereira & Carvalho Calçados S.A.,Corporate,Centro-Oeste,229,1138000.0,871,0
+C00179,Oliveira & Carvalho Metalúrgica Ltda,Middle Market,Sul,48,89000.0,507,1
+C00180,Mendes & Moura Distribuidora Ltda,Middle Market,Nordeste,76,185000.0,380,2
+C00181,Ribeiro & Barbosa Embalagens Ltda,Middle Market,Sudeste,2,209000.0,608,1
+C00182,Moreira & Teixeira Supermercados Ltda,Middle Market,Sudeste,3,424000.0,830,1
+C00183,Ferreira & Moreira Bebidas ME,Varejo,Sul,23,102000.0,784,0
+C00184,Moreira & Barbosa Logística ME,Varejo,Sudeste,9,111000.0,591,1
+C00185,Cardoso & Vieira Química Ltda,Middle Market,Sudeste,43,272000.0,926,0
+C00186,Silva & Barbosa Farma Ltda,Middle Market,Nordeste,23,278000.0,634,1
+C00187,Pereira & Duarte Distribuidora ME,Varejo,Sul,101,39000.0,730,0
+C00188,Lima & Mendes Atacadista ME,Varejo,Sul,41,56000.0,497,5
+C00189,Ribeiro & Freitas Autopeças Ltda,Middle Market,Sudeste,92,163000.0,609,0
+C00190,Vieira & Nunes Supermercados ME,Varejo,Sudeste,2,50000.0,442,8
+C00191,Pinto & Rocha Tecnologia S.A.,Corporate,Nordeste,103,756000.0,509,0
+C00192,Ferreira & Silva Metalúrgica ME,Varejo,Centro-Oeste,17,101000.0,726,2
+C00193,Castro & Teixeira Tecnologia ME,Varejo,Sudeste,53,71000.0,478,2
+C00194,Rodrigues & Mendes Calçados Ltda,Middle Market,Nordeste,56,144000.0,547,2
+C00195,Carvalho & Moura Alimentos ME,Varejo,Nordeste,19,37000.0,382,4
+C00196,Oliveira & Cardoso Agronegócio ME,Varejo,Nordeste,7,105000.0,512,3
+C00197,Mendes & Pereira Comércio ME,Varejo,Sul,22,93000.0,796,0
+C00198,Gomes & Vieira Embalagens Ltda,Middle Market,Sudeste,79,132000.0,967,0
+C00199,Dias & Cardoso Comércio ME,Varejo,Nordeste,56,46000.0,337,3
+C00200,Santos & Ribeiro Logística ME,Varejo,Sul,15,25000.0,495,2
+C00201,Ribeiro & Moreira Construtora Ltda,Middle Market,Sudeste,158,164000.0,576,0
+C00202,Freitas & Barbosa Logística S.A.,Corporate,Sudeste,125,787000.0,949,0
+C00203,Vieira & Lima Metalúrgica ME,Varejo,Sul,9,49000.0,582,1
+C00204,Lima & Oliveira Comércio ME,Varejo,Sul,7,126000.0,451,1
+C00205,Araújo & Dias Química ME,Varejo,Centro-Oeste,18,36000.0,557,1
+C00206,Lima & Ribeiro Calçados ME,Varejo,Sudeste,15,84000.0,478,2
+C00207,Cardoso & Mendes Bebidas ME,Varejo,Sudeste,29,229000.0,779,2
+C00208,Teixeira & Freitas Autopeças Ltda,Middle Market,Norte,36,315000.0,724,0
+C00209,Cardoso & Duarte Distribuidora ME,Varejo,Sudeste,16,67000.0,639,1
+C00210,Pereira & Moura Bebidas ME,Varejo,Sudeste,4,23000.0,165,4
+C00211,Pinto & Martins Metalúrgica Ltda,Middle Market,Centro-Oeste,57,87000.0,651,0
+C00212,Pinto & Rodrigues Papelaria ME,Varejo,Norte,4,65000.0,830,0
+C00213,Martins & Mendes Supermercados ME,Varejo,Nordeste,43,53000.0,747,0
+C00214,Castro & Lima Papelaria Ltda,Middle Market,Sudeste,4,91000.0,370,2
+C00215,Carvalho & Duarte Metalúrgica Ltda,Middle Market,Sul,7,138000.0,586,3
+C00216,Duarte & Rocha Têxtil Ltda,Middle Market,Centro-Oeste,16,138000.0,467,0
+C00217,Pinto & Oliveira Atacadista ME,Varejo,Centro-Oeste,14,98000.0,784,0
+C00218,Moreira & Ferreira Tecnologia ME,Varejo,Sudeste,12,35000.0,577,1
+C00219,Moura & Gomes Supermercados S.A.,Corporate,Centro-Oeste,40,492000.0,653,3
+C00220,Nunes & Moreira Metalúrgica ME,Varejo,Sul,25,58000.0,556,2
+C00221,Souza & Rodrigues Distribuidora ME,Varejo,Sudeste,9,37000.0,176,3
+C00222,Carvalho & Nunes Embalagens ME,Varejo,Sudeste,25,135000.0,399,3
+C00223,Silva & Barbosa Agronegócio Ltda,Middle Market,Sudeste,2,191000.0,632,0
+C00224,Vieira & Cardoso Materiais Elétricos S.A.,Corporate,Norte,26,367000.0,870,0
+C00225,Araújo & Teixeira Calçados ME,Varejo,Sudeste,4,57000.0,267,6
+C00226,Pereira & Costa Logística S.A.,Corporate,Nordeste,124,991000.0,757,0
+C00227,Barbosa & Ferreira Móveis ME,Varejo,Sudeste,11,67000.0,684,1
+C00228,Pinto & Mendes Tecnologia ME,Varejo,Nordeste,31,28000.0,351,2
+C00229,Duarte & Martins Construtora Ltda,Middle Market,Sul,5,419000.0,661,2
+C00230,Castro & Santos Papelaria ME,Varejo,Centro-Oeste,55,38000.0,578,2
+C00231,Ribeiro & Almeida Têxtil ME,Varejo,Sul,22,108000.0,789,1
+C00232,Rocha & Ferreira Comércio ME,Varejo,Nordeste,20,67000.0,516,2
+C00233,Souza & Rocha Comércio S.A.,Corporate,Sul,13,988000.0,720,1
+C00234,Duarte & Araújo Comércio ME,Varejo,Sul,8,163000.0,660,4
+C00235,Campos & Pereira Papelaria S.A.,Corporate,Norte,48,857000.0,579,1
+C00236,Araújo & Pereira Supermercados Ltda,Middle Market,Sul,15,125000.0,604,0
+C00237,Ferreira & Araújo Metalúrgica ME,Varejo,Centro-Oeste,40,104000.0,496,0
+C00238,Pinto & Rocha Materiais Elétricos Ltda,Middle Market,Sudeste,37,124000.0,629,2
+C00239,Oliveira & Lima Materiais Elétricos ME,Varejo,Nordeste,8,76000.0,660,2
+C00240,Nunes & Vieira Agronegócio ME,Varejo,Centro-Oeste,36,36000.0,635,2
+C00241,Moura & Duarte Autopeças Ltda,Middle Market,Centro-Oeste,26,93000.0,537,1
+C00242,Araújo & Duarte Construtora Ltda,Middle Market,Sul,60,182000.0,681,0
+C00243,Carvalho & Rodrigues Autopeças ME,Varejo,Sul,13,90000.0,752,1
+C00244,Rodrigues & Ribeiro Têxtil ME,Varejo,Nordeste,30,24000.0,438,0
+C00245,Santos & Campos Papelaria Ltda,Middle Market,Sudeste,25,223000.0,661,1
+C00246,Martins & Nunes Farma Ltda,Middle Market,Norte,70,114000.0,641,0
+C00247,Lima & Martins Bebidas Ltda,Middle Market,Sudeste,5,319000.0,620,3
+C00248,Gomes & Moura Construtora ME,Varejo,Sudeste,6,41000.0,311,2
+C00249,Cardoso & Nunes Farma ME,Varejo,Nordeste,18,43000.0,744,3
+C00250,Cardoso & Nunes Calçados ME,Varejo,Sudeste,11,58000.0,434,5
+C00251,Ferreira & Gomes Embalagens Ltda,Middle Market,Sudeste,24,122000.0,784,0
+C00252,Castro & Campos Construtora Ltda,Middle Market,Sudeste,56,304000.0,573,1
+C00253,Lima & Teixeira Papelaria ME,Varejo,Norte,14,57000.0,457,3
+C00254,Carvalho & Vieira Alimentos ME,Varejo,Sul,26,68000.0,721,0
+C00255,Moura & Souza Agronegócio ME,Varejo,Norte,9,95000.0,681,3
+C00256,Freitas & Cardoso Bebidas Ltda,Middle Market,Sudeste,4,105000.0,658,3
+C00257,Moreira & Araújo Tecnologia Ltda,Middle Market,Sudeste,60,100000.0,769,0
+C00258,Araújo & Lima Comércio ME,Varejo,Sudeste,63,76000.0,533,1
+C00259,Mendes & Vieira Bebidas ME,Varejo,Sudeste,24,36000.0,549,2
+C00260,Pereira & Dias Supermercados ME,Varejo,Sudeste,18,33000.0,454,3
+C00261,Costa & Pinto Móveis ME,Varejo,Sudeste,22,107000.0,676,3
+C00262,Cardoso & Rocha Construtora Ltda,Middle Market,Sul,87,211000.0,581,0
+C00263,Carvalho & Santos Distribuidora ME,Varejo,Nordeste,24,40000.0,758,1
+C00264,Martins & Moura Embalagens ME,Varejo,Sudeste,35,45000.0,513,1
+C00265,Pereira & Souza Autopeças S.A.,Corporate,Sul,100,496000.0,799,0
+C00266,Nunes & Silva Metalúrgica ME,Varejo,Sudeste,42,170000.0,667,1
+C00267,Costa & Moura Têxtil ME,Varejo,Sul,18,99000.0,550,4
+C00268,Campos & Moura Calçados ME,Varejo,Nordeste,13,49000.0,502,3
+C00269,Rocha & Dias Papelaria ME,Varejo,Nordeste,30,84000.0,550,4
+C00270,Teixeira & Araújo Construtora ME,Varejo,Centro-Oeste,40,36000.0,685,0
+C00271,Moreira & Dias Agronegócio ME,Varejo,Sudeste,45,42000.0,470,1
+C00272,Campos & Silva Móveis ME,Varejo,Sul,54,66000.0,551,2
+C00273,Vieira & Araújo Materiais Elétricos ME,Varejo,Centro-Oeste,38,80000.0,560,1
+C00274,Vieira & Lima Alimentos ME,Varejo,Norte,12,67000.0,664,2
+C00275,Martins & Costa Logística Ltda,Middle Market,Sul,41,193000.0,637,0
+C00276,Campos & Teixeira Papelaria ME,Varejo,Sul,22,81000.0,802,0
+C00277,Lima & Costa Distribuidora ME,Varejo,Nordeste,20,57000.0,526,4
+C00278,Souza & Costa Calçados ME,Varejo,Norte,30,53000.0,521,4
+C00279,Pinto & Cardoso Embalagens Ltda,Middle Market,Sudeste,29,136000.0,619,0
+C00280,Almeida & Lima Supermercados Ltda,Middle Market,Sudeste,30,162000.0,460,1
+C00281,Dias & Rodrigues Papelaria ME,Varejo,Centro-Oeste,66,69000.0,430,3
+C00282,Martins & Moura Bebidas ME,Varejo,Nordeste,19,64000.0,473,2
+C00283,Carvalho & Moura Papelaria ME,Varejo,Sudeste,42,41000.0,720,0
+C00284,Vieira & Cardoso Agronegócio ME,Varejo,Sudeste,44,39000.0,558,1
+C00285,Moura & Pinto Construtora ME,Varejo,Sul,24,72000.0,483,1
+C00286,Ribeiro & Lima Tecnologia ME,Varejo,Nordeste,17,153000.0,718,1
+C00287,Mendes & Campos Alimentos ME,Varejo,Nordeste,9,82000.0,759,2
+C00288,Duarte & Souza Materiais Elétricos ME,Varejo,Sudeste,4,59000.0,714,0
+C00289,Duarte & Pinto Alimentos ME,Varejo,Sudeste,31,63000.0,435,2
+C00290,Lima & Moreira Autopeças ME,Varejo,Nordeste,27,33000.0,483,2
+C00291,Ribeiro & Silva Construtora Ltda,Middle Market,Sudeste,61,409000.0,917,0
+C00292,Souza & Mendes Tecnologia ME,Varejo,Sul,13,71000.0,578,4
+C00293,Pinto & Nunes Metalúrgica S.A.,Corporate,Sul,206,568000.0,822,0
+C00294,Ribeiro & Rocha Materiais Elétricos ME,Varejo,Sudeste,29,64000.0,654,2
+C00295,Gomes & Ribeiro Papelaria Ltda,Middle Market,Nordeste,32,148000.0,786,1
+C00296,Almeida & Moreira Logística S.A.,Corporate,Sudeste,6,1341000.0,660,1
+C00297,Ferreira & Mendes Calçados S.A.,Corporate,Nordeste,43,701000.0,793,0
+C00298,Souza & Lima Logística Ltda,Middle Market,Sul,63,210000.0,794,0
+C00299,Rodrigues & Silva Supermercados Ltda,Middle Market,Sul,93,204000.0,519,2
+C00300,Nunes & Dias Metalúrgica Ltda,Middle Market,Centro-Oeste,36,119000.0,649,1
+C00301,Duarte & Carvalho Supermercados Ltda,Middle Market,Sudeste,103,171000.0,532,2
+C00302,Rodrigues & Cardoso Móveis ME,Varejo,Nordeste,9,62000.0,404,4
+C00303,Dias & Carvalho Atacadista ME,Varejo,Sudeste,28,27000.0,474,0
+C00304,Moura & Rodrigues Agronegócio ME,Varejo,Norte,28,76000.0,620,0
+C00305,Duarte & Teixeira Distribuidora Ltda,Middle Market,Sudeste,55,163000.0,614,0
+C00306,Pereira & Rocha Agronegócio ME,Varejo,Sul,23,61000.0,459,1
+C00307,Moreira & Rocha Papelaria ME,Varejo,Sudeste,27,65000.0,559,1
+C00308,Rodrigues & Dias Metalúrgica Ltda,Middle Market,Sudeste,15,166000.0,474,1
+C00309,Mendes & Castro Móveis ME,Varejo,Sudeste,50,132000.0,626,0
+C00310,Freitas & Campos Química ME,Varejo,Sudeste,39,41000.0,718,0
+C00311,Lima & Martins Atacadista ME,Varejo,Sudeste,26,53000.0,541,3
+C00312,Lima & Oliveira Embalagens ME,Varejo,Sudeste,40,86000.0,532,3
+C00313,Oliveira & Silva Autopeças ME,Varejo,Nordeste,51,85000.0,619,3
+C00314,Pereira & Carvalho Química ME,Varejo,Sul,31,58000.0,271,3
+C00315,Santos & Oliveira Alimentos ME,Varejo,Sudeste,76,275000.0,657,1
+C00316,Carvalho & Pereira Bebidas ME,Varejo,Norte,33,122000.0,990,0
+C00317,Teixeira & Castro Embalagens ME,Varejo,Nordeste,10,108000.0,525,1
+C00318,Costa & Moura Logística Ltda,Middle Market,Sudeste,43,146000.0,635,0
+C00319,Vieira & Almeida Móveis ME,Varejo,Sudeste,41,43000.0,665,3
+C00320,Gomes & Oliveira Embalagens S.A.,Corporate,Sul,148,769000.0,1000,0
+C00321,Silva & Nunes Metalúrgica S.A.,Corporate,Sul,68,1210000.0,913,0
+C00322,Dias & Moura Papelaria ME,Varejo,Centro-Oeste,9,54000.0,240,2
+C00323,Souza & Silva Tecnologia ME,Varejo,Sul,17,83000.0,625,2
+C00324,Campos & Duarte Tecnologia ME,Varejo,Norte,6,75000.0,900,0
+C00325,Rocha & Castro Alimentos Ltda,Middle Market,Nordeste,62,156000.0,750,0
+C00326,Oliveira & Costa Tecnologia Ltda,Middle Market,Norte,25,134000.0,479,1
+C00327,Rocha & Dias Metalúrgica Ltda,Middle Market,Sul,20,254000.0,677,1
+C00328,Castro & Ferreira Farma ME,Varejo,Nordeste,38,80000.0,380,7
+C00329,Ribeiro & Duarte Bebidas Ltda,Middle Market,Nordeste,102,123000.0,860,0
+C00330,Moreira & Nunes Materiais Elétricos ME,Varejo,Nordeste,11,80000.0,409,3
+C00331,Oliveira & Barbosa Embalagens Ltda,Middle Market,Sudeste,41,126000.0,661,2
+C00332,Almeida & Dias Materiais Elétricos ME,Varejo,Sudeste,18,70000.0,427,5
+C00333,Pereira & Duarte Logística Ltda,Middle Market,Sudeste,92,151000.0,605,0
+C00334,Carvalho & Rocha Materiais Elétricos Ltda,Middle Market,Sudeste,34,444000.0,854,1
+C00335,Gomes & Carvalho Alimentos ME,Varejo,Centro-Oeste,8,51000.0,555,0
+C00336,Martins & Pereira Papelaria Ltda,Middle Market,Nordeste,35,175000.0,569,0
+C00337,Castro & Lima Tecnologia ME,Varejo,Sudeste,45,73000.0,403,5
+C00338,Araújo & Santos Calçados Ltda,Middle Market,Sudeste,30,85000.0,382,3
+C00339,Rocha & Barbosa Química ME,Varejo,Sudeste,12,50000.0,368,1
+C00340,Pinto & Almeida Móveis S.A.,Corporate,Nordeste,54,674000.0,784,0
+C00341,Araújo & Gomes Atacadista ME,Varejo,Centro-Oeste,9,55000.0,679,3
+C00342,Teixeira & Moreira Calçados S.A.,Corporate,Sudeste,52,573000.0,689,0
+C00343,Nunes & Pinto Supermercados Ltda,Middle Market,Sudeste,23,356000.0,860,0
+C00344,Gomes & Martins Atacadista ME,Varejo,Norte,85,44000.0,487,4
+C00345,Barbosa & Cardoso Bebidas Ltda,Middle Market,Nordeste,5,218000.0,596,1
+C00346,Ferreira & Campos Metalúrgica Ltda,Middle Market,Centro-Oeste,17,173000.0,485,1
+C00347,Freitas & Pinto Comércio S.A.,Corporate,Sudeste,36,417000.0,896,0
+C00348,Castro & Moura Farma ME,Varejo,Sudeste,9,104000.0,835,1
+C00349,Pereira & Barbosa Comércio ME,Varejo,Nordeste,28,24000.0,306,3
+C00350,Barbosa & Cardoso Agronegócio ME,Varejo,Sudeste,11,82000.0,494,1
+C00351,Freitas & Oliveira Construtora Ltda,Middle Market,Centro-Oeste,9,152000.0,808,0
+C00352,Pinto & Ferreira Móveis ME,Varejo,Nordeste,22,51000.0,347,1
+C00353,Almeida & Mendes Atacadista ME,Varejo,Sudeste,16,35000.0,625,0
+C00354,Almeida & Moreira Supermercados ME,Varejo,Sul,11,77000.0,714,1
+C00355,Nunes & Ferreira Alimentos ME,Varejo,Nordeste,52,103000.0,578,0
+C00356,Moura & Souza Materiais Elétricos ME,Varejo,Norte,28,45000.0,630,2
+C00357,Araújo & Rocha Construtora Ltda,Middle Market,Sudeste,46,155000.0,900,0
+C00358,Barbosa & Araújo Embalagens Ltda,Middle Market,Nordeste,51,269000.0,929,0
+C00359,Araújo & Pinto Materiais Elétricos ME,Varejo,Sudeste,28,80000.0,544,6
+C00360,Pinto & Araújo Supermercados ME,Varejo,Centro-Oeste,17,17000.0,472,1
+C00361,Vieira & Silva Papelaria S.A.,Corporate,Nordeste,32,1851000.0,626,0
+C00362,Santos & Ribeiro Atacadista ME,Varejo,Sudeste,22,93000.0,686,0
+C00363,Freitas & Campos Papelaria ME,Varejo,Nordeste,17,73000.0,354,3
+C00364,Souza & Vieira Construtora ME,Varejo,Nordeste,3,56000.0,502,1
+C00365,Castro & Nunes Embalagens Ltda,Middle Market,Nordeste,14,68000.0,649,1
+C00366,Moreira & Pinto Embalagens ME,Varejo,Sudeste,15,82000.0,475,4
+C00367,Pinto & Dias Agronegócio Ltda,Middle Market,Nordeste,68,136000.0,706,0
+C00368,Dias & Campos Tecnologia Ltda,Middle Market,Nordeste,39,295000.0,1000,0
+C00369,Moura & Araújo Calçados ME,Varejo,Sudeste,9,55000.0,524,4
+C00370,Duarte & Ferreira Autopeças Ltda,Middle Market,Sudeste,13,181000.0,573,0
+C00371,Cardoso & Pereira Metalúrgica Ltda,Middle Market,Centro-Oeste,78,134000.0,815,0
+C00372,Freitas & Souza Atacadista ME,Varejo,Sul,17,100000.0,580,2
+C00373,Carvalho & Rodrigues Química ME,Varejo,Sul,1,41000.0,738,0
+C00374,Oliveira & Carvalho Farma ME,Varejo,Centro-Oeste,18,197000.0,570,0
+C00375,Araújo & Pinto Atacadista ME,Varejo,Sudeste,33,188000.0,521,3
+C00376,Mendes & Moura Construtora ME,Varejo,Nordeste,7,107000.0,290,5
+C00377,Mendes & Ferreira Papelaria S.A.,Corporate,Sul,61,1188000.0,546,0
+C00378,Freitas & Dias Agronegócio ME,Varejo,Sudeste,23,46000.0,293,1
+C00379,Rocha & Barbosa Embalagens ME,Varejo,Norte,7,118000.0,593,1
+C00380,Freitas & Santos Comércio Ltda,Middle Market,Nordeste,83,141000.0,485,1
+C00381,Mendes & Ribeiro Farma ME,Varejo,Sudeste,23,34000.0,726,0
+C00382,Nunes & Pereira Têxtil S.A.,Corporate,Centro-Oeste,43,1611000.0,766,0
+C00383,Gomes & Rocha Embalagens Ltda,Middle Market,Norte,31,293000.0,610,3
+C00384,Souza & Moreira Papelaria ME,Varejo,Nordeste,6,54000.0,421,3
+C00385,Pereira & Souza Materiais Elétricos ME,Varejo,Sudeste,6,37000.0,627,6
+C00386,Ferreira & Araújo Supermercados S.A.,Corporate,Sudeste,40,513000.0,647,0
+C00387,Dias & Rocha Agronegócio Ltda,Middle Market,Nordeste,25,61000.0,503,2
+C00388,Ferreira & Santos Alimentos S.A.,Corporate,Centro-Oeste,48,1377000.0,931,0
+C00389,Gomes & Cardoso Logística ME,Varejo,Sudeste,50,30000.0,616,0
+C00390,Martins & Freitas Materiais Elétricos Ltda,Middle Market,Sul,56,195000.0,627,1
+C00391,Mendes & Costa Calçados Ltda,Middle Market,Sudeste,6,120000.0,719,3
+C00392,Castro & Nunes Atacadista ME,Varejo,Sul,44,31000.0,564,1
+C00393,Castro & Cardoso Distribuidora ME,Varejo,Sul,14,74000.0,598,1
+C00394,Duarte & Barbosa Comércio Ltda,Middle Market,Sudeste,60,133000.0,548,0
+C00395,Dias & Martins Farma ME,Varejo,Sul,15,122000.0,835,0
+C00396,Mendes & Costa Móveis ME,Varejo,Sul,22,31000.0,468,2
+C00397,Araújo & Carvalho Atacadista Ltda,Middle Market,Sul,12,139000.0,851,0
+C00398,Freitas & Campos Agronegócio ME,Varejo,Centro-Oeste,26,19000.0,525,4
+C00399,Rodrigues & Santos Distribuidora ME,Varejo,Sudeste,37,24000.0,671,0
+C00400,Moura & Castro Construtora ME,Varejo,Sudeste,4,168000.0,641,0
+C00401,Moreira & Teixeira Papelaria ME,Varejo,Sul,37,207000.0,719,1
+C00402,Araújo & Dias Papelaria S.A.,Corporate,Sul,32,715000.0,638,1
+C00403,Freitas & Lima Metalúrgica Ltda,Middle Market,Sudeste,107,133000.0,841,0
+C00404,Rodrigues & Lima Farma ME,Varejo,Norte,34,68000.0,815,0
+C00405,Souza & Santos Atacadista S.A.,Corporate,Sudeste,88,1164000.0,753,0
+C00406,Oliveira & Gomes Embalagens Ltda,Middle Market,Sudeste,31,133000.0,649,1
+C00407,Freitas & Ribeiro Papelaria ME,Varejo,Nordeste,95,69000.0,520,0
+C00408,Moreira & Almeida Calçados Ltda,Middle Market,Centro-Oeste,24,163000.0,592,1
+C00409,Freitas & Moura Móveis ME,Varejo,Sul,8,58000.0,780,0
+C00410,Silva & Lima Calçados S.A.,Corporate,Sudeste,33,514000.0,615,0
+C00411,Vieira & Freitas Alimentos Ltda,Middle Market,Sudeste,73,180000.0,538,2
+C00412,Nunes & Costa Embalagens Ltda,Middle Market,Sudeste,38,126000.0,874,0
+C00413,Duarte & Campos Têxtil ME,Varejo,Sul,19,85000.0,635,3
+C00414,Rodrigues & Cardoso Alimentos Ltda,Middle Market,Nordeste,24,170000.0,937,0
+C00415,Moura & Ferreira Têxtil ME,Varejo,Sudeste,18,63000.0,484,4
+C00416,Pereira & Duarte Calçados ME,Varejo,Sul,13,127000.0,561,1
+C00417,Almeida & Moura Metalúrgica ME,Varejo,Nordeste,32,53000.0,463,10
+C00418,Lima & Freitas Papelaria Ltda,Middle Market,Sudeste,28,276000.0,663,0
+C00419,Nunes & Cardoso Tecnologia ME,Varejo,Sudeste,12,19000.0,295,0
+C00420,Duarte & Mendes Metalúrgica S.A.,Corporate,Nordeste,114,664000.0,900,0
+C00421,Pereira & Cardoso Móveis Ltda,Middle Market,Sudeste,15,179000.0,680,1
+C00422,Moreira & Vieira Tecnologia ME,Varejo,Sudeste,22,163000.0,541,2
+C00423,Rocha & Lima Metalúrgica ME,Varejo,Sudeste,3,22000.0,483,4
+C00424,Rocha & Martins Distribuidora ME,Varejo,Sul,5,52000.0,414,2
+C00425,Pinto & Carvalho Distribuidora Ltda,Middle Market,Sul,26,386000.0,743,1
+C00426,Rocha & Campos Atacadista Ltda,Middle Market,Sul,22,99000.0,475,1
+C00427,Barbosa & Mendes Autopeças ME,Varejo,Sudeste,13,60000.0,615,1
+C00428,Pereira & Moura Alimentos Ltda,Middle Market,Sul,61,257000.0,953,0
+C00429,Gomes & Pereira Comércio ME,Varejo,Sudeste,36,83000.0,766,0
+C00430,Almeida & Ferreira Comércio Ltda,Middle Market,Nordeste,44,309000.0,442,2
+C00431,Oliveira & Silva Embalagens S.A.,Corporate,Norte,23,882000.0,675,0
+C00432,Moreira & Souza Construtora Ltda,Middle Market,Sul,32,351000.0,704,0
+C00433,Ferreira & Rodrigues Móveis Ltda,Middle Market,Sudeste,117,149000.0,686,2
+C00434,Rodrigues & Pinto Autopeças Ltda,Middle Market,Nordeste,155,106000.0,523,0
+C00435,Moreira & Ribeiro Papelaria ME,Varejo,Sudeste,39,60000.0,613,2
+C00436,Araújo & Cardoso Autopeças ME,Varejo,Sudeste,8,35000.0,539,2
+C00437,Costa & Moreira Tecnologia ME,Varejo,Norte,18,100000.0,815,0
+C00438,Freitas & Campos Alimentos ME,Varejo,Sudeste,24,50000.0,515,2
+C00439,Carvalho & Duarte Comércio Ltda,Middle Market,Sudeste,37,141000.0,812,0
+C00440,Ferreira & Souza Autopeças Ltda,Middle Market,Sul,74,191000.0,493,2
+C00441,Teixeira & Barbosa Bebidas Ltda,Middle Market,Sul,59,86000.0,517,0
+C00442,Carvalho & Almeida Materiais Elétricos ME,Varejo,Sul,8,101000.0,642,0
+C00443,Dias & Ferreira Atacadista Ltda,Middle Market,Sudeste,21,152000.0,790,0
+C00444,Carvalho & Lima Móveis ME,Varejo,Nordeste,39,99000.0,425,0
+C00445,Souza & Rocha Química ME,Varejo,Sudeste,51,53000.0,570,0
+C00446,Gomes & Rodrigues Embalagens Ltda,Middle Market,Norte,42,197000.0,458,4
+C00447,Silva & Costa Tecnologia S.A.,Corporate,Sudeste,162,859000.0,808,0
+C00448,Costa & Araújo Têxtil Ltda,Middle Market,Sudeste,39,276000.0,767,1
+C00449,Martins & Campos Comércio ME,Varejo,Sul,9,62000.0,481,4
+C00450,Pereira & Lima Química Ltda,Middle Market,Sudeste,55,73000.0,624,0
+C00451,Vieira & Silva Bebidas ME,Varejo,Sul,115,94000.0,447,1
+C00452,Martins & Vieira Metalúrgica Ltda,Middle Market,Sudeste,11,150000.0,542,0
+C00453,Barbosa & Castro Materiais Elétricos Ltda,Middle Market,Sudeste,95,318000.0,929,0
+C00454,Gomes & Santos Química ME,Varejo,Sudeste,30,90000.0,564,2
+C00455,Almeida & Costa Móveis ME,Varejo,Sudeste,11,37000.0,402,4
+C00456,Almeida & Martins Alimentos ME,Varejo,Sudeste,3,38000.0,494,1
+C00457,Barbosa & Castro Embalagens S.A.,Corporate,Sudeste,4,845000.0,515,3
+C00458,Barbosa & Rodrigues Agronegócio ME,Varejo,Sudeste,13,47000.0,402,4
+C00459,Cardoso & Souza Distribuidora Ltda,Middle Market,Nordeste,47,322000.0,845,0
+C00460,Santos & Vieira Papelaria Ltda,Middle Market,Nordeste,65,157000.0,645,0
+C00461,Santos & Barbosa Supermercados ME,Varejo,Sudeste,43,133000.0,827,0
+C00462,Barbosa & Rodrigues Alimentos ME,Varejo,Sudeste,25,77000.0,538,5
+C00463,Moura & Silva Móveis S.A.,Corporate,Sudeste,65,880000.0,770,1
+C00464,Barbosa & Martins Química ME,Varejo,Sudeste,15,56000.0,635,0
+C00465,Santos & Costa Construtora ME,Varejo,Sul,27,46000.0,178,2
+C00466,Mendes & Moreira Química Ltda,Middle Market,Sudeste,20,318000.0,667,1
+C00467,Pinto & Rodrigues Logística Ltda,Middle Market,Norte,11,164000.0,626,0
+C00468,Moura & Cardoso Materiais Elétricos S.A.,Corporate,Nordeste,62,1159000.0,981,0
+C00469,Araújo & Gomes Autopeças ME,Varejo,Sudeste,35,73000.0,692,0
+C00470,Pereira & Barbosa Móveis ME,Varejo,Sudeste,5,56000.0,380,2
+C00471,Ribeiro & Araújo Distribuidora ME,Varejo,Sudeste,13,173000.0,718,1
+C00472,Teixeira & Campos Papelaria ME,Varejo,Sudeste,21,111000.0,512,2
+C00473,Duarte & Oliveira Química ME,Varejo,Sul,20,57000.0,421,4
+C00474,Almeida & Martins Agronegócio ME,Varejo,Sudeste,30,72000.0,582,2
+C00475,Barbosa & Rocha Calçados ME,Varejo,Sudeste,66,44000.0,547,2
+C00476,Ferreira & Barbosa Logística ME,Varejo,Sudeste,2,69000.0,753,2
+C00477,Ferreira & Souza Calçados ME,Varejo,Nordeste,68,79000.0,624,0
+C00478,Vieira & Ribeiro Agronegócio Ltda,Middle Market,Sudeste,112,280000.0,722,0
+C00479,Oliveira & Gomes Farma Ltda,Middle Market,Norte,66,282000.0,792,1
+C00480,Araújo & Santos Móveis ME,Varejo,Sudeste,24,41000.0,703,0
+C00481,Freitas & Souza Móveis ME,Varejo,Sudeste,12,113000.0,653,3
+C00482,Pereira & Campos Alimentos ME,Varejo,Sul,37,72000.0,757,1
+C00483,Carvalho & Vieira Calçados ME,Varejo,Sul,25,42000.0,636,2
+C00484,Moura & Almeida Móveis ME,Varejo,Sudeste,16,125000.0,569,1
+C00485,Ferreira & Cardoso Móveis ME,Varejo,Sul,37,154000.0,732,0
+C00486,Rodrigues & Rocha Móveis ME,Varejo,Sudeste,41,72000.0,548,0
+C00487,Duarte & Barbosa Calçados ME,Varejo,Sudeste,51,92000.0,571,2
+C00488,Vieira & Rodrigues Atacadista ME,Varejo,Sudeste,10,113000.0,783,0
+C00489,Pinto & Silva Comércio ME,Varejo,Nordeste,47,156000.0,791,1
+C00490,Mendes & Barbosa Alimentos ME,Varejo,Sul,16,90000.0,544,1
+C00491,Rodrigues & Oliveira Tecnologia Ltda,Middle Market,Nordeste,42,84000.0,588,2
+C00492,Rodrigues & Costa Construtora Ltda,Middle Market,Norte,48,557000.0,860,0
+C00493,Almeida & Nunes Supermercados Ltda,Middle Market,Sul,77,328000.0,784,0
+C00494,Castro & Barbosa Atacadista ME,Varejo,Centro-Oeste,34,51000.0,601,1
+C00495,Castro & Nunes Construtora Ltda,Middle Market,Sudeste,27,98000.0,597,2
+C00496,Ferreira & Barbosa Atacadista ME,Varejo,Sul,2,84000.0,584,0
+C00497,Ferreira & Rocha Química ME,Varejo,Sul,29,55000.0,550,2
+C00498,Teixeira & Campos Atacadista Ltda,Middle Market,Sudeste,40,187000.0,557,1
+C00499,Mendes & Pinto Metalúrgica ME,Varejo,Sudeste,6,92000.0,558,2
+C00500,Vieira & Almeida Logística ME,Varejo,Sul,25,49000.0,588,2
+C00501,Martins & Silva Papelaria Ltda,Middle Market,Sudeste,36,94000.0,595,0
+C00502,Barbosa & Duarte Logística Ltda,Middle Market,Sudeste,89,238000.0,806,0
+C00503,Araújo & Rocha Farma S.A.,Corporate,Nordeste,207,689000.0,1000,0
+C00504,Castro & Rocha Logística ME,Varejo,Sul,41,77000.0,696,1
+C00505,Pereira & Martins Embalagens ME,Varejo,Sudeste,20,31000.0,509,4
+C00506,Almeida & Costa Supermercados Ltda,Middle Market,Sudeste,38,166000.0,755,0
+C00507,Oliveira & Cardoso Têxtil ME,Varejo,Centro-Oeste,10,90000.0,553,3
+C00508,Gomes & Mendes Móveis Ltda,Middle Market,Norte,21,196000.0,466,3
+C00509,Carvalho & Almeida Papelaria ME,Varejo,Sul,19,46000.0,642,4
+C00510,Araújo & Gomes Metalúrgica ME,Varejo,Sudeste,17,36000.0,567,2
+C00511,Araújo & Castro Metalúrgica ME,Varejo,Sudeste,6,85000.0,903,0
+C00512,Pereira & Araújo Bebidas Ltda,Middle Market,Sudeste,89,275000.0,883,0
+C00513,Rodrigues & Pereira Bebidas ME,Varejo,Nordeste,56,86000.0,669,0
+C00514,Castro & Martins Materiais Elétricos ME,Varejo,Sul,50,51000.0,601,1
+C00515,Lima & Campos Farma ME,Varejo,Nordeste,57,76000.0,593,1
+C00516,Campos & Gomes Calçados ME,Varejo,Sudeste,85,120000.0,446,2
+C00517,Campos & Souza Calçados ME,Varejo,Centro-Oeste,10,53000.0,299,5
+C00518,Gomes & Barbosa Distribuidora Ltda,Middle Market,Sudeste,144,72000.0,590,1
+C00519,Souza & Rocha Metalúrgica ME,Varejo,Sudeste,15,69000.0,538,0
+C00520,Moreira & Santos Atacadista Ltda,Middle Market,Sul,57,361000.0,365,5
+C00521,Santos & Rodrigues Comércio Ltda,Middle Market,Sul,8,83000.0,555,1
+C00522,Lima & Carvalho Supermercados ME,Varejo,Centro-Oeste,14,62000.0,510,3
+C00523,Moura & Moreira Metalúrgica ME,Varejo,Sul,41,55000.0,530,1
+C00524,Moura & Nunes Supermercados Ltda,Middle Market,Norte,59,168000.0,569,0
+C00525,Gomes & Oliveira Metalúrgica ME,Varejo,Sudeste,15,66000.0,497,5
+C00526,Lima & Martins Agronegócio ME,Varejo,Sudeste,22,137000.0,791,1
+C00527,Freitas & Almeida Logística S.A.,Corporate,Sudeste,36,845000.0,850,1
+C00528,Ribeiro & Rodrigues Papelaria S.A.,Corporate,Sudeste,120,1398000.0,730,0
+C00529,Araújo & Moura Agronegócio Ltda,Middle Market,Centro-Oeste,94,166000.0,673,0
+C00530,Cardoso & Mendes Metalúrgica ME,Varejo,Sudeste,10,52000.0,538,4
+C00531,Costa & Oliveira Agronegócio Ltda,Middle Market,Sudeste,35,112000.0,539,2
+C00532,Mendes & Moreira Embalagens Ltda,Middle Market,Sudeste,10,62000.0,524,2
+C00533,Mendes & Nunes Autopeças ME,Varejo,Nordeste,25,82000.0,692,4
+C00534,Pereira & Mendes Papelaria Ltda,Middle Market,Norte,53,460000.0,599,0
+C00535,Almeida & Souza Supermercados ME,Varejo,Nordeste,26,68000.0,398,4
+C00536,Freitas & Carvalho Supermercados ME,Varejo,Sudeste,29,89000.0,547,1
+C00537,Araújo & Dias Construtora ME,Varejo,Sul,19,52000.0,564,2
+C00538,Freitas & Pereira Farma ME,Varejo,Sudeste,19,41000.0,271,8
+C00539,Pinto & Castro Tecnologia ME,Varejo,Centro-Oeste,18,102000.0,541,3
+C00540,Gomes & Martins Alimentos Ltda,Middle Market,Sudeste,23,516000.0,761,1
+C00541,Cardoso & Pinto Autopeças S.A.,Corporate,Norte,43,1673000.0,825,1
+C00542,Freitas & Duarte Logística ME,Varejo,Nordeste,29,123000.0,866,0
+C00543,Ribeiro & Silva Autopeças Ltda,Middle Market,Nordeste,90,207000.0,855,0
+C00544,Freitas & Almeida Móveis S.A.,Corporate,Nordeste,25,969000.0,954,0
+C00545,Carvalho & Rodrigues Construtora ME,Varejo,Sudeste,19,59000.0,939,0
+C00546,Gomes & Almeida Atacadista ME,Varejo,Sudeste,7,33000.0,646,0
+C00547,Pereira & Carvalho Têxtil ME,Varejo,Sudeste,14,36000.0,567,4
+C00548,Souza & Pereira Papelaria ME,Varejo,Sudeste,15,73000.0,681,2
+C00549,Rocha & Santos Logística Ltda,Middle Market,Nordeste,41,139000.0,572,1
+C00550,Almeida & Rocha Têxtil ME,Varejo,Sul,23,31000.0,565,2
+C00551,Moura & Martins Autopeças ME,Varejo,Centro-Oeste,20,56000.0,457,6
+C00552,Oliveira & Almeida Têxtil ME,Varejo,Centro-Oeste,28,57000.0,609,2
+C00553,Pinto & Ribeiro Logística ME,Varejo,Sudeste,10,32000.0,451,1
+C00554,Mendes & Oliveira Metalúrgica S.A.,Corporate,Sudeste,68,589000.0,681,0
+C00555,Gomes & Ribeiro Construtora ME,Varejo,Sudeste,34,57000.0,614,4
+C00556,Ribeiro & Gomes Supermercados ME,Varejo,Sudeste,9,45000.0,522,4
+C00557,Araújo & Mendes Autopeças ME,Varejo,Nordeste,3,73000.0,268,3
+C00558,Santos & Duarte Embalagens ME,Varejo,Nordeste,41,20000.0,357,2
+C00559,Carvalho & Pereira Tecnologia ME,Varejo,Nordeste,7,20000.0,380,3
+C00560,Mendes & Martins Materiais Elétricos ME,Varejo,Sul,13,55000.0,420,3
+C00561,Barbosa & Rodrigues Atacadista ME,Varejo,Centro-Oeste,34,70000.0,614,2
+C00562,Campos & Lima Móveis ME,Varejo,Sul,9,79000.0,572,1
+C00563,Martins & Pinto Papelaria Ltda,Middle Market,Norte,68,151000.0,816,0
+C00564,Barbosa & Gomes Materiais Elétricos Ltda,Middle Market,Nordeste,20,118000.0,743,0
+C00565,Gomes & Almeida Farma Ltda,Middle Market,Nordeste,18,192000.0,787,0
+C00566,Silva & Pinto Logística Ltda,Middle Market,Sudeste,12,147000.0,718,0
+C00567,Campos & Teixeira Farma Ltda,Middle Market,Centro-Oeste,20,380000.0,667,0
+C00568,Nunes & Santos Materiais Elétricos ME,Varejo,Sudeste,31,62000.0,709,0
+C00569,Costa & Santos Química ME,Varejo,Sudeste,13,69000.0,673,2
+C00570,Vieira & Almeida Têxtil ME,Varejo,Sul,41,230000.0,613,0
+C00571,Santos & Ribeiro Papelaria ME,Varejo,Sudeste,21,67000.0,727,1
+C00572,Carvalho & Ribeiro Móveis Ltda,Middle Market,Sudeste,39,163000.0,321,4
+C00573,Ferreira & Pinto Têxtil ME,Varejo,Sudeste,10,83000.0,501,6
+C00574,Castro & Rocha Farma Ltda,Middle Market,Nordeste,79,245000.0,631,0
+C00575,Silva & Pinto Materiais Elétricos Ltda,Middle Market,Nordeste,61,230000.0,824,1
+C00576,Moreira & Dias Papelaria ME,Varejo,Norte,34,84000.0,776,0
+C00577,Almeida & Gomes Tecnologia S.A.,Corporate,Nordeste,52,671000.0,564,1
+C00578,Almeida & Moreira Agronegócio ME,Varejo,Sudeste,6,56000.0,737,1
+C00579,Barbosa & Lima Tecnologia Ltda,Middle Market,Nordeste,40,174000.0,486,0
+C00580,Gomes & Souza Logística ME,Varejo,Sul,30,148000.0,394,3
+C00581,Oliveira & Pereira Autopeças ME,Varejo,Sudeste,30,112000.0,521,2
+C00582,Barbosa & Moura Química ME,Varejo,Norte,27,70000.0,508,0
+C00583,Moura & Araújo Papelaria ME,Varejo,Centro-Oeste,26,77000.0,333,2
+C00584,Santos & Moura Construtora ME,Varejo,Sudeste,11,44000.0,634,0
+C00585,Pinto & Martins Construtora S.A.,Corporate,Centro-Oeste,34,712000.0,852,0
+C00586,Almeida & Araújo Metalúrgica Ltda,Middle Market,Sudeste,13,309000.0,781,0
+C00587,Lima & Dias Tecnologia ME,Varejo,Centro-Oeste,41,126000.0,500,1
+C00588,Duarte & Martins Bebidas ME,Varejo,Sul,69,44000.0,572,0
+C00589,Almeida & Mendes Bebidas ME,Varejo,Sudeste,113,52000.0,600,1
+C00590,Ferreira & Cardoso Tecnologia ME,Varejo,Nordeste,24,230000.0,787,0
+C00591,Souza & Pinto Metalúrgica S.A.,Corporate,Sul,77,557000.0,385,1
+C00592,Martins & Souza Móveis ME,Varejo,Sudeste,18,136000.0,413,1
+C00593,Gomes & Ferreira Materiais Elétricos ME,Varejo,Nordeste,24,70000.0,551,2
+C00594,Oliveira & Dias Calçados ME,Varejo,Nordeste,9,60000.0,389,5
+C00595,Mendes & Silva Têxtil ME,Varejo,Sul,18,52000.0,511,3
+C00596,Araújo & Pinto Logística ME,Varejo,Nordeste,10,98000.0,524,6
+C00597,Mendes & Castro Calçados Ltda,Middle Market,Sudeste,28,311000.0,551,1
+C00598,Gomes & Lima Construtora Ltda,Middle Market,Sudeste,19,102000.0,646,1
+C00599,Costa & Gomes Farma S.A.,Corporate,Nordeste,87,692000.0,876,0
+C00600,Costa & Martins Autopeças Ltda,Middle Market,Sudeste,57,267000.0,627,0
+C00601,Cardoso & Pereira Têxtil ME,Varejo,Sul,26,56000.0,488,6
+C00602,Martins & Teixeira Distribuidora Ltda,Middle Market,Norte,21,131000.0,615,0
+C00603,Dias & Ferreira Bebidas S.A.,Corporate,Nordeste,19,1238000.0,746,0
+C00604,Costa & Rodrigues Materiais Elétricos Ltda,Middle Market,Sul,57,239000.0,417,6
+C00605,Silva & Pinto Atacadista S.A.,Corporate,Sul,60,641000.0,837,0
+C00606,Silva & Pinto Papelaria Ltda,Middle Market,Centro-Oeste,6,178000.0,566,3
+C00607,Almeida & Silva Supermercados Ltda,Middle Market,Centro-Oeste,40,109000.0,827,0
+C00608,Pinto & Martins Química ME,Varejo,Sudeste,26,43000.0,634,3
+C00609,Pereira & Pinto Atacadista Ltda,Middle Market,Sul,8,207000.0,795,0
+C00610,Duarte & Gomes Farma ME,Varejo,Sudeste,30,56000.0,412,3
+C00611,Moreira & Lima Construtora ME,Varejo,Sudeste,5,37000.0,487,3
+C00612,Moura & Oliveira Distribuidora Ltda,Middle Market,Sudeste,19,101000.0,463,3
+C00613,Souza & Vieira Agronegócio S.A.,Corporate,Sul,16,404000.0,647,1
+C00614,Moreira & Oliveira Metalúrgica S.A.,Corporate,Nordeste,29,1076000.0,929,0
+C00615,Moreira & Carvalho Construtora ME,Varejo,Centro-Oeste,7,28000.0,748,0
+C00616,Araújo & Mendes Atacadista Ltda,Middle Market,Sudeste,72,91000.0,508,2
+C00617,Moreira & Ferreira Farma Ltda,Middle Market,Sudeste,30,64000.0,580,1
+C00618,Moreira & Almeida Química ME,Varejo,Sudeste,14,76000.0,534,2
+C00619,Pereira & Campos Calçados ME,Varejo,Sudeste,44,28000.0,644,3
+C00620,Oliveira & Gomes Alimentos ME,Varejo,Sudeste,42,50000.0,315,4
+C00621,Barbosa & Castro Farma Ltda,Middle Market,Norte,27,313000.0,418,3
+C00622,Rocha & Almeida Logística ME,Varejo,Sudeste,25,155000.0,620,1
+C00623,Castro & Mendes Construtora S.A.,Corporate,Nordeste,37,240000.0,485,2
+C00624,Gomes & Cardoso Embalagens ME,Varejo,Sudeste,19,69000.0,485,2
+C00625,Barbosa & Duarte Metalúrgica S.A.,Corporate,Sul,23,465000.0,772,0
+C00626,Pinto & Teixeira Farma ME,Varejo,Centro-Oeste,28,37000.0,611,0
+C00627,Mendes & Vieira Têxtil Ltda,Middle Market,Norte,79,164000.0,654,0
+C00628,Ferreira & Duarte Materiais Elétricos ME,Varejo,Sudeste,40,112000.0,509,2
+C00629,Silva & Oliveira Comércio ME,Varejo,Centro-Oeste,21,95000.0,667,2
+C00630,Lima & Rocha Distribuidora Ltda,Middle Market,Sudeste,5,123000.0,669,0
+C00631,Santos & Souza Farma S.A.,Corporate,Nordeste,35,995000.0,666,1
+C00632,Castro & Mendes Papelaria Ltda,Middle Market,Sudeste,33,56000.0,651,1
+C00633,Dias & Barbosa Autopeças ME,Varejo,Sul,6,45000.0,593,3
+C00634,Campos & Rodrigues Farma ME,Varejo,Nordeste,5,51000.0,780,1
+C00635,Rocha & Pinto Alimentos ME,Varejo,Centro-Oeste,54,74000.0,678,2
+C00636,Rodrigues & Campos Agronegócio ME,Varejo,Centro-Oeste,37,67000.0,728,1
+C00637,Nunes & Rodrigues Logística Ltda,Middle Market,Sudeste,52,150000.0,572,0
+C00638,Pinto & Nunes Distribuidora Ltda,Middle Market,Centro-Oeste,59,150000.0,588,0
+C00639,Costa & Vieira Comércio Ltda,Middle Market,Sudeste,12,167000.0,600,4
+C00640,Pinto & Almeida Materiais Elétricos Ltda,Middle Market,Sudeste,17,219000.0,616,1
+C00641,Martins & Cardoso Materiais Elétricos Ltda,Middle Market,Sudeste,42,163000.0,510,1
+C00642,Freitas & Oliveira Calçados Ltda,Middle Market,Sudeste,45,173000.0,830,0
+C00643,Costa & Gomes Agronegócio ME,Varejo,Sudeste,6,85000.0,663,3
+C00644,Silva & Vieira Agronegócio ME,Varejo,Nordeste,23,91000.0,507,2
+C00645,Martins & Vieira Materiais Elétricos Ltda,Middle Market,Sudeste,34,140000.0,736,0
+C00646,Barbosa & Freitas Alimentos Ltda,Middle Market,Sul,68,174000.0,698,0
+C00647,Ferreira & Campos Construtora ME,Varejo,Sudeste,26,124000.0,652,1
+C00648,Moura & Ribeiro Farma ME,Varejo,Nordeste,58,31000.0,383,4
+C00649,Moreira & Oliveira Alimentos Ltda,Middle Market,Sudeste,27,415000.0,622,3
+C00650,Freitas & Pereira Construtora ME,Varejo,Sudeste,7,32000.0,532,2
+C00651,Castro & Carvalho Autopeças ME,Varejo,Sul,57,58000.0,658,0
+C00652,Barbosa & Almeida Autopeças Ltda,Middle Market,Norte,47,99000.0,566,2
+C00653,Cardoso & Duarte Farma Ltda,Middle Market,Norte,34,357000.0,296,6
+C00654,Ribeiro & Costa Móveis ME,Varejo,Sudeste,10,42000.0,391,1
+C00655,Martins & Castro Materiais Elétricos Ltda,Middle Market,Norte,27,132000.0,634,3
+C00656,Oliveira & Castro Alimentos ME,Varejo,Sul,15,53000.0,554,2
+C00657,Freitas & Teixeira Alimentos Ltda,Middle Market,Centro-Oeste,12,215000.0,869,0
+C00658,Ribeiro & Moura Logística ME,Varejo,Sudeste,2,57000.0,619,4
+C00659,Mendes & Silva Embalagens ME,Varejo,Sudeste,14,59000.0,556,3
+C00660,Martins & Oliveira Atacadista ME,Varejo,Sudeste,34,11000.0,552,2
+C00661,Duarte & Gomes Comércio ME,Varejo,Nordeste,48,75000.0,719,1
+C00662,Ferreira & Pinto Embalagens Ltda,Middle Market,Sudeste,70,164000.0,585,0
+C00663,Barbosa & Moura Autopeças ME,Varejo,Sudeste,42,105000.0,542,3
+C00664,Pereira & Lima Construtora ME,Varejo,Sul,8,103000.0,388,4
+C00665,Oliveira & Vieira Embalagens ME,Varejo,Norte,25,68000.0,750,1
+C00666,Teixeira & Ribeiro Farma Ltda,Middle Market,Sul,52,273000.0,712,1
+C00667,Mendes & Martins Bebidas Ltda,Middle Market,Nordeste,55,92000.0,560,2
+C00668,Gomes & Oliveira Papelaria S.A.,Corporate,Sudeste,56,1104000.0,754,0
+C00669,Silva & Rocha Logística ME,Varejo,Centro-Oeste,22,51000.0,621,4
+C00670,Costa & Carvalho Papelaria ME,Varejo,Sudeste,39,34000.0,524,4
+C00671,Rocha & Pereira Construtora ME,Varejo,Sudeste,29,54000.0,479,4
+C00672,Pereira & Santos Papelaria ME,Varejo,Sul,33,117000.0,464,5
+C00673,Nunes & Dias Alimentos S.A.,Corporate,Sudeste,40,858000.0,807,1
+C00674,Rocha & Ferreira Construtora Ltda,Middle Market,Nordeste,56,352000.0,609,0
+C00675,Silva & Ribeiro Metalúrgica ME,Varejo,Nordeste,22,41000.0,486,2
+C00676,Duarte & Pinto Supermercados ME,Varejo,Sudeste,37,88000.0,371,2
+C00677,Nunes & Barbosa Química S.A.,Corporate,Sudeste,33,549000.0,767,1
+C00678,Costa & Duarte Bebidas ME,Varejo,Sudeste,35,69000.0,532,6
+C00679,Santos & Castro Embalagens ME,Varejo,Sudeste,16,67000.0,501,2
+C00680,Almeida & Ferreira Logística ME,Varejo,Centro-Oeste,35,91000.0,585,6
+C00681,Castro & Dias Agronegócio ME,Varejo,Sul,25,79000.0,656,2
+C00682,Moreira & Lima Logística ME,Varejo,Sudeste,21,48000.0,647,2
+C00683,Souza & Gomes Agronegócio ME,Varejo,Sudeste,16,105000.0,623,1
+C00684,Moura & Duarte Química ME,Varejo,Nordeste,19,145000.0,514,6
+C00685,Vieira & Dias Materiais Elétricos Ltda,Middle Market,Nordeste,25,119000.0,562,3
+C00686,Moreira & Barbosa Agronegócio ME,Varejo,Centro-Oeste,16,22000.0,399,3
+C00687,Lima & Teixeira Metalúrgica ME,Varejo,Sudeste,29,75000.0,470,1
+C00688,Pinto & Silva Papelaria S.A.,Corporate,Sul,11,633000.0,745,1
+C00689,Freitas & Souza Agronegócio Ltda,Middle Market,Sudeste,60,148000.0,552,1
+C00690,Lima & Moura Bebidas ME,Varejo,Nordeste,35,85000.0,570,1
+C00691,Martins & Silva Distribuidora ME,Varejo,Sudeste,17,44000.0,411,4
+C00692,Duarte & Barbosa Agronegócio Ltda,Middle Market,Nordeste,40,120000.0,417,1
+C00693,Barbosa & Pinto Embalagens ME,Varejo,Sudeste,9,66000.0,656,4
+C00694,Costa & Santos Embalagens ME,Varejo,Nordeste,27,123000.0,486,6
+C00695,Cardoso & Castro Química S.A.,Corporate,Sudeste,29,692000.0,636,0
+C00696,Nunes & Pinto Autopeças ME,Varejo,Centro-Oeste,1,29000.0,383,5
+C00697,Freitas & Araújo Alimentos Ltda,Middle Market,Sudeste,81,102000.0,734,0
+C00698,Lima & Rocha Tecnologia ME,Varejo,Nordeste,8,79000.0,733,2
+C00699,Costa & Rocha Metalúrgica Ltda,Middle Market,Sudeste,34,93000.0,590,2
+C00700,Teixeira & Oliveira Logística ME,Varejo,Nordeste,24,28000.0,520,5
+C00701,Gomes & Vieira Alimentos ME,Varejo,Nordeste,29,99000.0,703,1
+C00702,Silva & Campos Calçados ME,Varejo,Sudeste,20,67000.0,295,6
+C00703,Lima & Oliveira Calçados ME,Varejo,Sudeste,25,66000.0,826,2
+C00704,Pinto & Ferreira Agronegócio Ltda,Middle Market,Sudeste,29,258000.0,986,0
+C00705,Oliveira & Barbosa Papelaria ME,Varejo,Sudeste,5,44000.0,160,5
+C00706,Moreira & Souza Autopeças ME,Varejo,Sul,20,84000.0,534,1
+C00707,Martins & Gomes Distribuidora Ltda,Middle Market,Sudeste,55,215000.0,558,0
+C00708,Moreira & Vieira Supermercados Ltda,Middle Market,Sudeste,15,45000.0,598,0
+C00709,Carvalho & Cardoso Comércio ME,Varejo,Sudeste,24,53000.0,492,1
+C00710,Ferreira & Cardoso Distribuidora ME,Varejo,Sudeste,65,92000.0,689,1
+C00711,Pereira & Pinto Química S.A.,Corporate,Sudeste,55,612000.0,753,0
+C00712,Oliveira & Vieira Têxtil Ltda,Middle Market,Nordeste,34,156000.0,519,7
+C00713,Costa & Nunes Têxtil Ltda,Middle Market,Sudeste,8,242000.0,607,1
+C00714,Costa & Duarte Supermercados S.A.,Corporate,Centro-Oeste,22,825000.0,821,0
+C00715,Campos & Cardoso Bebidas Ltda,Middle Market,Nordeste,18,310000.0,471,1
+C00716,Martins & Castro Autopeças ME,Varejo,Sudeste,30,87000.0,324,3
+C00717,Duarte & Gomes Agronegócio ME,Varejo,Centro-Oeste,9,75000.0,820,0
+C00718,Martins & Costa Bebidas ME,Varejo,Sul,27,52000.0,462,2
+C00719,Almeida & Carvalho Comércio Ltda,Middle Market,Sul,19,40000.0,618,0
+C00720,Almeida & Carvalho Bebidas S.A.,Corporate,Sudeste,13,605000.0,688,0
+C00721,Lima & Freitas Comércio ME,Varejo,Nordeste,33,35000.0,633,1
+C00722,Rocha & Freitas Materiais Elétricos ME,Varejo,Sudeste,15,87000.0,793,0
+C00723,Barbosa & Cardoso Supermercados ME,Varejo,Sul,29,74000.0,635,3
+C00724,Barbosa & Mendes Farma S.A.,Corporate,Sudeste,13,876000.0,531,4
+C00725,Costa & Barbosa Têxtil ME,Varejo,Sudeste,2,102000.0,343,1
+C00726,Duarte & Nunes Tecnologia ME,Varejo,Sul,22,59000.0,493,5
+C00727,Freitas & Pinto Tecnologia ME,Varejo,Sudeste,7,188000.0,503,4
+C00728,Costa & Moreira Farma ME,Varejo,Sudeste,22,54000.0,308,2
+C00729,Campos & Santos Química ME,Varejo,Nordeste,22,36000.0,664,1
+C00730,Souza & Almeida Comércio ME,Varejo,Sudeste,20,41000.0,396,3
+C00731,Barbosa & Rodrigues Metalúrgica ME,Varejo,Sudeste,41,63000.0,770,0
+C00732,Dias & Barbosa Química ME,Varejo,Sudeste,26,105000.0,806,0
+C00733,Silva & Ferreira Metalúrgica ME,Varejo,Norte,65,39000.0,540,5
+C00734,Souza & Oliveira Bebidas ME,Varejo,Nordeste,15,57000.0,606,5
+C00735,Rocha & Moura Calçados ME,Varejo,Sul,6,48000.0,367,5
+C00736,Moreira & Rocha Comércio Ltda,Middle Market,Centro-Oeste,20,147000.0,725,2
+C00737,Rodrigues & Campos Tecnologia ME,Varejo,Nordeste,16,88000.0,476,5
+C00738,Mendes & Moreira Atacadista ME,Varejo,Nordeste,69,76000.0,425,2
+C00739,Oliveira & Rodrigues Móveis ME,Varejo,Nordeste,21,108000.0,508,7
+C00740,Mendes & Nunes Atacadista ME,Varejo,Centro-Oeste,42,51000.0,496,2
+C00741,Oliveira & Ribeiro Agronegócio ME,Varejo,Sul,14,109000.0,499,6
+C00742,Almeida & Cardoso Alimentos ME,Varejo,Sudeste,13,36000.0,677,2
+C00743,Nunes & Almeida Supermercados Ltda,Middle Market,Sudeste,7,76000.0,520,3
+C00744,Mendes & Cardoso Tecnologia ME,Varejo,Sudeste,68,43000.0,820,0
+C00745,Gomes & Ferreira Bebidas ME,Varejo,Sul,52,53000.0,382,4
+C00746,Moreira & Moura Distribuidora ME,Varejo,Norte,24,140000.0,777,0
+C00747,Castro & Araújo Têxtil ME,Varejo,Nordeste,17,40000.0,404,4
+C00748,Carvalho & Almeida Autopeças ME,Varejo,Nordeste,22,50000.0,549,5
+C00749,Pinto & Carvalho Farma Ltda,Middle Market,Nordeste,10,143000.0,563,0
+C00750,Freitas & Ferreira Química Ltda,Middle Market,Centro-Oeste,50,221000.0,608,2
+C00751,Martins & Rodrigues Construtora ME,Varejo,Nordeste,49,56000.0,678,4
+C00752,Silva & Teixeira Alimentos ME,Varejo,Sudeste,51,59000.0,777,2
+C00753,Campos & Silva Distribuidora ME,Varejo,Sul,4,37000.0,705,0
+C00754,Gomes & Carvalho Têxtil ME,Varejo,Sudeste,42,45000.0,505,2
+C00755,Duarte & Souza Agronegócio Ltda,Middle Market,Sudeste,10,313000.0,658,1
+C00756,Rocha & Vieira Bebidas ME,Varejo,Sudeste,2,58000.0,428,4
+C00757,Castro & Moreira Embalagens ME,Varejo,Sudeste,43,38000.0,423,6
+C00758,Lima & Santos Construtora S.A.,Corporate,Sudeste,39,1223000.0,599,0
+C00759,Lima & Pereira Papelaria ME,Varejo,Sudeste,39,45000.0,498,3
+C00760,Moreira & Araújo Agronegócio ME,Varejo,Centro-Oeste,37,133000.0,593,2
+C00761,Barbosa & Dias Materiais Elétricos Ltda,Middle Market,Sudeste,59,271000.0,394,4
+C00762,Nunes & Freitas Móveis ME,Varejo,Nordeste,21,64000.0,542,0
+C00763,Mendes & Silva Agronegócio ME,Varejo,Sudeste,6,36000.0,752,0
+C00764,Freitas & Cardoso Calçados ME,Varejo,Norte,16,227000.0,703,2
+C00765,Rocha & Campos Construtora S.A.,Corporate,Nordeste,151,907000.0,745,0
+C00766,Araújo & Cardoso Alimentos ME,Varejo,Centro-Oeste,40,44000.0,364,2
+C00767,Ferreira & Moura Agronegócio ME,Varejo,Sul,17,108000.0,611,2
+C00768,Barbosa & Vieira Têxtil ME,Varejo,Sul,16,61000.0,221,1
+C00769,Martins & Silva Tecnologia ME,Varejo,Sudeste,32,140000.0,711,2
+C00770,Rodrigues & Rocha Distribuidora Ltda,Middle Market,Sudeste,40,121000.0,620,1
+C00771,Nunes & Campos Farma ME,Varejo,Nordeste,17,92000.0,803,1
+C00772,Carvalho & Souza Construtora ME,Varejo,Sudeste,30,27000.0,312,2
+C00773,Souza & Silva Embalagens ME,Varejo,Sudeste,29,99000.0,682,0
+C00774,Oliveira & Santos Agronegócio Ltda,Middle Market,Centro-Oeste,21,167000.0,625,0
+C00775,Gomes & Moura Papelaria ME,Varejo,Sudeste,26,69000.0,505,8
+C00776,Moura & Campos Tecnologia Ltda,Middle Market,Nordeste,49,134000.0,464,4
+C00777,Barbosa & Rodrigues Química Ltda,Middle Market,Sudeste,35,163000.0,730,1
+C00778,Campos & Araújo Supermercados ME,Varejo,Sudeste,11,44000.0,637,2
+C00779,Cardoso & Duarte Alimentos Ltda,Middle Market,Sudeste,27,310000.0,892,0
+C00780,Carvalho & Oliveira Tecnologia Ltda,Middle Market,Sul,16,403000.0,777,0
+C00781,Freitas & Ribeiro Embalagens ME,Varejo,Nordeste,27,44000.0,469,0
+C00782,Silva & Mendes Supermercados S.A.,Corporate,Centro-Oeste,13,873000.0,603,0
+C00783,Pinto & Costa Supermercados ME,Varejo,Sudeste,55,65000.0,377,5
+C00784,Pinto & Rocha Papelaria Ltda,Middle Market,Sudeste,84,208000.0,883,0
+C00785,Araújo & Ferreira Construtora S.A.,Corporate,Centro-Oeste,82,329000.0,676,0
+C00786,Martins & Silva Construtora ME,Varejo,Sudeste,38,40000.0,766,0
+C00787,Barbosa & Vieira Química Ltda,Middle Market,Sudeste,64,126000.0,738,0
+C00788,Cardoso & Freitas Bebidas ME,Varejo,Sul,23,23000.0,596,4
+C00789,Almeida & Ribeiro Autopeças Ltda,Middle Market,Nordeste,31,334000.0,602,1
+C00790,Costa & Duarte Logística Ltda,Middle Market,Sudeste,28,223000.0,735,0
+C00791,Silva & Carvalho Autopeças ME,Varejo,Sudeste,57,63000.0,568,1
+C00792,Costa & Vieira Distribuidora ME,Varejo,Norte,10,20000.0,490,1
+C00793,Mendes & Barbosa Comércio ME,Varejo,Norte,11,27000.0,640,0
+C00794,Mendes & Araújo Metalúrgica ME,Varejo,Nordeste,41,62000.0,540,1
+C00795,Costa & Mendes Atacadista ME,Varejo,Nordeste,38,152000.0,447,2
+C00796,Castro & Duarte Atacadista ME,Varejo,Norte,17,48000.0,630,2
+C00797,Ferreira & Teixeira Agronegócio ME,Varejo,Sul,30,97000.0,545,5
+C00798,Martins & Lima Química ME,Varejo,Nordeste,33,53000.0,624,0
+C00799,Martins & Pinto Calçados Ltda,Middle Market,Sul,11,165000.0,569,2
+C00800,Nunes & Teixeira Química Ltda,Middle Market,Sudeste,87,278000.0,509,1
+C00801,Costa & Souza Supermercados Ltda,Middle Market,Centro-Oeste,58,177000.0,904,0
+C00802,Pereira & Araújo Comércio ME,Varejo,Nordeste,29,54000.0,770,0
+C00803,Ribeiro & Rocha Logística Ltda,Middle Market,Sudeste,59,392000.0,785,0
+C00804,Duarte & Pereira Papelaria ME,Varejo,Sul,26,61000.0,497,1
+C00805,Duarte & Oliveira Papelaria ME,Varejo,Nordeste,19,104000.0,505,4
+C00806,Costa & Mendes Têxtil ME,Varejo,Sudeste,23,53000.0,743,0
+C00807,Rodrigues & Moreira Farma Ltda,Middle Market,Nordeste,10,328000.0,582,1
+C00808,Costa & Araújo Atacadista ME,Varejo,Sudeste,72,68000.0,491,1
+C00809,Rocha & Martins Supermercados ME,Varejo,Sul,19,98000.0,810,3
+C00810,Teixeira & Castro Farma S.A.,Corporate,Norte,207,868000.0,854,0
+C00811,Oliveira & Martins Farma ME,Varejo,Centro-Oeste,23,60000.0,797,1
+C00812,Cardoso & Mendes Calçados ME,Varejo,Centro-Oeste,13,51000.0,348,4
+C00813,Ferreira & Gomes Supermercados S.A.,Corporate,Nordeste,143,670000.0,894,0
+C00814,Teixeira & Castro Alimentos ME,Varejo,Sul,28,130000.0,843,0
+C00815,Araújo & Mendes Distribuidora ME,Varejo,Nordeste,89,59000.0,594,1
+C00816,Santos & Lima Papelaria Ltda,Middle Market,Sudeste,22,78000.0,602,1
+C00817,Martins & Dias Química Ltda,Middle Market,Sul,88,66000.0,515,6
+C00818,Moura & Oliveira Embalagens ME,Varejo,Sul,52,31000.0,719,1
+C00819,Campos & Silva Agronegócio Ltda,Middle Market,Sul,62,216000.0,555,0
+C00820,Cardoso & Teixeira Calçados ME,Varejo,Sudeste,52,36000.0,554,1
+C00821,Moura & Mendes Tecnologia ME,Varejo,Sudeste,19,61000.0,375,6
+C00822,Moura & Barbosa Química ME,Varejo,Sudeste,10,81000.0,760,0
+C00823,Cardoso & Silva Alimentos ME,Varejo,Sudeste,14,70000.0,706,1
+C00824,Freitas & Duarte Calçados Ltda,Middle Market,Sudeste,39,214000.0,645,1
+C00825,Lima & Nunes Móveis Ltda,Middle Market,Sudeste,64,163000.0,503,0
+C00826,Vieira & Ribeiro Embalagens ME,Varejo,Centro-Oeste,11,19000.0,758,0
+C00827,Pereira & Barbosa Calçados ME,Varejo,Sudeste,16,51000.0,494,4
+C00828,Gomes & Pereira Bebidas ME,Varejo,Centro-Oeste,12,66000.0,388,1
+C00829,Gomes & Cardoso Têxtil Ltda,Middle Market,Sudeste,72,314000.0,423,1
+C00830,Campos & Duarte Agronegócio ME,Varejo,Centro-Oeste,71,138000.0,488,1
+C00831,Oliveira & Moura Farma Ltda,Middle Market,Nordeste,15,71000.0,431,6
+C00832,Freitas & Pereira Metalúrgica ME,Varejo,Centro-Oeste,31,49000.0,467,2
+C00833,Teixeira & Carvalho Atacadista ME,Varejo,Centro-Oeste,45,32000.0,667,0
+C00834,Vieira & Pinto Metalúrgica Ltda,Middle Market,Nordeste,32,351000.0,593,1
+C00835,Castro & Silva Móveis Ltda,Middle Market,Sudeste,10,294000.0,682,2
+C00836,Almeida & Pereira Atacadista ME,Varejo,Sul,49,69000.0,464,3
+C00837,Martins & Freitas Supermercados Ltda,Middle Market,Sudeste,10,186000.0,641,2
+C00838,Almeida & Teixeira Papelaria S.A.,Corporate,Centro-Oeste,171,1795000.0,1000,0
+C00839,Pinto & Moreira Construtora ME,Varejo,Centro-Oeste,12,109000.0,494,1
+C00840,Duarte & Lima Metalúrgica ME,Varejo,Sudeste,5,117000.0,593,2
+C00841,Oliveira & Dias Farma ME,Varejo,Nordeste,15,62000.0,326,3
+C00842,Lima & Moreira Logística Ltda,Middle Market,Sudeste,36,171000.0,860,1
+C00843,Rocha & Silva Móveis ME,Varejo,Nordeste,24,87000.0,484,3
+C00844,Lima & Rodrigues Supermercados ME,Varejo,Sul,33,109000.0,703,1
+C00845,Cardoso & Martins Calçados ME,Varejo,Sul,26,56000.0,534,1
+C00846,Nunes & Lima Bebidas Ltda,Middle Market,Centro-Oeste,117,161000.0,782,0
+C00847,Ribeiro & Silva Logística ME,Varejo,Sudeste,20,121000.0,642,2
+C00848,Silva & Pinto Têxtil Ltda,Middle Market,Nordeste,47,376000.0,591,1
+C00849,Campos & Gomes Embalagens ME,Varejo,Nordeste,25,50000.0,704,1
+C00850,Nunes & Vieira Atacadista S.A.,Corporate,Sudeste,12,598000.0,637,0
+C00851,Castro & Santos Materiais Elétricos ME,Varejo,Sudeste,7,82000.0,649,1
+C00852,Moreira & Santos Alimentos ME,Varejo,Sudeste,22,76000.0,495,2
+C00853,Martins & Pereira Bebidas Ltda,Middle Market,Sul,51,139000.0,706,0
+C00854,Castro & Campos Química S.A.,Corporate,Centro-Oeste,7,1810000.0,676,0
+C00855,Moura & Mendes Farma ME,Varejo,Sudeste,69,80000.0,584,2
+C00856,Mendes & Rodrigues Supermercados ME,Varejo,Sudeste,31,71000.0,404,3
+C00857,Almeida & Ferreira Papelaria Ltda,Middle Market,Sul,37,428000.0,683,2
+C00858,Freitas & Souza Embalagens Ltda,Middle Market,Sudeste,53,139000.0,664,0
+C00859,Ribeiro & Santos Papelaria ME,Varejo,Sudeste,14,56000.0,469,1
+C00860,Pinto & Pereira Móveis ME,Varejo,Sul,24,33000.0,543,2
+C00861,Rodrigues & Mendes Supermercados Ltda,Middle Market,Sudeste,48,162000.0,674,1
+C00862,Santos & Ribeiro Tecnologia Ltda,Middle Market,Centro-Oeste,86,78000.0,591,0
+C00863,Teixeira & Rodrigues Móveis Ltda,Middle Market,Sudeste,33,246000.0,628,3
+C00864,Ferreira & Dias Supermercados ME,Varejo,Sul,6,67000.0,399,4
+C00865,Vieira & Martins Móveis ME,Varejo,Sudeste,10,72000.0,870,0
+C00866,Rodrigues & Campos Bebidas S.A.,Corporate,Sudeste,51,807000.0,915,0
+C00867,Ferreira & Costa Tecnologia Ltda,Middle Market,Sul,11,257000.0,671,3
+C00868,Duarte & Mendes Atacadista Ltda,Middle Market,Nordeste,16,111000.0,800,0
+C00869,Cardoso & Rodrigues Supermercados ME,Varejo,Norte,10,51000.0,265,4
+C00870,Nunes & Ribeiro Móveis ME,Varejo,Sudeste,17,59000.0,188,6
+C00871,Moura & Nunes Alimentos Ltda,Middle Market,Sul,54,68000.0,602,6
+C00872,Pinto & Barbosa Supermercados ME,Varejo,Sul,16,72000.0,353,2
+C00873,Barbosa & Lima Atacadista S.A.,Corporate,Sudeste,94,327000.0,759,0
+C00874,Ribeiro & Silva Química ME,Varejo,Nordeste,21,61000.0,577,1
+C00875,Mendes & Ferreira Distribuidora Ltda,Middle Market,Sudeste,16,106000.0,764,0
+C00876,Almeida & Ribeiro Atacadista Ltda,Middle Market,Centro-Oeste,49,306000.0,496,0
+C00877,Santos & Almeida Construtora ME,Varejo,Sul,25,37000.0,607,2
+C00878,Barbosa & Souza Alimentos ME,Varejo,Sudeste,33,28000.0,558,3
+C00879,Rodrigues & Vieira Calçados Ltda,Middle Market,Nordeste,66,195000.0,714,0
+C00880,Moreira & Ferreira Supermercados ME,Varejo,Sudeste,50,48000.0,493,1
+C00881,Lima & Silva Embalagens ME,Varejo,Nordeste,31,35000.0,748,0
+C00882,Campos & Mendes Têxtil Ltda,Middle Market,Nordeste,42,222000.0,637,1
+C00883,Oliveira & Pereira Farma S.A.,Corporate,Sul,96,333000.0,1000,0
+C00884,Silva & Dias Construtora ME,Varejo,Sudeste,15,33000.0,434,7
+C00885,Freitas & Silva Logística ME,Varejo,Sudeste,14,52000.0,648,2
+C00886,Carvalho & Vieira Distribuidora ME,Varejo,Sul,55,95000.0,561,0
+C00887,Freitas & Moura Comércio ME,Varejo,Nordeste,14,115000.0,499,0
+C00888,Oliveira & Lima Embalagens ME,Varejo,Sul,10,118000.0,631,0
+C00889,Souza & Freitas Química ME,Varejo,Sudeste,31,56000.0,513,0
+C00890,Carvalho & Campos Tecnologia Ltda,Middle Market,Nordeste,26,34000.0,269,4
+C00891,Castro & Silva Têxtil ME,Varejo,Nordeste,37,46000.0,129,3
+C00892,Gomes & Silva Móveis S.A.,Corporate,Nordeste,139,1875000.0,998,0
+C00893,Dias & Castro Embalagens ME,Varejo,Sudeste,12,135000.0,715,5
+C00894,Freitas & Pereira Calçados ME,Varejo,Sul,34,100000.0,821,3
+C00895,Pereira & Rodrigues Química Ltda,Middle Market,Sudeste,23,94000.0,637,0
+C00896,Pinto & Ferreira Química Ltda,Middle Market,Nordeste,31,111000.0,464,1
+C00897,Lima & Dias Comércio ME,Varejo,Nordeste,27,157000.0,493,1
+C00898,Moura & Rocha Metalúrgica ME,Varejo,Centro-Oeste,14,31000.0,546,1
+C00899,Silva & Martins Papelaria ME,Varejo,Sudeste,25,31000.0,410,3
+C00900,Mendes & Rocha Materiais Elétricos ME,Varejo,Nordeste,19,123000.0,778,2
+C00901,Cardoso & Gomes Atacadista ME,Varejo,Centro-Oeste,38,66000.0,872,0
+C00902,Pinto & Lima Calçados ME,Varejo,Sudeste,38,37000.0,626,1
+C00903,Carvalho & Costa Logística ME,Varejo,Sudeste,14,134000.0,543,5
+C00904,Castro & Souza Embalagens ME,Varejo,Sudeste,27,66000.0,371,3
+C00905,Rocha & Silva Embalagens S.A.,Corporate,Sul,123,744000.0,1000,0
+C00906,Castro & Martins Embalagens Ltda,Middle Market,Sudeste,16,97000.0,646,6
+C00907,Araújo & Vieira Móveis ME,Varejo,Sudeste,19,168000.0,507,3
+C00908,Moreira & Vieira Distribuidora ME,Varejo,Sul,26,66000.0,619,0
+C00909,Martins & Moreira Têxtil ME,Varejo,Nordeste,9,116000.0,459,3
+C00910,Pinto & Oliveira Farma ME,Varejo,Centro-Oeste,15,100000.0,566,0
+C00911,Pinto & Lima Papelaria Ltda,Middle Market,Nordeste,109,114000.0,489,2
+C00912,Ribeiro & Pereira Farma Ltda,Middle Market,Centro-Oeste,24,150000.0,793,0
+C00913,Oliveira & Moreira Metalúrgica S.A.,Corporate,Sul,43,1542000.0,747,0
+C00914,Souza & Ribeiro Têxtil S.A.,Corporate,Centro-Oeste,91,1811000.0,953,0
+C00915,Cardoso & Almeida Atacadista S.A.,Corporate,Sudeste,22,287000.0,721,0
+C00916,Barbosa & Nunes Farma S.A.,Corporate,Centro-Oeste,56,988000.0,751,1
+C00917,Almeida & Vieira Farma ME,Varejo,Centro-Oeste,10,49000.0,372,4
+C00918,Mendes & Freitas Supermercados ME,Varejo,Nordeste,25,41000.0,657,0
+C00919,Vieira & Lima Têxtil ME,Varejo,Sudeste,1,63000.0,414,5
+C00920,Duarte & Ferreira Bebidas ME,Varejo,Sudeste,23,30000.0,482,6
+C00921,Carvalho & Oliveira Alimentos ME,Varejo,Sudeste,27,50000.0,552,5
+C00922,Barbosa & Araújo Papelaria Ltda,Middle Market,Sudeste,27,117000.0,659,0
+C00923,Souza & Teixeira Comércio Ltda,Middle Market,Sudeste,29,106000.0,405,2
+C00924,Gomes & Pereira Materiais Elétricos ME,Varejo,Sudeste,14,59000.0,512,3
+C00925,Dias & Rodrigues Bebidas ME,Varejo,Sudeste,19,42000.0,659,2
+C00926,Moura & Cardoso Química ME,Varejo,Centro-Oeste,55,134000.0,516,2
+C00927,Nunes & Cardoso Farma ME,Varejo,Sul,39,79000.0,528,1
+C00928,Moura & Pereira Móveis Ltda,Middle Market,Centro-Oeste,33,430000.0,669,1
+C00929,Costa & Carvalho Têxtil ME,Varejo,Sudeste,15,57000.0,527,1
+C00930,Cardoso & Vieira Têxtil Ltda,Middle Market,Sudeste,64,116000.0,520,0
+C00931,Barbosa & Duarte Atacadista ME,Varejo,Sudeste,24,151000.0,545,3
+C00932,Gomes & Teixeira Calçados ME,Varejo,Centro-Oeste,8,53000.0,680,2
+C00933,Pereira & Ribeiro Farma ME,Varejo,Sudeste,17,49000.0,399,7
+C00934,Freitas & Costa Móveis Ltda,Middle Market,Nordeste,90,243000.0,628,0
+C00935,Lima & Carvalho Têxtil Ltda,Middle Market,Sudeste,53,78000.0,464,3
+C00936,Moreira & Barbosa Papelaria ME,Varejo,Sudeste,15,101000.0,677,4
+C00937,Ribeiro & Pereira Materiais Elétricos S.A.,Corporate,Sudeste,16,990000.0,733,1
+C00938,Santos & Dias Construtora ME,Varejo,Sul,25,105000.0,432,4
+C00939,Moura & Costa Papelaria Ltda,Middle Market,Sudeste,37,272000.0,661,0
+C00940,Teixeira & Moreira Bebidas ME,Varejo,Centro-Oeste,19,101000.0,379,0
+C00941,Mendes & Campos Supermercados ME,Varejo,Sudeste,37,52000.0,414,3
+C00942,Almeida & Costa Materiais Elétricos Ltda,Middle Market,Sudeste,54,93000.0,454,0
+C00943,Mendes & Nunes Agronegócio ME,Varejo,Sudeste,6,153000.0,390,4
+C00944,Almeida & Castro Calçados ME,Varejo,Norte,21,35000.0,739,2
+C00945,Lima & Freitas Alimentos ME,Varejo,Sul,7,28000.0,438,3
+C00946,Araújo & Moreira Farma ME,Varejo,Sul,14,88000.0,610,1
+C00947,Vieira & Cardoso Alimentos Ltda,Middle Market,Sul,11,343000.0,516,2
+C00948,Nunes & Moura Papelaria Ltda,Middle Market,Centro-Oeste,12,204000.0,740,1
+C00949,Gomes & Moreira Supermercados Ltda,Middle Market,Sudeste,48,250000.0,511,2
+C00950,Dias & Ribeiro Bebidas ME,Varejo,Nordeste,25,23000.0,556,3
+C00951,Ribeiro & Ferreira Metalúrgica ME,Varejo,Nordeste,20,49000.0,555,3
+C00952,Ribeiro & Santos Tecnologia ME,Varejo,Sudeste,13,32000.0,870,0
+C00953,Martins & Almeida Autopeças ME,Varejo,Sudeste,6,100000.0,628,4
+C00954,Moreira & Teixeira Atacadista ME,Varejo,Sul,14,27000.0,461,4
+C00955,Pereira & Dias Logística S.A.,Corporate,Sudeste,74,436000.0,876,0
+C00956,Rodrigues & Barbosa Comércio Ltda,Middle Market,Sudeste,44,282000.0,952,0
+C00957,Mendes & Pereira Alimentos Ltda,Middle Market,Sudeste,89,243000.0,451,4
+C00958,Lima & Araújo Atacadista ME,Varejo,Sudeste,46,52000.0,446,2
+C00959,Dias & Oliveira Logística ME,Varejo,Nordeste,21,81000.0,515,2
+C00960,Ribeiro & Moura Embalagens ME,Varejo,Sul,14,77000.0,486,2
+C00961,Oliveira & Rocha Agronegócio ME,Varejo,Sul,11,54000.0,496,1
+C00962,Cardoso & Rodrigues Calçados ME,Varejo,Sul,5,30000.0,356,4
+C00963,Teixeira & Rodrigues Embalagens ME,Varejo,Sudeste,8,98000.0,737,0
+C00964,Castro & Carvalho Embalagens ME,Varejo,Sul,25,69000.0,352,3
+C00965,Mendes & Duarte Papelaria S.A.,Corporate,Centro-Oeste,94,1186000.0,764,0
+C00966,Duarte & Cardoso Construtora ME,Varejo,Sudeste,17,84000.0,693,1
+C00967,Souza & Pinto Materiais Elétricos S.A.,Corporate,Sul,240,460000.0,876,0
+C00968,Rodrigues & Barbosa Farma ME,Varejo,Centro-Oeste,8,77000.0,404,4
+C00969,Nunes & Pinto Materiais Elétricos ME,Varejo,Sul,5,51000.0,350,8
+C00970,Vieira & Castro Atacadista ME,Varejo,Sudeste,86,50000.0,555,2
+C00971,Campos & Freitas Farma ME,Varejo,Sudeste,6,48000.0,434,2
+C00972,Teixeira & Castro Química ME,Varejo,Sul,16,46000.0,574,3
+C00973,Duarte & Mendes Materiais Elétricos ME,Varejo,Nordeste,12,79000.0,347,1
+C00974,Duarte & Dias Comércio S.A.,Corporate,Nordeste,78,412000.0,897,0
+C00975,Nunes & Ribeiro Tecnologia ME,Varejo,Nordeste,15,39000.0,561,2
+C00976,Costa & Ferreira Móveis Ltda,Middle Market,Sudeste,56,151000.0,686,0
+C00977,Ribeiro & Cardoso Construtora ME,Varejo,Nordeste,37,169000.0,760,0
+C00978,Martins & Moreira Alimentos ME,Varejo,Sul,5,99000.0,478,3
+C00979,Mendes & Pereira Distribuidora ME,Varejo,Norte,10,25000.0,440,0
+C00980,Dias & Carvalho Logística ME,Varejo,Nordeste,34,116000.0,480,4
+C00981,Gomes & Teixeira Construtora S.A.,Corporate,Sudeste,123,1511000.0,783,0
+C00982,Souza & Pereira Bebidas Ltda,Middle Market,Nordeste,41,95000.0,638,0
+C00983,Barbosa & Pinto Materiais Elétricos Ltda,Middle Market,Sul,49,44000.0,539,0
+C00984,Barbosa & Costa Química ME,Varejo,Sudeste,53,45000.0,285,6
+C00985,Moreira & Vieira Construtora ME,Varejo,Sul,16,102000.0,467,3
+C00986,Ferreira & Pinto Papelaria S.A.,Corporate,Sudeste,68,1764000.0,827,0
+C00987,Santos & Mendes Farma ME,Varejo,Sudeste,46,42000.0,583,0
+C00988,Moreira & Freitas Móveis ME,Varejo,Nordeste,48,178000.0,733,0
+C00989,Moura & Almeida Comércio ME,Varejo,Sudeste,19,26000.0,821,0
+C00990,Lima & Rodrigues Móveis Ltda,Middle Market,Nordeste,19,155000.0,744,0
+C00991,Teixeira & Pinto Bebidas Ltda,Middle Market,Sul,33,163000.0,839,0
+C00992,Gomes & Carvalho Farma Ltda,Middle Market,Nordeste,36,335000.0,755,0
+C00993,Ferreira & Costa Construtora Ltda,Middle Market,Nordeste,18,395000.0,876,0
+C00994,Pereira & Moura Metalúrgica ME,Varejo,Nordeste,12,126000.0,802,0
+C00995,Rodrigues & Lima Autopeças S.A.,Corporate,Sudeste,140,444000.0,953,0
+C00996,Vieira & Carvalho Alimentos ME,Varejo,Norte,29,106000.0,652,3
+C00997,Vieira & Souza Papelaria Ltda,Middle Market,Sudeste,29,216000.0,615,2
+C00998,Almeida & Castro Supermercados ME,Varejo,Nordeste,8,27000.0,535,2
+C00999,Martins & Barbosa Embalagens S.A.,Corporate,Sul,35,258000.0,710,0
+C01000,Souza & Duarte Têxtil ME,Varejo,Sudeste,4,113000.0,625,2
+C01001,Ferreira & Ribeiro Alimentos ME,Varejo,Sul,24,52000.0,450,1
+C01002,Duarte & Barbosa Construtora ME,Varejo,Sul,11,32000.0,516,1
+C01003,Castro & Silva Embalagens ME,Varejo,Sudeste,25,39000.0,221,6
+C01004,Barbosa & Araújo Calçados ME,Varejo,Sudeste,34,93000.0,798,1
+C01005,Almeida & Martins Farma Ltda,Middle Market,Sudeste,45,161000.0,622,0
+C01006,Vieira & Teixeira Materiais Elétricos ME,Varejo,Norte,15,31000.0,609,2
+C01007,Duarte & Moura Comércio S.A.,Corporate,Sul,29,2244000.0,957,0
+C01008,Oliveira & Gomes Comércio ME,Varejo,Sudeste,7,107000.0,582,1
+C01009,Pinto & Lima Metalúrgica Ltda,Middle Market,Nordeste,78,174000.0,875,0
+C01010,Rodrigues & Costa Embalagens ME,Varejo,Sul,25,45000.0,377,6
+C01011,Rocha & Moura Materiais Elétricos Ltda,Middle Market,Nordeste,27,265000.0,978,0
+C01012,Duarte & Freitas Química ME,Varejo,Sul,31,41000.0,707,3
+C01013,Mendes & Carvalho Atacadista ME,Varejo,Sudeste,40,77000.0,589,0
+C01014,Pinto & Dias Móveis S.A.,Corporate,Sudeste,34,449000.0,956,0
+C01015,Ribeiro & Cardoso Embalagens ME,Varejo,Nordeste,24,51000.0,387,3
+C01016,Duarte & Rocha Bebidas ME,Varejo,Nordeste,25,34000.0,511,4
+C01017,Pinto & Moreira Logística Ltda,Middle Market,Nordeste,90,119000.0,882,0
+C01018,Campos & Cardoso Logística Ltda,Middle Market,Sudeste,27,301000.0,381,4
+C01019,Ferreira & Pereira Construtora ME,Varejo,Nordeste,10,69000.0,620,0
+C01020,Pereira & Oliveira Bebidas ME,Varejo,Sudeste,26,75000.0,626,1
+C01021,Costa & Dias Comércio Ltda,Middle Market,Nordeste,57,79000.0,936,0
+C01022,Ferreira & Rocha Alimentos Ltda,Middle Market,Sudeste,40,103000.0,428,4
+C01023,Cardoso & Moura Supermercados S.A.,Corporate,Nordeste,157,1133000.0,1000,0
+C01024,Teixeira & Santos Embalagens ME,Varejo,Norte,15,64000.0,467,2
+C01025,Nunes & Carvalho Química Ltda,Middle Market,Sudeste,41,56000.0,588,2
+C01026,Araújo & Ribeiro Logística ME,Varejo,Nordeste,5,58000.0,368,3
+C01027,Nunes & Silva Farma S.A.,Corporate,Sul,27,793000.0,600,1
+C01028,Vieira & Rodrigues Comércio ME,Varejo,Sudeste,12,125000.0,600,1
+C01029,Cardoso & Nunes Bebidas Ltda,Middle Market,Sudeste,31,107000.0,489,5
+C01030,Campos & Duarte Construtora ME,Varejo,Nordeste,6,22000.0,643,2
+C01031,Carvalho & Almeida Atacadista ME,Varejo,Sudeste,31,35000.0,462,5
+C01032,Carvalho & Rocha Embalagens Ltda,Middle Market,Sudeste,19,84000.0,468,2
+C01033,Almeida & Martins Embalagens ME,Varejo,Centro-Oeste,77,87000.0,508,1
+C01034,Araújo & Barbosa Alimentos S.A.,Corporate,Sul,32,201000.0,802,1
+C01035,Freitas & Gomes Supermercados ME,Varejo,Nordeste,21,48000.0,510,1
+C01036,Duarte & Barbosa Móveis Ltda,Middle Market,Sul,34,352000.0,651,0
+C01037,Nunes & Santos Móveis ME,Varejo,Sul,8,69000.0,638,4
+C01038,Martins & Teixeira Móveis ME,Varejo,Nordeste,18,113000.0,698,4
+C01039,Castro & Freitas Tecnologia ME,Varejo,Sudeste,17,26000.0,503,3
+C01040,Castro & Costa Bebidas ME,Varejo,Sudeste,37,25000.0,412,3
+C01041,Teixeira & Vieira Têxtil ME,Varejo,Sul,27,131000.0,563,6
+C01042,Lima & Barbosa Metalúrgica Ltda,Middle Market,Norte,53,193000.0,724,0
+C01043,Carvalho & Dias Construtora Ltda,Middle Market,Sudeste,64,152000.0,460,2
+C01044,Castro & Ribeiro Agronegócio Ltda,Middle Market,Norte,54,89000.0,534,0
+C01045,Freitas & Silva Atacadista ME,Varejo,Nordeste,24,60000.0,450,4
+C01046,Lima & Barbosa Construtora ME,Varejo,Sul,12,34000.0,514,3
+C01047,Lima & Santos Alimentos ME,Varejo,Sudeste,23,102000.0,443,3
+C01048,Oliveira & Martins Logística Ltda,Middle Market,Sudeste,17,725000.0,735,0
+C01049,Castro & Silva Logística Ltda,Middle Market,Sul,33,176000.0,421,3
+C01050,Vieira & Lima Móveis ME,Varejo,Sudeste,17,36000.0,325,5
+C01051,Costa & Santos Bebidas Ltda,Middle Market,Sudeste,31,46000.0,598,1
+C01052,Martins & Almeida Logística ME,Varejo,Sudeste,6,26000.0,515,7
+C01053,Santos & Almeida Autopeças ME,Varejo,Norte,1,109000.0,333,5
+C01054,Vieira & Silva Logística ME,Varejo,Sudeste,14,34000.0,459,2
+C01055,Barbosa & Ferreira Comércio ME,Varejo,Sul,43,50000.0,506,1
+C01056,Costa & Souza Móveis Ltda,Middle Market,Sudeste,37,228000.0,593,0
+C01057,Costa & Barbosa Tecnologia S.A.,Corporate,Sudeste,118,1672000.0,828,0
+C01058,Freitas & Pinto Metalúrgica ME,Varejo,Sudeste,10,52000.0,449,2
+C01059,Mendes & Almeida Supermercados ME,Varejo,Nordeste,14,61000.0,751,1
+C01060,Silva & Barbosa Móveis Ltda,Middle Market,Sul,140,199000.0,778,0
+C01061,Teixeira & Almeida Agronegócio S.A.,Corporate,Sudeste,30,500000.0,641,0
+C01062,Moura & Cardoso Têxtil Ltda,Middle Market,Nordeste,52,132000.0,670,0
+C01063,Carvalho & Teixeira Metalúrgica ME,Varejo,Sudeste,30,79000.0,571,9
+C01064,Martins & Vieira Química Ltda,Middle Market,Nordeste,48,218000.0,825,1
+C01065,Barbosa & Almeida Móveis ME,Varejo,Sudeste,30,169000.0,470,3
+C01066,Martins & Santos Construtora S.A.,Corporate,Centro-Oeste,30,1017000.0,861,0
+C01067,Vieira & Rocha Atacadista ME,Varejo,Norte,15,112000.0,551,3
+C01068,Cardoso & Dias Tecnologia Ltda,Middle Market,Nordeste,2,117000.0,836,0
+C01069,Mendes & Santos Papelaria ME,Varejo,Sudeste,52,97000.0,748,0
+C01070,Oliveira & Ferreira Autopeças ME,Varejo,Sul,30,45000.0,582,1
+C01071,Moura & Rodrigues Construtora Ltda,Middle Market,Nordeste,20,201000.0,601,4
+C01072,Moura & Lima Alimentos Ltda,Middle Market,Sul,17,255000.0,707,1
+C01073,Nunes & Ribeiro Têxtil ME,Varejo,Sudeste,43,64000.0,537,1
+C01074,Araújo & Nunes Comércio S.A.,Corporate,Sul,32,2979000.0,990,0
+C01075,Araújo & Freitas Tecnologia Ltda,Middle Market,Sudeste,20,352000.0,649,1
+C01076,Rodrigues & Pinto Móveis ME,Varejo,Sul,8,106000.0,484,3
+C01077,Dias & Ferreira Alimentos ME,Varejo,Sudeste,34,87000.0,492,2
+C01078,Lima & Dias Atacadista ME,Varejo,Sul,40,129000.0,390,7
+C01079,Oliveira & Mendes Calçados Ltda,Middle Market,Sudeste,30,89000.0,722,1
+C01080,Duarte & Carvalho Autopeças ME,Varejo,Sudeste,40,112000.0,445,1
+C01081,Nunes & Teixeira Distribuidora ME,Varejo,Sudeste,26,44000.0,705,1
+C01082,Rocha & Duarte Supermercados S.A.,Corporate,Centro-Oeste,23,484000.0,569,1
+C01083,Moura & Oliveira Comércio S.A.,Corporate,Sul,146,1065000.0,841,0
+C01084,Dias & Santos Autopeças Ltda,Middle Market,Sul,14,360000.0,795,1
+C01085,Carvalho & Cardoso Supermercados S.A.,Corporate,Nordeste,52,326000.0,466,3
+C01086,Mendes & Dias Química Ltda,Middle Market,Sul,30,166000.0,927,0
+C01087,Barbosa & Oliveira Química Ltda,Middle Market,Sudeste,26,170000.0,582,0
+C01088,Freitas & Vieira Distribuidora Ltda,Middle Market,Sul,5,157000.0,649,2
+C01089,Gomes & Castro Têxtil ME,Varejo,Sudeste,70,106000.0,658,0
+C01090,Santos & Rodrigues Materiais Elétricos ME,Varejo,Sul,3,381000.0,639,1
+C01091,Pinto & Campos Papelaria ME,Varejo,Sudeste,52,82000.0,606,4
+C01092,Araújo & Teixeira Bebidas Ltda,Middle Market,Centro-Oeste,17,133000.0,776,0
+C01093,Souza & Castro Calçados ME,Varejo,Sul,13,35000.0,616,1
+C01094,Ferreira & Santos Móveis ME,Varejo,Sudeste,49,67000.0,812,0
+C01095,Ferreira & Gomes Materiais Elétricos ME,Varejo,Sul,28,42000.0,626,3
+C01096,Rocha & Martins Materiais Elétricos ME,Varejo,Sudeste,6,100000.0,815,0
+C01097,Martins & Barbosa Comércio ME,Varejo,Sudeste,6,88000.0,666,2
+C01098,Castro & Pinto Comércio Ltda,Middle Market,Centro-Oeste,44,107000.0,400,2
+C01099,Dias & Oliveira Embalagens Ltda,Middle Market,Nordeste,14,607000.0,1000,0
+C01100,Oliveira & Costa Construtora ME,Varejo,Nordeste,29,40000.0,473,1
+C01101,Dias & Teixeira Comércio ME,Varejo,Sul,31,71000.0,764,2
+C01102,Ferreira & Gomes Metalúrgica ME,Varejo,Sudeste,11,86000.0,546,1
+C01103,Cardoso & Vieira Farma Ltda,Middle Market,Sudeste,23,302000.0,788,1
+C01104,Oliveira & Pereira Embalagens Ltda,Middle Market,Sul,45,300000.0,557,0
+C01105,Santos & Costa Móveis ME,Varejo,Sul,10,84000.0,630,5
+C01106,Moura & Moreira Logística Ltda,Middle Market,Sudeste,37,282000.0,613,0
+C01107,Barbosa & Campos Supermercados ME,Varejo,Sudeste,83,56000.0,807,0
+C01108,Almeida & Ribeiro Móveis ME,Varejo,Sudeste,27,106000.0,614,2
+C01109,Ferreira & Almeida Materiais Elétricos S.A.,Corporate,Sudeste,43,1314000.0,893,0
+C01110,Pereira & Lima Supermercados ME,Varejo,Sudeste,74,99000.0,277,2
+C01111,Barbosa & Nunes Materiais Elétricos ME,Varejo,Sudeste,36,27000.0,546,5
+C01112,Costa & Araújo Móveis ME,Varejo,Sul,8,42000.0,598,2
+C01113,Castro & Souza Têxtil Ltda,Middle Market,Sudeste,17,264000.0,668,1
+C01114,Ribeiro & Oliveira Materiais Elétricos S.A.,Corporate,Sudeste,11,219000.0,877,0
+C01115,Rodrigues & Mendes Química S.A.,Corporate,Sul,74,943000.0,729,0
+C01116,Silva & Moreira Supermercados ME,Varejo,Nordeste,2,106000.0,544,4
+C01117,Martins & Castro Química ME,Varejo,Sudeste,74,56000.0,746,1
+C01118,Nunes & Ribeiro Metalúrgica Ltda,Middle Market,Sudeste,28,100000.0,324,0
+C01119,Oliveira & Rocha Calçados ME,Varejo,Sul,37,40000.0,641,1
+C01120,Rodrigues & Freitas Tecnologia Ltda,Middle Market,Sudeste,26,127000.0,595,1
+C01121,Castro & Moreira Supermercados Ltda,Middle Market,Sudeste,44,120000.0,525,3
+C01122,Rocha & Duarte Autopeças ME,Varejo,Sul,18,47000.0,594,2
+C01123,Almeida & Cardoso Agronegócio Ltda,Middle Market,Sudeste,36,137000.0,819,0
+C01124,Duarte & Moreira Bebidas ME,Varejo,Nordeste,45,63000.0,708,2
+C01125,Souza & Freitas Metalúrgica ME,Varejo,Centro-Oeste,60,55000.0,553,3
+C01126,Lima & Moreira Têxtil ME,Varejo,Sudeste,57,183000.0,693,1
+C01127,Campos & Costa Supermercados ME,Varejo,Sudeste,126,61000.0,733,0
+C01128,Cardoso & Almeida Calçados Ltda,Middle Market,Norte,19,200000.0,625,2
+C01129,Pinto & Santos Logística Ltda,Middle Market,Sul,47,119000.0,557,1
+C01130,Almeida & Teixeira Farma S.A.,Corporate,Norte,33,521000.0,667,0
+C01131,Moura & Souza Distribuidora S.A.,Corporate,Nordeste,128,366000.0,930,0
+C01132,Castro & Silva Calçados ME,Varejo,Sudeste,9,28000.0,535,1
+C01133,Souza & Rocha Materiais Elétricos ME,Varejo,Sudeste,46,30000.0,417,4
+C01134,Carvalho & Moreira Atacadista Ltda,Middle Market,Sudeste,41,150000.0,415,2
+C01135,Oliveira & Duarte Química S.A.,Corporate,Nordeste,55,1423000.0,885,0
+C01136,Carvalho & Mendes Agronegócio ME,Varejo,Sudeste,20,24000.0,471,3
+C01137,Mendes & Dias Comércio ME,Varejo,Nordeste,7,50000.0,586,0
+C01138,Costa & Duarte Metalúrgica ME,Varejo,Sul,8,37000.0,714,3
+C01139,Barbosa & Nunes Móveis ME,Varejo,Nordeste,24,46000.0,367,3
+C01140,Nunes & Campos Papelaria Ltda,Middle Market,Nordeste,41,294000.0,644,4
+C01141,Ribeiro & Teixeira Atacadista ME,Varejo,Sudeste,12,49000.0,519,3
+C01142,Araújo & Moreira Distribuidora Ltda,Middle Market,Sudeste,28,175000.0,696,1
+C01143,Castro & Silva Autopeças Ltda,Middle Market,Sul,50,413000.0,829,0
+C01144,Dias & Freitas Autopeças Ltda,Middle Market,Nordeste,18,179000.0,451,0
+C01145,Mendes & Moura Bebidas ME,Varejo,Nordeste,3,46000.0,618,1
+C01146,Moreira & Costa Farma ME,Varejo,Sul,54,79000.0,713,0
+C01147,Campos & Oliveira Supermercados Ltda,Middle Market,Nordeste,44,112000.0,626,0
+C01148,Carvalho & Duarte Bebidas Ltda,Middle Market,Sudeste,24,207000.0,621,2
+C01149,Rocha & Nunes Logística ME,Varejo,Sudeste,11,85000.0,601,1
+C01150,Nunes & Duarte Farma Ltda,Middle Market,Centro-Oeste,17,90000.0,684,0
+C01151,Nunes & Duarte Agronegócio ME,Varejo,Sul,44,75000.0,644,1
+C01152,Teixeira & Oliveira Materiais Elétricos Ltda,Middle Market,Nordeste,11,171000.0,711,0
+C01153,Almeida & Barbosa Embalagens ME,Varejo,Sudeste,27,72000.0,415,2
+C01154,Vieira & Teixeira Logística ME,Varejo,Sul,27,108000.0,691,0
+C01155,Rocha & Dias Embalagens ME,Varejo,Sudeste,34,93000.0,720,1
+C01156,Mendes & Moura Autopeças ME,Varejo,Sudeste,15,55000.0,571,1
+C01157,Campos & Castro Materiais Elétricos ME,Varejo,Sudeste,51,82000.0,357,7
+C01158,Pinto & Mendes Logística ME,Varejo,Nordeste,35,40000.0,541,2
+C01159,Lima & Vieira Farma ME,Varejo,Sudeste,14,33000.0,572,3
+C01160,Campos & Duarte Metalúrgica Ltda,Middle Market,Sudeste,19,30000.0,477,3
+C01161,Teixeira & Moreira Comércio ME,Varejo,Sudeste,18,58000.0,496,1
+C01162,Carvalho & Oliveira Móveis Ltda,Middle Market,Sudeste,24,94000.0,443,2
+C01163,Araújo & Carvalho Embalagens Ltda,Middle Market,Sul,16,223000.0,721,0
+C01164,Ribeiro & Costa Têxtil ME,Varejo,Nordeste,21,24000.0,572,2
+C01165,Campos & Souza Química ME,Varejo,Nordeste,16,35000.0,315,5
+C01166,Teixeira & Gomes Logística Ltda,Middle Market,Sudeste,103,235000.0,737,0
+C01167,Freitas & Pereira Comércio Ltda,Middle Market,Sul,24,101000.0,632,1
+C01168,Gomes & Mendes Tecnologia ME,Varejo,Sudeste,11,82000.0,615,3
+C01169,Castro & Ferreira Construtora Ltda,Middle Market,Sul,35,124000.0,592,0
+C01170,Martins & Oliveira Calçados ME,Varejo,Centro-Oeste,24,55000.0,438,2
+C01171,Nunes & Moreira Atacadista ME,Varejo,Sul,26,76000.0,444,1
+C01172,Gomes & Moreira Alimentos Ltda,Middle Market,Norte,45,260000.0,578,1
+C01173,Santos & Martins Tecnologia ME,Varejo,Sudeste,21,66000.0,551,0
+C01174,Teixeira & Rocha Papelaria Ltda,Middle Market,Nordeste,34,117000.0,667,0
+C01175,Araújo & Costa Metalúrgica ME,Varejo,Nordeste,31,49000.0,528,2
+C01176,Vieira & Lima Autopeças Ltda,Middle Market,Nordeste,15,222000.0,576,1
+C01177,Ribeiro & Castro Materiais Elétricos ME,Varejo,Nordeste,11,36000.0,493,2
+C01178,Silva & Campos Logística ME,Varejo,Sudeste,5,76000.0,890,1
+C01179,Martins & Teixeira Agronegócio ME,Varejo,Nordeste,9,46000.0,433,4
+C01180,Teixeira & Vieira Agronegócio ME,Varejo,Sul,41,56000.0,482,1
+C01181,Castro & Campos Calçados Ltda,Middle Market,Sul,53,136000.0,1000,1
+C01182,Carvalho & Martins Tecnologia ME,Varejo,Sudeste,64,27000.0,633,1
+C01183,Teixeira & Silva Farma ME,Varejo,Sudeste,54,68000.0,375,1
+C01184,Oliveira & Duarte Materiais Elétricos ME,Varejo,Centro-Oeste,30,114000.0,672,3
+C01185,Carvalho & Vieira Papelaria ME,Varejo,Sudeste,22,23000.0,422,1
+C01186,Barbosa & Ribeiro Embalagens Ltda,Middle Market,Sudeste,36,230000.0,775,0
+C01187,Rocha & Martins Bebidas ME,Varejo,Sudeste,2,104000.0,508,4
+C01188,Campos & Teixeira Construtora S.A.,Corporate,Sul,55,976000.0,707,0
+C01189,Silva & Pereira Tecnologia ME,Varejo,Nordeste,13,62000.0,769,0
+C01190,Teixeira & Almeida Logística Ltda,Middle Market,Centro-Oeste,16,114000.0,715,2
+C01191,Dias & Souza Materiais Elétricos ME,Varejo,Sul,27,74000.0,688,0
+C01192,Ribeiro & Almeida Comércio ME,Varejo,Sudeste,17,75000.0,607,2
+C01193,Gomes & Freitas Calçados Ltda,Middle Market,Sudeste,37,171000.0,586,1
+C01194,Dias & Martins Química S.A.,Corporate,Sudeste,23,732000.0,835,0
+C01195,Pereira & Gomes Construtora Ltda,Middle Market,Sul,63,116000.0,833,0
+C01196,Rocha & Pinto Bebidas ME,Varejo,Norte,14,79000.0,563,1
+C01197,Souza & Lima Distribuidora ME,Varejo,Sudeste,26,99000.0,804,0
+C01198,Teixeira & Martins Agronegócio Ltda,Middle Market,Sudeste,26,209000.0,761,1
+C01199,Vieira & Souza Química ME,Varejo,Nordeste,2,68000.0,567,2
+C01200,Moreira & Cardoso Atacadista Ltda,Middle Market,Sul,49,414000.0,691,0
+C01201,Carvalho & Souza Têxtil ME,Varejo,Nordeste,18,47000.0,566,2
+C01202,Santos & Barbosa Embalagens ME,Varejo,Sul,4,98000.0,363,3
+C01203,Gomes & Almeida Logística Ltda,Middle Market,Sudeste,12,116000.0,621,2
+C01204,Freitas & Gomes Farma Ltda,Middle Market,Sul,65,312000.0,696,4
+C01205,Nunes & Moreira Bebidas ME,Varejo,Sudeste,5,109000.0,481,2
+C01206,Pinto & Lima Móveis ME,Varejo,Nordeste,14,57000.0,592,4
+C01207,Araújo & Ferreira Bebidas Ltda,Middle Market,Sudeste,119,413000.0,700,0
+C01208,Oliveira & Dias Embalagens ME,Varejo,Sul,28,88000.0,661,0
+C01209,Cardoso & Teixeira Papelaria ME,Varejo,Norte,33,44000.0,649,2
+C01210,Mendes & Pinto Construtora ME,Varejo,Sul,16,53000.0,569,2
+C01211,Silva & Pereira Atacadista Ltda,Middle Market,Sudeste,7,248000.0,439,3
+C01212,Pereira & Ribeiro Atacadista Ltda,Middle Market,Norte,40,333000.0,901,0
+C01213,Duarte & Araújo Alimentos ME,Varejo,Sudeste,8,36000.0,521,2
+C01214,Freitas & Ferreira Metalúrgica ME,Varejo,Nordeste,7,58000.0,529,4
+C01215,Costa & Pinto Bebidas ME,Varejo,Sudeste,21,66000.0,501,6
+C01216,Moreira & Vieira Materiais Elétricos ME,Varejo,Centro-Oeste,8,45000.0,472,4
+C01217,Vieira & Nunes Móveis ME,Varejo,Sudeste,19,247000.0,764,1
+C01218,Dias & Mendes Alimentos ME,Varejo,Sudeste,11,83000.0,737,0
+C01219,Freitas & Silva Farma Ltda,Middle Market,Norte,33,176000.0,708,1
+C01220,Pereira & Oliveira Tecnologia ME,Varejo,Sul,13,112000.0,529,4
+C01221,Souza & Dias Construtora ME,Varejo,Sudeste,19,57000.0,634,2
+C01222,Duarte & Campos Construtora ME,Varejo,Sudeste,51,107000.0,577,0
+C01223,Costa & Freitas Alimentos Ltda,Middle Market,Sudeste,59,74000.0,635,2
+C01224,Teixeira & Barbosa Materiais Elétricos Ltda,Middle Market,Sudeste,31,143000.0,692,0
+C01225,Mendes & Gomes Alimentos ME,Varejo,Sul,46,102000.0,502,4
+C01226,Teixeira & Pinto Autopeças Ltda,Middle Market,Sul,46,391000.0,689,1
+C01227,Oliveira & Nunes Materiais Elétricos ME,Varejo,Centro-Oeste,44,44000.0,591,1
+C01228,Vieira & Costa Calçados ME,Varejo,Nordeste,5,43000.0,623,0
+C01229,Barbosa & Gomes Agronegócio S.A.,Corporate,Centro-Oeste,24,928000.0,664,0
+C01230,Barbosa & Araújo Alimentos ME,Varejo,Sul,23,50000.0,649,0
+C01231,Ribeiro & Ferreira Têxtil ME,Varejo,Sudeste,17,48000.0,419,5
+C01232,Oliveira & Dias Comércio ME,Varejo,Sul,19,90000.0,467,2
+C01233,Silva & Araújo Metalúrgica ME,Varejo,Sudeste,29,45000.0,479,0
+C01234,Araújo & Teixeira Autopeças Ltda,Middle Market,Sudeste,40,56000.0,500,0
+C01235,Dias & Duarte Agronegócio ME,Varejo,Centro-Oeste,36,38000.0,700,0
+C01236,Vieira & Pinto Logística ME,Varejo,Nordeste,36,56000.0,422,1
+C01237,Dias & Nunes Papelaria ME,Varejo,Sudeste,8,22000.0,443,3
+C01238,Campos & Araújo Distribuidora ME,Varejo,Sudeste,2,63000.0,713,2
+C01239,Barbosa & Silva Têxtil ME,Varejo,Sudeste,8,29000.0,461,5
+C01240,Carvalho & Santos Logística ME,Varejo,Sul,8,138000.0,514,1
+C01241,Dias & Nunes Química Ltda,Middle Market,Sudeste,36,445000.0,506,4
+C01242,Pereira & Moreira Calçados ME,Varejo,Centro-Oeste,20,41000.0,665,3
+C01243,Barbosa & Santos Materiais Elétricos ME,Varejo,Sul,16,79000.0,664,0
+C01244,Pereira & Silva Calçados ME,Varejo,Sudeste,27,43000.0,656,0
+C01245,Vieira & Rocha Têxtil ME,Varejo,Nordeste,88,60000.0,664,0
+C01246,Moura & Pereira Alimentos ME,Varejo,Centro-Oeste,16,156000.0,556,2
+C01247,Souza & Ferreira Construtora Ltda,Middle Market,Nordeste,41,128000.0,577,0
+C01248,Nunes & Oliveira Comércio ME,Varejo,Sul,19,49000.0,433,4
+C01249,Almeida & Silva Comércio Ltda,Middle Market,Sudeste,21,124000.0,819,0
+C01250,Rocha & Costa Distribuidora S.A.,Corporate,Nordeste,86,1485000.0,895,0
+C01251,Dias & Oliveira Móveis ME,Varejo,Nordeste,16,11000.0,449,3
+C01252,Silva & Duarte Farma ME,Varejo,Norte,10,50000.0,548,5
+C01253,Moreira & Carvalho Metalúrgica ME,Varejo,Sul,10,59000.0,500,3
+C01254,Almeida & Barbosa Atacadista Ltda,Middle Market,Nordeste,65,109000.0,507,0
+C01255,Carvalho & Barbosa Móveis ME,Varejo,Sudeste,29,100000.0,578,4
+C01256,Moura & Pereira Agronegócio Ltda,Middle Market,Sudeste,23,296000.0,582,2
+C01257,Rodrigues & Ferreira Alimentos Ltda,Middle Market,Sudeste,47,76000.0,521,1
+C01258,Araújo & Pereira Logística Ltda,Middle Market,Sudeste,34,401000.0,439,3
+C01259,Araújo & Vieira Materiais Elétricos ME,Varejo,Sul,24,24000.0,331,6
+C01260,Vieira & Pereira Construtora S.A.,Corporate,Sudeste,34,1376000.0,704,1
+C01261,Rodrigues & Ferreira Logística ME,Varejo,Nordeste,8,67000.0,529,6
+C01262,Araújo & Nunes Bebidas ME,Varejo,Sul,15,43000.0,422,1
+C01263,Moura & Duarte Distribuidora ME,Varejo,Sudeste,9,55000.0,633,2
+C01264,Oliveira & Gomes Papelaria S.A.,Corporate,Nordeste,25,733000.0,742,1
+C01265,Silva & Castro Construtora ME,Varejo,Sudeste,5,75000.0,620,0
+C01266,Cardoso & Almeida Embalagens Ltda,Middle Market,Sudeste,3,104000.0,602,1
+C01267,Duarte & Martins Tecnologia ME,Varejo,Norte,13,50000.0,434,2
+C01268,Campos & Dias Metalúrgica S.A.,Corporate,Sudeste,122,541000.0,825,0
+C01269,Ferreira & Freitas Embalagens ME,Varejo,Sudeste,35,29000.0,380,4
+C01270,Castro & Rodrigues Atacadista ME,Varejo,Sul,56,46000.0,645,0
+C01271,Araújo & Moreira Alimentos S.A.,Corporate,Sudeste,24,378000.0,619,0
+C01272,Mendes & Costa Agronegócio ME,Varejo,Sudeste,31,58000.0,683,1
+C01273,Costa & Pereira Química ME,Varejo,Nordeste,17,74000.0,499,0
+C01274,Moura & Lima Supermercados ME,Varejo,Sul,10,76000.0,691,1
+C01275,Cardoso & Barbosa Metalúrgica ME,Varejo,Sul,39,145000.0,402,1
+C01276,Almeida & Nunes Construtora ME,Varejo,Centro-Oeste,18,19000.0,452,0
+C01277,Pinto & Moreira Supermercados ME,Varejo,Sudeste,3,83000.0,591,3
+C01278,Ribeiro & Carvalho Autopeças ME,Varejo,Sul,35,73000.0,721,0
+C01279,Castro & Nunes Calçados Ltda,Middle Market,Sudeste,44,313000.0,886,0
+C01280,Cardoso & Araújo Autopeças ME,Varejo,Sudeste,21,90000.0,554,0
+C01281,Gomes & Rocha Comércio ME,Varejo,Norte,7,72000.0,797,0
+C01282,Costa & Duarte Agronegócio ME,Varejo,Nordeste,23,66000.0,509,2
+C01283,Rocha & Oliveira Química ME,Varejo,Sudeste,51,50000.0,720,0
+C01284,Souza & Silva Papelaria Ltda,Middle Market,Sudeste,43,208000.0,520,1
+C01285,Costa & Teixeira Farma S.A.,Corporate,Sudeste,13,306000.0,803,0
+C01286,Moreira & Mendes Supermercados S.A.,Corporate,Nordeste,77,844000.0,454,1
+C01287,Barbosa & Almeida Embalagens ME,Varejo,Sudeste,25,53000.0,394,4
+C01288,Rodrigues & Vieira Atacadista ME,Varejo,Centro-Oeste,33,53000.0,621,0
+C01289,Costa & Oliveira Logística ME,Varejo,Sudeste,25,46000.0,367,4
+C01290,Ferreira & Duarte Metalúrgica ME,Varejo,Sudeste,8,61000.0,601,1
+C01291,Rodrigues & Cardoso Química ME,Varejo,Norte,20,135000.0,675,2
+C01292,Dias & Cardoso Atacadista Ltda,Middle Market,Centro-Oeste,27,810000.0,572,1
+C01293,Moura & Moreira Embalagens ME,Varejo,Sudeste,22,101000.0,414,5
+C01294,Castro & Martins Móveis ME,Varejo,Sul,40,45000.0,494,2
+C01295,Almeida & Moura Química ME,Varejo,Centro-Oeste,11,75000.0,407,2
+C01296,Santos & Ferreira Têxtil ME,Varejo,Nordeste,62,89000.0,559,2
+C01297,Silva & Martins Materiais Elétricos ME,Varejo,Sul,26,40000.0,566,2
+C01298,Moreira & Ferreira Comércio ME,Varejo,Nordeste,35,32000.0,514,4
+C01299,Pereira & Vieira Química Ltda,Middle Market,Centro-Oeste,56,203000.0,894,0
+C01300,Pinto & Vieira Agronegócio ME,Varejo,Sul,25,85000.0,450,5
+C01301,Almeida & Freitas Construtora ME,Varejo,Sudeste,29,33000.0,748,2
+C01302,Cardoso & Oliveira Móveis ME,Varejo,Sul,1,37000.0,391,6
+C01303,Santos & Dias Móveis Ltda,Middle Market,Nordeste,55,233000.0,669,0
+C01304,Barbosa & Rodrigues Comércio ME,Varejo,Sul,9,74000.0,707,1
+C01305,Santos & Almeida Distribuidora Ltda,Middle Market,Sudeste,32,397000.0,804,0
+C01306,Pinto & Souza Química S.A.,Corporate,Nordeste,74,362000.0,722,1
+C01307,Santos & Carvalho Comércio ME,Varejo,Sul,41,221000.0,638,3
+C01308,Carvalho & Moura Atacadista Ltda,Middle Market,Norte,16,83000.0,695,0
+C01309,Nunes & Cardoso Atacadista ME,Varejo,Sudeste,13,21000.0,468,1
+C01310,Duarte & Vieira Bebidas S.A.,Corporate,Nordeste,44,786000.0,849,0
+C01311,Rodrigues & Pereira Calçados ME,Varejo,Sul,22,45000.0,810,1
+C01312,Pinto & Teixeira Distribuidora S.A.,Corporate,Sudeste,46,783000.0,830,0
+C01313,Souza & Castro Agronegócio ME,Varejo,Sul,29,66000.0,633,1
+C01314,Dias & Duarte Metalúrgica ME,Varejo,Sudeste,4,62000.0,633,1
+C01315,Lima & Souza Logística ME,Varejo,Nordeste,17,33000.0,342,4
+C01316,Cardoso & Freitas Autopeças Ltda,Middle Market,Nordeste,96,232000.0,748,0
+C01317,Pereira & Vieira Atacadista ME,Varejo,Sudeste,16,46000.0,403,3
+C01318,Carvalho & Ferreira Agronegócio ME,Varejo,Sul,26,101000.0,469,5
+C01319,Souza & Pereira Atacadista Ltda,Middle Market,Norte,64,201000.0,967,0
+C01320,Freitas & Teixeira Logística Ltda,Middle Market,Sudeste,45,104000.0,618,2
+C01321,Barbosa & Ribeiro Supermercados ME,Varejo,Centro-Oeste,66,25000.0,472,3
+C01322,Santos & Ferreira Farma ME,Varejo,Sudeste,21,67000.0,710,4
+C01323,Moreira & Gomes Alimentos ME,Varejo,Sudeste,30,29000.0,421,4
+C01324,Campos & Barbosa Materiais Elétricos Ltda,Middle Market,Sul,40,83000.0,587,3
+C01325,Teixeira & Dias Construtora ME,Varejo,Sudeste,48,97000.0,740,0
+C01326,Ribeiro & Campos Logística Ltda,Middle Market,Centro-Oeste,25,71000.0,647,0
+C01327,Moreira & Cardoso Embalagens ME,Varejo,Nordeste,69,104000.0,359,5
+C01328,Araújo & Moura Construtora ME,Varejo,Nordeste,11,73000.0,619,1
+C01329,Freitas & Nunes Embalagens ME,Varejo,Nordeste,58,60000.0,515,3
+C01330,Moura & Rocha Construtora ME,Varejo,Nordeste,8,45000.0,756,0
+C01331,Carvalho & Campos Atacadista Ltda,Middle Market,Nordeste,54,236000.0,574,3
+C01332,Martins & Rodrigues Móveis ME,Varejo,Nordeste,19,72000.0,695,0
+C01333,Ferreira & Almeida Tecnologia ME,Varejo,Centro-Oeste,36,56000.0,806,2
+C01334,Moura & Dias Embalagens S.A.,Corporate,Sul,78,772000.0,664,0
+C01335,Lima & Dias Distribuidora S.A.,Corporate,Sudeste,102,329000.0,770,0
+C01336,Oliveira & Pereira Materiais Elétricos Ltda,Middle Market,Sul,14,79000.0,689,0
+C01337,Dias & Araújo Autopeças ME,Varejo,Sudeste,4,31000.0,418,2
+C01338,Nunes & Mendes Logística ME,Varejo,Sudeste,7,77000.0,578,3
+C01339,Moreira & Almeida Alimentos Ltda,Middle Market,Sudeste,12,165000.0,602,1
+C01340,Dias & Castro Papelaria ME,Varejo,Sudeste,8,102000.0,506,0
+C01341,Duarte & Oliveira Metalúrgica ME,Varejo,Sudeste,12,40000.0,550,4
+C01342,Rodrigues & Martins Agronegócio Ltda,Middle Market,Centro-Oeste,21,230000.0,649,1
+C01343,Gomes & Mendes Supermercados ME,Varejo,Nordeste,20,61000.0,571,2
+C01344,Martins & Rodrigues Alimentos ME,Varejo,Sudeste,10,36000.0,458,3
+C01345,Teixeira & Duarte Embalagens S.A.,Corporate,Norte,30,856000.0,676,0
+C01346,Oliveira & Pereira Logística Ltda,Middle Market,Norte,29,164000.0,627,0
+C01347,Costa & Cardoso Autopeças ME,Varejo,Centro-Oeste,40,46000.0,554,0
+C01348,Teixeira & Vieira Farma ME,Varejo,Sudeste,14,60000.0,483,1
+C01349,Oliveira & Dias Autopeças ME,Varejo,Sudeste,19,61000.0,593,2
+C01350,Cardoso & Rodrigues Alimentos ME,Varejo,Sul,21,44000.0,295,6
+C01351,Martins & Campos Papelaria Ltda,Middle Market,Nordeste,15,126000.0,533,0
+C01352,Silva & Nunes Logística Ltda,Middle Market,Sul,26,86000.0,602,1
+C01353,Campos & Rocha Farma ME,Varejo,Nordeste,11,57000.0,423,8
+C01354,Moreira & Moura Agronegócio ME,Varejo,Nordeste,37,52000.0,786,0
+C01355,Castro & Freitas Têxtil Ltda,Middle Market,Norte,61,105000.0,665,0
+C01356,Araújo & Campos Bebidas ME,Varejo,Sul,10,57000.0,567,4
+C01357,Ribeiro & Pinto Farma ME,Varejo,Centro-Oeste,18,85000.0,479,3
+C01358,Duarte & Pinto Atacadista ME,Varejo,Nordeste,30,69000.0,552,3
+C01359,Nunes & Duarte Logística Ltda,Middle Market,Sudeste,43,113000.0,482,1
+C01360,Moreira & Campos Supermercados ME,Varejo,Nordeste,27,46000.0,528,2
+C01361,Cardoso & Freitas Distribuidora Ltda,Middle Market,Sudeste,15,207000.0,504,1
+C01362,Rocha & Dias Autopeças ME,Varejo,Sudeste,57,19000.0,531,4
+C01363,Oliveira & Rodrigues Calçados Ltda,Middle Market,Norte,21,174000.0,280,4
+C01364,Dias & Araújo Atacadista ME,Varejo,Sudeste,12,21000.0,385,3
+C01365,Barbosa & Ferreira Metalúrgica ME,Varejo,Sul,6,37000.0,745,1
+C01366,Nunes & Rodrigues Agronegócio ME,Varejo,Norte,17,54000.0,662,1
+C01367,Lima & Vieira Autopeças ME,Varejo,Sudeste,43,221000.0,746,2
+C01368,Rodrigues & Oliveira Têxtil ME,Varejo,Sudeste,24,173000.0,745,0
+C01369,Santos & Lima Comércio ME,Varejo,Sudeste,18,97000.0,641,4
+C01370,Barbosa & Carvalho Móveis ME,Varejo,Sul,33,71000.0,492,0
+C01371,Carvalho & Mendes Alimentos ME,Varejo,Sudeste,42,22000.0,416,7
+C01372,Ferreira & Santos Agronegócio S.A.,Corporate,Sudeste,102,946000.0,958,0
+C01373,Pinto & Vieira Distribuidora ME,Varejo,Nordeste,3,48000.0,547,0
+C01374,Nunes & Dias Distribuidora Ltda,Middle Market,Sudeste,59,150000.0,1000,0
+C01375,Carvalho & Rocha Agronegócio S.A.,Corporate,Sul,80,799000.0,733,1
+C01376,Barbosa & Cardoso Logística ME,Varejo,Sudeste,10,62000.0,818,1
+C01377,Freitas & Mendes Tecnologia Ltda,Middle Market,Sul,48,262000.0,633,2
+C01378,Moura & Cardoso Autopeças Ltda,Middle Market,Sul,75,77000.0,858,0
+C01379,Nunes & Moreira Calçados Ltda,Middle Market,Sudeste,21,214000.0,876,1
+C01380,Nunes & Pinto Metalúrgica ME,Varejo,Sudeste,37,35000.0,415,1
+C01381,Almeida & Moura Supermercados ME,Varejo,Sudeste,25,48000.0,483,3
+C01382,Vieira & Araújo Química ME,Varejo,Sudeste,1,62000.0,392,4
+C01383,Barbosa & Souza Logística ME,Varejo,Sudeste,19,30000.0,375,4
+C01384,Barbosa & Silva Papelaria S.A.,Corporate,Sul,70,893000.0,871,0
+C01385,Dias & Gomes Móveis S.A.,Corporate,Sudeste,45,666000.0,735,0
+C01386,Oliveira & Santos Comércio ME,Varejo,Sudeste,25,46000.0,558,1
+C01387,Cardoso & Ribeiro Embalagens Ltda,Middle Market,Sudeste,31,145000.0,722,0
+C01388,Costa & Nunes Calçados ME,Varejo,Nordeste,79,46000.0,323,4
+C01389,Santos & Teixeira Tecnologia S.A.,Corporate,Sudeste,42,589000.0,941,0
+C01390,Dias & Lima Embalagens ME,Varejo,Sul,10,60000.0,493,2
+C01391,Barbosa & Cardoso Materiais Elétricos S.A.,Corporate,Sul,103,716000.0,872,0
+C01392,Gomes & Teixeira Materiais Elétricos Ltda,Middle Market,Sudeste,28,136000.0,730,1
+C01393,Castro & Gomes Materiais Elétricos ME,Varejo,Sudeste,18,165000.0,739,0
+C01394,Campos & Castro Química ME,Varejo,Sudeste,17,76000.0,532,3
+C01395,Moreira & Ribeiro Química Ltda,Middle Market,Sul,60,107000.0,365,1
+C01396,Barbosa & Santos Logística ME,Varejo,Sudeste,8,68000.0,549,1
+C01397,Pinto & Mendes Materiais Elétricos ME,Varejo,Sudeste,37,39000.0,586,1
+C01398,Ribeiro & Araújo Química S.A.,Corporate,Centro-Oeste,84,551000.0,642,0
+C01399,Freitas & Lima Materiais Elétricos ME,Varejo,Nordeste,62,56000.0,594,4
+C01400,Barbosa & Oliveira Metalúrgica ME,Varejo,Sudeste,23,32000.0,499,2
+C01401,Moura & Campos Móveis ME,Varejo,Centro-Oeste,8,62000.0,353,2
+C01402,Moreira & Silva Bebidas ME,Varejo,Sudeste,23,53000.0,644,0
+C01403,Dias & Souza Comércio S.A.,Corporate,Sudeste,73,603000.0,701,1
+C01404,Oliveira & Ferreira Agronegócio ME,Varejo,Sudeste,45,45000.0,506,2
+C01405,Rodrigues & Pereira Têxtil ME,Varejo,Norte,8,257000.0,476,3
+C01406,Freitas & Martins Papelaria ME,Varejo,Sudeste,5,52000.0,712,0
+C01407,Pereira & Oliveira Supermercados S.A.,Corporate,Nordeste,68,271000.0,771,0
+C01408,Lima & Nunes Metalúrgica ME,Varejo,Sul,64,29000.0,585,0
+C01409,Pinto & Ferreira Têxtil Ltda,Middle Market,Sul,56,241000.0,598,0
+C01410,Campos & Duarte Têxtil Ltda,Middle Market,Sudeste,58,359000.0,726,1
+C01411,Moreira & Teixeira Logística Ltda,Middle Market,Sudeste,10,141000.0,821,0
+C01412,Ferreira & Nunes Metalúrgica S.A.,Corporate,Nordeste,60,1550000.0,863,0
+C01413,Pereira & Silva Química Ltda,Middle Market,Sudeste,80,276000.0,770,0
+C01414,Nunes & Almeida Química S.A.,Corporate,Sul,74,745000.0,865,0
+C01415,Souza & Almeida Móveis ME,Varejo,Sudeste,4,45000.0,345,4
+C01416,Rodrigues & Costa Farma Ltda,Middle Market,Nordeste,35,168000.0,524,5
+C01417,Duarte & Pereira Materiais Elétricos ME,Varejo,Nordeste,30,95000.0,525,2
+C01418,Santos & Pereira Embalagens ME,Varejo,Sul,19,69000.0,446,2
+C01419,Teixeira & Ferreira Agronegócio Ltda,Middle Market,Sul,16,106000.0,487,3
+C01420,Pinto & Rodrigues Química S.A.,Corporate,Sudeste,106,570000.0,537,0
+C01421,Moura & Moreira Farma Ltda,Middle Market,Sudeste,25,385000.0,452,1
+C01422,Cardoso & Araújo Calçados ME,Varejo,Sudeste,27,69000.0,516,1
+C01423,Pereira & Castro Distribuidora ME,Varejo,Nordeste,20,96000.0,538,1
+C01424,Souza & Pinto Alimentos ME,Varejo,Sudeste,14,73000.0,433,1
+C01425,Mendes & Moreira Papelaria ME,Varejo,Sudeste,69,75000.0,588,1
+C01426,Moreira & Santos Construtora ME,Varejo,Sudeste,12,62000.0,482,1
+C01427,Pinto & Moura Calçados ME,Varejo,Sudeste,21,113000.0,701,0
+C01428,Campos & Dias Calçados ME,Varejo,Sul,20,88000.0,525,2
+C01429,Moura & Campos Alimentos Ltda,Middle Market,Nordeste,40,213000.0,747,1
+C01430,Dias & Martins Calçados ME,Varejo,Sudeste,66,47000.0,604,2
+C01431,Souza & Pinto Agronegócio S.A.,Corporate,Sudeste,89,795000.0,593,1
+C01432,Costa & Duarte Autopeças Ltda,Middle Market,Sul,24,164000.0,628,1
+C01433,Rodrigues & Costa Agronegócio ME,Varejo,Sul,53,46000.0,395,1
+C01434,Almeida & Gomes Farma ME,Varejo,Centro-Oeste,34,238000.0,541,0
+C01435,Barbosa & Teixeira Móveis ME,Varejo,Nordeste,14,26000.0,440,5
+C01436,Rodrigues & Martins Calçados S.A.,Corporate,Nordeste,138,1329000.0,872,0
+C01437,Lima & Cardoso Química ME,Varejo,Centro-Oeste,6,33000.0,352,3
+C01438,Gomes & Rocha Têxtil ME,Varejo,Centro-Oeste,7,67000.0,542,0
+C01439,Cardoso & Moreira Farma S.A.,Corporate,Sul,12,2867000.0,823,0
+C01440,Mendes & Silva Química S.A.,Corporate,Sul,6,507000.0,867,0
+C01441,Duarte & Barbosa Papelaria ME,Varejo,Nordeste,45,40000.0,456,4
+C01442,Araújo & Rodrigues Distribuidora ME,Varejo,Sudeste,23,63000.0,552,8
+C01443,Oliveira & Carvalho Calçados ME,Varejo,Sudeste,4,42000.0,564,1
+C01444,Lima & Almeida Móveis ME,Varejo,Centro-Oeste,19,118000.0,764,1
+C01445,Nunes & Silva Comércio ME,Varejo,Sul,37,39000.0,351,2
+C01446,Nunes & Freitas Autopeças ME,Varejo,Sudeste,11,76000.0,415,3
+C01447,Castro & Vieira Metalúrgica S.A.,Corporate,Sudeste,45,463000.0,1000,0
+C01448,Costa & Cardoso Bebidas ME,Varejo,Sudeste,71,25000.0,540,2
+C01449,Rocha & Araújo Móveis Ltda,Middle Market,Sudeste,29,118000.0,379,6
+C01450,Santos & Pereira Comércio ME,Varejo,Sul,5,26000.0,457,6
+C01451,Moreira & Nunes Têxtil Ltda,Middle Market,Sul,23,241000.0,252,4
+C01452,Rodrigues & Castro Alimentos Ltda,Middle Market,Sul,7,81000.0,664,1
+C01453,Gomes & Martins Têxtil Ltda,Middle Market,Sudeste,56,114000.0,773,0
+C01454,Dias & Costa Metalúrgica S.A.,Corporate,Sudeste,27,830000.0,625,0
+C01455,Moura & Martins Papelaria ME,Varejo,Sudeste,9,44000.0,475,2
+C01456,Lima & Cardoso Supermercados ME,Varejo,Sudeste,75,34000.0,710,0
+C01457,Rodrigues & Teixeira Têxtil ME,Varejo,Sul,7,132000.0,295,2
+C01458,Araújo & Moura Distribuidora ME,Varejo,Sudeste,6,31000.0,355,1
+C01459,Almeida & Dias Embalagens S.A.,Corporate,Centro-Oeste,23,662000.0,718,0
+C01460,Cardoso & Vieira Agronegócio ME,Varejo,Sul,38,52000.0,453,5
+C01461,Barbosa & Vieira Papelaria Ltda,Middle Market,Sudeste,51,239000.0,615,0
+C01462,Santos & Moreira Distribuidora ME,Varejo,Sudeste,13,66000.0,367,4
+C01463,Teixeira & Silva Atacadista ME,Varejo,Sudeste,12,43000.0,573,0
+C01464,Barbosa & Moreira Papelaria ME,Varejo,Sudeste,28,53000.0,532,2
+C01465,Duarte & Mendes Móveis Ltda,Middle Market,Centro-Oeste,41,164000.0,727,0
+C01466,Moreira & Martins Tecnologia Ltda,Middle Market,Nordeste,31,256000.0,673,0
+C01467,Moura & Vieira Papelaria ME,Varejo,Nordeste,30,36000.0,583,3
+C01468,Santos & Lima Bebidas ME,Varejo,Sul,7,138000.0,338,3
+C01469,Rocha & Mendes Química Ltda,Middle Market,Centro-Oeste,17,124000.0,705,1
+C01470,Pereira & Souza Atacadista ME,Varejo,Centro-Oeste,31,60000.0,508,5
+C01471,Moreira & Freitas Farma S.A.,Corporate,Sudeste,73,422000.0,756,0
+C01472,Duarte & Vieira Alimentos ME,Varejo,Sudeste,20,37000.0,695,0
+C01473,Nunes & Castro Têxtil ME,Varejo,Sudeste,74,38000.0,480,3
+C01474,Cardoso & Ferreira Alimentos ME,Varejo,Sudeste,35,46000.0,746,1
+C01475,Carvalho & Silva Têxtil ME,Varejo,Sul,13,61000.0,746,0
+C01476,Dias & Costa Papelaria ME,Varejo,Sudeste,10,42000.0,647,4
+C01477,Nunes & Moreira Papelaria ME,Varejo,Nordeste,26,78000.0,414,1
+C01478,Dias & Martins Materiais Elétricos S.A.,Corporate,Sudeste,131,409000.0,509,1
+C01479,Rocha & Ferreira Metalúrgica ME,Varejo,Nordeste,3,46000.0,689,1
+C01480,Pinto & Martins Materiais Elétricos ME,Varejo,Sudeste,25,53000.0,567,2
+C01481,Castro & Campos Atacadista ME,Varejo,Sudeste,15,93000.0,441,4
+C01482,Oliveira & Rodrigues Agronegócio ME,Varejo,Centro-Oeste,23,81000.0,714,2
+C01483,Nunes & Carvalho Alimentos ME,Varejo,Sudeste,5,52000.0,418,1
+C01484,Campos & Silva Metalúrgica ME,Varejo,Nordeste,45,29000.0,504,0
+C01485,Pinto & Martins Tecnologia Ltda,Middle Market,Centro-Oeste,93,106000.0,755,0
+C01486,Ribeiro & Mendes Farma ME,Varejo,Sudeste,33,28000.0,400,2
+C01487,Freitas & Rodrigues Metalúrgica S.A.,Corporate,Sudeste,177,1530000.0,827,0
+C01488,Mendes & Lima Papelaria ME,Varejo,Sudeste,15,94000.0,697,2
+C01489,Almeida & Moreira Farma Ltda,Middle Market,Sudeste,42,115000.0,681,3
+C01490,Santos & Oliveira Autopeças ME,Varejo,Norte,33,56000.0,730,0
+C01491,Oliveira & Ferreira Calçados ME,Varejo,Nordeste,26,48000.0,710,0
+C01492,Gomes & Carvalho Materiais Elétricos Ltda,Middle Market,Sudeste,28,110000.0,644,0
+C01493,Freitas & Gomes Autopeças Ltda,Middle Market,Nordeste,31,154000.0,317,1
+C01494,Castro & Moura Agronegócio Ltda,Middle Market,Centro-Oeste,88,133000.0,524,1
+C01495,Oliveira & Ribeiro Materiais Elétricos ME,Varejo,Sudeste,20,196000.0,655,0
+C01496,Pereira & Moura Autopeças Ltda,Middle Market,Sudeste,75,267000.0,454,2
+C01497,Santos & Martins Comércio Ltda,Middle Market,Nordeste,33,318000.0,600,1
+C01498,Silva & Araújo Comércio Ltda,Middle Market,Nordeste,75,256000.0,718,1
+C01499,Vieira & Ferreira Atacadista ME,Varejo,Sudeste,21,61000.0,754,1
+C01500,Barbosa & Nunes Tecnologia Ltda,Middle Market,Sul,54,218000.0,578,4
+C01501,Moura & Moreira Agronegócio Ltda,Middle Market,Sudeste,20,132000.0,548,0
+C01502,Costa & Duarte Distribuidora S.A.,Corporate,Sul,71,1723000.0,771,0
+C01503,Santos & Ribeiro Metalúrgica ME,Varejo,Sul,12,80000.0,592,0
+C01504,Campos & Vieira Materiais Elétricos ME,Varejo,Sudeste,14,70000.0,523,4
+C01505,Pinto & Martins Autopeças Ltda,Middle Market,Nordeste,27,206000.0,789,0
+C01506,Mendes & Silva Metalúrgica ME,Varejo,Sul,17,134000.0,434,5
+C01507,Almeida & Rodrigues Embalagens Ltda,Middle Market,Nordeste,69,87000.0,684,0
+C01508,Lima & Ferreira Tecnologia ME,Varejo,Sul,14,167000.0,607,0
+C01509,Pinto & Lima Autopeças ME,Varejo,Sul,22,54000.0,493,1
+C01510,Araújo & Vieira Química Ltda,Middle Market,Sudeste,75,96000.0,789,0
+C01511,Santos & Lima Embalagens ME,Varejo,Sudeste,31,44000.0,575,2
+C01512,Ribeiro & Araújo Construtora ME,Varejo,Nordeste,3,30000.0,648,1
+C01513,Oliveira & Dias Supermercados Ltda,Middle Market,Sul,9,241000.0,659,1
+C01514,Gomes & Vieira Supermercados Ltda,Middle Market,Sudeste,47,108000.0,707,2
+C01515,Almeida & Pereira Construtora Ltda,Middle Market,Norte,23,172000.0,551,0
+C01516,Martins & Barbosa Agronegócio ME,Varejo,Nordeste,4,101000.0,450,6
+C01517,Rocha & Santos Materiais Elétricos ME,Varejo,Sudeste,12,52000.0,715,1
+C01518,Ferreira & Santos Comércio S.A.,Corporate,Sudeste,80,720000.0,873,0
+C01519,Pinto & Costa Papelaria ME,Varejo,Sul,15,28000.0,402,6
+C01520,Moreira & Moura Alimentos ME,Varejo,Sudeste,21,53000.0,574,2
+C01521,Rodrigues & Gomes Móveis ME,Varejo,Norte,16,155000.0,213,4
+C01522,Gomes & Castro Comércio ME,Varejo,Sul,11,85000.0,462,4
+C01523,Dias & Mendes Comércio Ltda,Middle Market,Sudeste,42,169000.0,786,0
+C01524,Castro & Silva Agronegócio Ltda,Middle Market,Sudeste,7,123000.0,613,0
+C01525,Teixeira & Santos Farma Ltda,Middle Market,Sudeste,17,169000.0,653,1
+C01526,Costa & Duarte Atacadista ME,Varejo,Sul,35,41000.0,135,4
+C01527,Souza & Lima Calçados ME,Varejo,Sudeste,5,48000.0,484,1
+C01528,Barbosa & Mendes Construtora ME,Varejo,Centro-Oeste,20,86000.0,595,0
+C01529,Moura & Moreira Móveis ME,Varejo,Nordeste,14,41000.0,610,1
+C01530,Dias & Campos Móveis ME,Varejo,Centro-Oeste,13,44000.0,679,2
+C01531,Ribeiro & Gomes Comércio ME,Varejo,Sudeste,37,74000.0,529,2
+C01532,Moura & Lima Construtora ME,Varejo,Sudeste,42,35000.0,538,3
+C01533,Nunes & Pereira Alimentos ME,Varejo,Nordeste,8,74000.0,354,6
+C01534,Moura & Silva Construtora Ltda,Middle Market,Sudeste,31,166000.0,616,0
+C01535,Cardoso & Ferreira Construtora ME,Varejo,Sudeste,3,21000.0,361,3
+C01536,Silva & Mendes Materiais Elétricos ME,Varejo,Norte,36,51000.0,299,6
+C01537,Pereira & Dias Atacadista Ltda,Middle Market,Nordeste,34,64000.0,494,1
+C01538,Dias & Freitas Calçados Ltda,Middle Market,Centro-Oeste,8,285000.0,842,0
+C01539,Lima & Cardoso Têxtil Ltda,Middle Market,Sudeste,18,146000.0,599,1
+C01540,Lima & Castro Construtora ME,Varejo,Sul,7,162000.0,571,2
+C01541,Duarte & Lima Têxtil Ltda,Middle Market,Sul,17,273000.0,564,2
+C01542,Carvalho & Moreira Tecnologia ME,Varejo,Sul,3,28000.0,287,2
+C01543,Lima & Pereira Agronegócio ME,Varejo,Sudeste,50,26000.0,697,1
+C01544,Pinto & Gomes Materiais Elétricos ME,Varejo,Centro-Oeste,8,30000.0,237,11
+C01545,Lima & Carvalho Tecnologia ME,Varejo,Sudeste,20,32000.0,470,5
+C01546,Moura & Rocha Autopeças ME,Varejo,Sul,27,156000.0,545,1
+C01547,Pereira & Almeida Têxtil ME,Varejo,Centro-Oeste,42,65000.0,593,1
+C01548,Rodrigues & Moura Metalúrgica Ltda,Middle Market,Nordeste,36,250000.0,546,2
+C01549,Duarte & Moura Supermercados ME,Varejo,Sudeste,16,41000.0,288,1
+C01550,Teixeira & Souza Farma ME,Varejo,Sul,21,51000.0,436,5
+C01551,Barbosa & Lima Têxtil ME,Varejo,Sul,8,55000.0,436,2
+C01552,Gomes & Costa Têxtil ME,Varejo,Sudeste,8,97000.0,433,3
+C01553,Ferreira & Duarte Atacadista ME,Varejo,Sudeste,16,83000.0,681,0
+C01554,Araújo & Teixeira Embalagens ME,Varejo,Sul,2,31000.0,367,2
+C01555,Nunes & Dias Bebidas ME,Varejo,Nordeste,11,147000.0,585,3
+C01556,Carvalho & Martins Construtora Ltda,Middle Market,Norte,24,151000.0,663,1
+C01557,Martins & Moura Logística S.A.,Corporate,Sudeste,195,710000.0,987,0
+C01558,Ribeiro & Souza Materiais Elétricos ME,Varejo,Sudeste,46,15000.0,545,3
+C01559,Moreira & Moura Construtora Ltda,Middle Market,Sudeste,48,261000.0,766,0
+C01560,Almeida & Araújo Supermercados Ltda,Middle Market,Norte,63,180000.0,640,1
+C01561,Moreira & Pereira Comércio S.A.,Corporate,Centro-Oeste,24,827000.0,811,0
+C01562,Carvalho & Freitas Construtora Ltda,Middle Market,Norte,38,115000.0,438,3
+C01563,Almeida & Castro Distribuidora Ltda,Middle Market,Sul,58,89000.0,291,3
+C01564,Moreira & Ribeiro Logística S.A.,Corporate,Sudeste,24,650000.0,803,0
+C01565,Vieira & Oliveira Supermercados Ltda,Middle Market,Sul,9,225000.0,692,3
+C01566,Vieira & Ribeiro Materiais Elétricos ME,Varejo,Sudeste,25,92000.0,618,1
+C01567,Vieira & Ferreira Logística ME,Varejo,Sudeste,6,52000.0,466,1
+C01568,Araújo & Cardoso Atacadista ME,Varejo,Sudeste,29,122000.0,762,2
+C01569,Ferreira & Martins Materiais Elétricos ME,Varejo,Sudeste,42,58000.0,497,2
+C01570,Vieira & Barbosa Distribuidora ME,Varejo,Sudeste,9,51000.0,600,1
+C01571,Freitas & Carvalho Tecnologia ME,Varejo,Centro-Oeste,9,75000.0,625,2
+C01572,Dias & Castro Farma ME,Varejo,Nordeste,41,40000.0,801,2
+C01573,Araújo & Duarte Logística ME,Varejo,Nordeste,21,68000.0,504,2
+C01574,Lima & Silva Bebidas Ltda,Middle Market,Sudeste,65,75000.0,574,0
+C01575,Moura & Vieira Metalúrgica ME,Varejo,Nordeste,16,30000.0,336,6
+C01576,Rocha & Araújo Bebidas ME,Varejo,Sudeste,17,28000.0,764,1
+C01577,Carvalho & Vieira Bebidas Ltda,Middle Market,Sudeste,35,166000.0,706,0
+C01578,Nunes & Barbosa Metalúrgica Ltda,Middle Market,Sudeste,101,419000.0,750,0
+C01579,Martins & Pereira Tecnologia S.A.,Corporate,Sudeste,103,849000.0,1000,0
+C01580,Oliveira & Nunes Comércio Ltda,Middle Market,Centro-Oeste,19,245000.0,683,0
+C01581,Moreira & Silva Farma Ltda,Middle Market,Centro-Oeste,40,471000.0,468,0
+C01582,Pinto & Lima Agronegócio ME,Varejo,Sudeste,15,75000.0,518,7
+C01583,Ribeiro & Vieira Comércio ME,Varejo,Sul,13,37000.0,407,5
+C01584,Rodrigues & Ferreira Metalúrgica ME,Varejo,Sudeste,28,44000.0,497,1
+C01585,Silva & Freitas Papelaria Ltda,Middle Market,Sudeste,43,164000.0,595,0
+C01586,Carvalho & Silva Distribuidora S.A.,Corporate,Sul,25,511000.0,669,0
+C01587,Costa & Rocha Farma ME,Varejo,Nordeste,20,39000.0,353,0
+C01588,Silva & Ferreira Calçados ME,Varejo,Nordeste,13,124000.0,767,1
+C01589,Araújo & Teixeira Papelaria ME,Varejo,Sudeste,27,110000.0,594,3
+C01590,Castro & Araújo Distribuidora ME,Varejo,Sul,12,27000.0,512,4
+C01591,Almeida & Nunes Bebidas ME,Varejo,Sudeste,17,46000.0,652,1
+C01592,Rocha & Vieira Materiais Elétricos ME,Varejo,Sudeste,13,53000.0,610,3
+C01593,Silva & Carvalho Papelaria S.A.,Corporate,Sudeste,11,1037000.0,781,0
+C01594,Santos & Campos Comércio ME,Varejo,Sudeste,56,124000.0,665,0
+C01595,Duarte & Oliveira Comércio Ltda,Middle Market,Sudeste,35,675000.0,666,0
+C01596,Pinto & Costa Comércio Ltda,Middle Market,Sudeste,100,152000.0,780,0
+C01597,Nunes & Rocha Logística ME,Varejo,Nordeste,21,56000.0,654,1
+C01598,Moura & Cardoso Alimentos ME,Varejo,Sudeste,32,87000.0,578,1
+C01599,Gomes & Moura Tecnologia Ltda,Middle Market,Sudeste,20,118000.0,607,5
+C01600,Almeida & Barbosa Comércio ME,Varejo,Norte,12,70000.0,757,1
+C01601,Oliveira & Rodrigues Materiais Elétricos S.A.,Corporate,Centro-Oeste,56,587000.0,703,0
+C01602,Araújo & Barbosa Têxtil ME,Varejo,Sudeste,57,18000.0,625,0
+C01603,Nunes & Freitas Distribuidora Ltda,Middle Market,Sudeste,16,190000.0,694,3
+C01604,Nunes & Pinto Construtora Ltda,Middle Market,Sudeste,5,143000.0,544,3
+C01605,Cardoso & Pereira Supermercados ME,Varejo,Norte,40,107000.0,447,6
+C01606,Dias & Lima Metalúrgica ME,Varejo,Sudeste,33,61000.0,506,3
+C01607,Araújo & Campos Materiais Elétricos S.A.,Corporate,Sudeste,41,382000.0,692,2
+C01608,Silva & Barbosa Bebidas ME,Varejo,Nordeste,72,46000.0,375,4
+C01609,Martins & Barbosa Tecnologia ME,Varejo,Nordeste,74,21000.0,489,2
+C01610,Barbosa & Duarte Alimentos ME,Varejo,Sudeste,3,35000.0,575,4
+C01611,Castro & Barbosa Calçados ME,Varejo,Sudeste,11,101000.0,720,1
+C01612,Rocha & Araújo Supermercados Ltda,Middle Market,Sudeste,33,162000.0,723,0
+C01613,Moreira & Gomes Tecnologia Ltda,Middle Market,Sudeste,47,188000.0,290,4
+C01614,Carvalho & Teixeira Comércio ME,Varejo,Sudeste,24,26000.0,640,1
+C01615,Campos & Teixeira Móveis Ltda,Middle Market,Nordeste,35,142000.0,569,0
+C01616,Ferreira & Vieira Bebidas ME,Varejo,Nordeste,8,52000.0,604,3
+C01617,Santos & Gomes Metalúrgica ME,Varejo,Nordeste,29,102000.0,551,3
+C01618,Vieira & Nunes Farma ME,Varejo,Nordeste,30,86000.0,527,3
+C01619,Moreira & Rodrigues Química S.A.,Corporate,Sul,112,1066000.0,789,0
+C01620,Carvalho & Moreira Supermercados ME,Varejo,Sudeste,7,134000.0,537,2
+C01621,Vieira & Teixeira Comércio ME,Varejo,Nordeste,17,62000.0,734,0
+C01622,Pereira & Barbosa Tecnologia ME,Varejo,Sudeste,13,122000.0,541,0
+C01623,Moreira & Almeida Materiais Elétricos Ltda,Middle Market,Sudeste,12,114000.0,785,0
+C01624,Dias & Cardoso Distribuidora ME,Varejo,Sudeste,17,41000.0,678,1
+C01625,Dias & Campos Comércio ME,Varejo,Nordeste,8,99000.0,634,2
+C01626,Moura & Pereira Autopeças Ltda,Middle Market,Sul,10,62000.0,382,3
+C01627,Rocha & Souza Materiais Elétricos ME,Varejo,Sul,34,97000.0,713,0
+C01628,Castro & Carvalho Distribuidora ME,Varejo,Sul,14,62000.0,480,6
+C01629,Moura & Ribeiro Móveis ME,Varejo,Nordeste,11,117000.0,643,0
+C01630,Castro & Ribeiro Supermercados ME,Varejo,Sudeste,45,54000.0,427,2
+C01631,Campos & Ferreira Comércio ME,Varejo,Sudeste,31,55000.0,389,5
+C01632,Martins & Rodrigues Atacadista Ltda,Middle Market,Nordeste,4,272000.0,905,1
+C01633,Moreira & Mendes Metalúrgica Ltda,Middle Market,Nordeste,47,110000.0,520,0
+C01634,Teixeira & Oliveira Móveis Ltda,Middle Market,Sudeste,47,139000.0,815,1
+C01635,Campos & Araújo Construtora S.A.,Corporate,Sudeste,47,974000.0,781,0
+C01636,Nunes & Gomes Comércio ME,Varejo,Norte,16,58000.0,487,3
+C01637,Martins & Oliveira Farma ME,Varejo,Sudeste,4,51000.0,532,2
+C01638,Lima & Vieira Alimentos S.A.,Corporate,Centro-Oeste,208,679000.0,679,0
+C01639,Gomes & Teixeira Têxtil ME,Varejo,Nordeste,17,139000.0,544,2
+C01640,Nunes & Campos Construtora Ltda,Middle Market,Centro-Oeste,45,120000.0,501,1
+C01641,Ribeiro & Moura Supermercados Ltda,Middle Market,Sudeste,30,129000.0,589,0
+C01642,Pereira & Ribeiro Embalagens ME,Varejo,Sul,11,30000.0,672,0
+C01643,Moreira & Rocha Supermercados ME,Varejo,Sudeste,36,64000.0,593,1
+C01644,Rodrigues & Pereira Autopeças ME,Varejo,Sudeste,22,70000.0,342,2
+C01645,Castro & Rodrigues Bebidas ME,Varejo,Sudeste,17,106000.0,665,2
+C01646,Teixeira & Nunes Papelaria ME,Varejo,Sudeste,25,67000.0,550,6
+C01647,Ferreira & Vieira Comércio ME,Varejo,Sudeste,19,94000.0,471,2
+C01648,Costa & Souza Autopeças Ltda,Middle Market,Sul,105,280000.0,794,0
+C01649,Lima & Freitas Móveis S.A.,Corporate,Sudeste,101,1332000.0,773,0
+C01650,Castro & Teixeira Química Ltda,Middle Market,Sudeste,50,244000.0,493,2
+C01651,Campos & Ribeiro Metalúrgica ME,Varejo,Sudeste,5,171000.0,798,0
+C01652,Castro & Rocha Comércio ME,Varejo,Nordeste,29,58000.0,551,1
+C01653,Ribeiro & Ferreira Logística ME,Varejo,Sudeste,29,32000.0,542,1
+C01654,Castro & Ribeiro Alimentos ME,Varejo,Nordeste,8,82000.0,484,2
+C01655,Teixeira & Ferreira Logística S.A.,Corporate,Sudeste,13,1249000.0,909,1
+C01656,Lima & Costa Tecnologia ME,Varejo,Sul,34,129000.0,483,1
+C01657,Rodrigues & Ribeiro Química ME,Varejo,Nordeste,37,96000.0,342,8
+C01658,Pereira & Teixeira Supermercados Ltda,Middle Market,Sul,21,414000.0,544,2
+C01659,Moura & Costa Materiais Elétricos ME,Varejo,Sul,11,100000.0,728,1
+C01660,Souza & Barbosa Móveis ME,Varejo,Centro-Oeste,22,78000.0,666,1
+C01661,Rodrigues & Pinto Distribuidora ME,Varejo,Sudeste,14,30000.0,509,0
+C01662,Castro & Almeida Papelaria Ltda,Middle Market,Sudeste,8,232000.0,823,0
+C01663,Oliveira & Souza Farma Ltda,Middle Market,Centro-Oeste,14,141000.0,739,0
+C01664,Cardoso & Rocha Química ME,Varejo,Centro-Oeste,25,68000.0,514,0
+C01665,Nunes & Moura Tecnologia S.A.,Corporate,Sul,25,757000.0,728,0
+C01666,Campos & Moura Bebidas Ltda,Middle Market,Sudeste,67,230000.0,712,1
+C01667,Ribeiro & Lima Bebidas Ltda,Middle Market,Sudeste,50,149000.0,540,2
+C01668,Pereira & Moura Embalagens ME,Varejo,Centro-Oeste,26,101000.0,552,1
+C01669,Nunes & Souza Química ME,Varejo,Nordeste,22,17000.0,592,1
+C01670,Souza & Pinto Tecnologia Ltda,Middle Market,Sudeste,19,149000.0,401,4
+C01671,Dias & Gomes Farma ME,Varejo,Sudeste,31,113000.0,528,3
+C01672,Castro & Rocha Agronegócio Ltda,Middle Market,Nordeste,18,418000.0,594,1
+C01673,Ferreira & Castro Têxtil Ltda,Middle Market,Sul,69,284000.0,811,0
+C01674,Pinto & Barbosa Farma ME,Varejo,Norte,54,113000.0,310,4
+C01675,Dias & Rocha Materiais Elétricos Ltda,Middle Market,Sudeste,39,179000.0,596,0
+C01676,Araújo & Ribeiro Agronegócio S.A.,Corporate,Sudeste,143,753000.0,754,1
+C01677,Teixeira & Moura Bebidas Ltda,Middle Market,Sudeste,15,248000.0,769,1
+C01678,Pinto & Mendes Atacadista ME,Varejo,Sul,29,63000.0,547,2
+C01679,Pinto & Campos Autopeças Ltda,Middle Market,Sudeste,34,142000.0,898,0
+C01680,Martins & Dias Comércio ME,Varejo,Sudeste,34,53000.0,649,0
+C01681,Moreira & Mendes Atacadista Ltda,Middle Market,Sudeste,4,92000.0,571,2
+C01682,Martins & Ribeiro Calçados Ltda,Middle Market,Sudeste,57,233000.0,694,0
+C01683,Ribeiro & Moreira Bebidas Ltda,Middle Market,Nordeste,20,164000.0,588,3
+C01684,Dias & Moreira Têxtil ME,Varejo,Sudeste,20,59000.0,668,3
+C01685,Silva & Carvalho Logística ME,Varejo,Sul,71,40000.0,392,2
+C01686,Castro & Gomes Tecnologia ME,Varejo,Nordeste,29,72000.0,438,2
+C01687,Duarte & Ferreira Atacadista ME,Varejo,Sudeste,27,99000.0,616,1
+C01688,Dias & Nunes Bebidas ME,Varejo,Sul,25,42000.0,723,0
+C01689,Silva & Barbosa Metalúrgica ME,Varejo,Centro-Oeste,42,24000.0,253,5
+C01690,Almeida & Santos Embalagens ME,Varejo,Sul,35,121000.0,749,0
+C01691,Cardoso & Rocha Materiais Elétricos Ltda,Middle Market,Sul,44,85000.0,633,2
+C01692,Ribeiro & Silva Têxtil S.A.,Corporate,Centro-Oeste,67,798000.0,512,0
+C01693,Gomes & Costa Logística ME,Varejo,Norte,22,85000.0,129,3
+C01694,Araújo & Ribeiro Supermercados Ltda,Middle Market,Nordeste,33,314000.0,432,3
+C01695,Rodrigues & Almeida Móveis Ltda,Middle Market,Sudeste,12,245000.0,630,0
+C01696,Mendes & Moura Agronegócio ME,Varejo,Sul,29,89000.0,544,2
+C01697,Moura & Martins Metalúrgica ME,Varejo,Sul,12,209000.0,632,0
+C01698,Campos & Oliveira Atacadista Ltda,Middle Market,Sudeste,30,50000.0,567,0
+C01699,Duarte & Costa Construtora S.A.,Corporate,Sudeste,107,545000.0,645,0
+C01700,Moura & Nunes Calçados Ltda,Middle Market,Nordeste,33,249000.0,588,1
+C01701,Duarte & Rocha Metalúrgica S.A.,Corporate,Sudeste,52,645000.0,772,0
+C01702,Pinto & Vieira Construtora S.A.,Corporate,Centro-Oeste,65,1458000.0,807,0
+C01703,Campos & Pereira Comércio ME,Varejo,Norte,15,55000.0,435,2
+C01704,Lima & Freitas Autopeças Ltda,Middle Market,Sudeste,122,212000.0,825,0
+C01705,Almeida & Lima Embalagens ME,Varejo,Sudeste,63,52000.0,487,2
+C01706,Moura & Pinto Distribuidora S.A.,Corporate,Norte,182,565000.0,723,0
+C01707,Araújo & Gomes Calçados ME,Varejo,Sudeste,25,44000.0,475,1
+C01708,Silva & Ribeiro Supermercados ME,Varejo,Nordeste,12,82000.0,694,1
+C01709,Rodrigues & Teixeira Metalúrgica Ltda,Middle Market,Sudeste,65,117000.0,646,0
+C01710,Moreira & Santos Móveis ME,Varejo,Sudeste,15,92000.0,448,9
+C01711,Rodrigues & Mendes Agronegócio Ltda,Middle Market,Sudeste,69,270000.0,797,0
+C01712,Freitas & Castro Atacadista ME,Varejo,Sudeste,11,140000.0,843,0
+C01713,Moreira & Duarte Construtora S.A.,Corporate,Centro-Oeste,77,448000.0,812,0
+C01714,Campos & Ribeiro Atacadista Ltda,Middle Market,Sudeste,76,86000.0,844,1
+C01715,Oliveira & Freitas Papelaria ME,Varejo,Sudeste,16,71000.0,691,2
+C01716,Campos & Oliveira Autopeças Ltda,Middle Market,Nordeste,28,676000.0,558,3
+C01717,Rodrigues & Rocha Bebidas ME,Varejo,Norte,5,118000.0,543,2
+C01718,Carvalho & Rodrigues Logística Ltda,Middle Market,Sudeste,20,109000.0,458,4
+C01719,Freitas & Silva Autopeças Ltda,Middle Market,Nordeste,43,208000.0,623,2
+C01720,Moura & Castro Atacadista Ltda,Middle Market,Sudeste,48,230000.0,567,2
+C01721,Barbosa & Martins Atacadista ME,Varejo,Nordeste,30,30000.0,498,3
+C01722,Lima & Rodrigues Têxtil ME,Varejo,Nordeste,3,111000.0,433,5
+C01723,Ribeiro & Souza Supermercados Ltda,Middle Market,Centro-Oeste,27,152000.0,602,2
+C01724,Vieira & Teixeira Química ME,Varejo,Sul,6,64000.0,614,1
+C01725,Teixeira & Castro Supermercados ME,Varejo,Norte,24,63000.0,534,1
+C01726,Nunes & Carvalho Papelaria ME,Varejo,Sudeste,4,83000.0,277,1
+C01727,Campos & Freitas Alimentos ME,Varejo,Nordeste,7,38000.0,436,2
+C01728,Teixeira & Mendes Tecnologia Ltda,Middle Market,Nordeste,61,61000.0,450,2
+C01729,Carvalho & Campos Autopeças ME,Varejo,Sudeste,13,76000.0,578,2
+C01730,Carvalho & Moreira Calçados ME,Varejo,Centro-Oeste,49,25000.0,636,1
+C01731,Pereira & Duarte Comércio S.A.,Corporate,Nordeste,91,685000.0,827,0
+C01732,Cardoso & Freitas Metalúrgica ME,Varejo,Centro-Oeste,16,102000.0,435,3
+C01733,Silva & Cardoso Materiais Elétricos Ltda,Middle Market,Sudeste,67,241000.0,701,2
+C01734,Souza & Campos Agronegócio ME,Varejo,Centro-Oeste,17,99000.0,480,9
+C01735,Ribeiro & Moreira Materiais Elétricos Ltda,Middle Market,Sudeste,58,205000.0,501,6
+C01736,Barbosa & Teixeira Papelaria Ltda,Middle Market,Norte,20,622000.0,742,2
+C01737,Nunes & Gomes Química Ltda,Middle Market,Sudeste,70,143000.0,783,0
+C01738,Ribeiro & Costa Autopeças ME,Varejo,Sul,5,86000.0,672,1
+C01739,Freitas & Campos Autopeças ME,Varejo,Sudeste,7,46000.0,455,4
+C01740,Ferreira & Martins Distribuidora Ltda,Middle Market,Nordeste,15,315000.0,800,0
+C01741,Souza & Pinto Autopeças ME,Varejo,Sudeste,12,57000.0,474,3
+C01742,Ferreira & Carvalho Tecnologia ME,Varejo,Centro-Oeste,25,162000.0,642,1
+C01743,Freitas & Almeida Agronegócio ME,Varejo,Centro-Oeste,20,45000.0,476,3
+C01744,Vieira & Freitas Móveis S.A.,Corporate,Sudeste,98,1531000.0,763,0
+C01745,Ribeiro & Freitas Têxtil Ltda,Middle Market,Nordeste,77,168000.0,333,1
+C01746,Rodrigues & Almeida Calçados Ltda,Middle Market,Nordeste,7,161000.0,588,2
+C01747,Teixeira & Gomes Papelaria Ltda,Middle Market,Sudeste,83,234000.0,689,0
+C01748,Silva & Araújo Alimentos ME,Varejo,Sudeste,17,68000.0,489,2
+C01749,Duarte & Ribeiro Química ME,Varejo,Sudeste,61,94000.0,818,0
+C01750,Pereira & Santos Móveis ME,Varejo,Sudeste,11,48000.0,380,0
+C01751,Vieira & Duarte Tecnologia Ltda,Middle Market,Sul,5,111000.0,550,3
+C01752,Santos & Barbosa Comércio ME,Varejo,Sul,31,47000.0,428,2
+C01753,Ribeiro & Cardoso Distribuidora Ltda,Middle Market,Sudeste,52,70000.0,578,1
+C01754,Freitas & Duarte Papelaria Ltda,Middle Market,Norte,13,292000.0,778,0
+C01755,Lima & Teixeira Agronegócio ME,Varejo,Sudeste,8,40000.0,748,6
+C01756,Vieira & Rodrigues Calçados ME,Varejo,Centro-Oeste,35,52000.0,459,1
+C01757,Santos & Lima Logística ME,Varejo,Nordeste,26,79000.0,450,3
+C01758,Costa & Castro Alimentos S.A.,Corporate,Nordeste,46,1006000.0,602,0
+C01759,Pereira & Costa Comércio S.A.,Corporate,Sul,82,363000.0,968,0
+C01760,Lima & Pereira Alimentos S.A.,Corporate,Sudeste,71,823000.0,936,0
+C01761,Cardoso & Ribeiro Construtora ME,Varejo,Centro-Oeste,9,78000.0,527,1
+C01762,Mendes & Gomes Metalúrgica ME,Varejo,Nordeste,37,53000.0,363,3
+C01763,Ferreira & Ribeiro Calçados ME,Varejo,Centro-Oeste,32,102000.0,372,2
+C01764,Moreira & Mendes Farma ME,Varejo,Sudeste,20,43000.0,572,0
+C01765,Pinto & Campos Distribuidora ME,Varejo,Sul,35,24000.0,634,4
+C01766,Santos & Ribeiro Têxtil ME,Varejo,Sudeste,67,71000.0,287,1
+C01767,Rodrigues & Rocha Construtora S.A.,Corporate,Sul,24,553000.0,705,0
+C01768,Carvalho & Mendes Farma ME,Varejo,Nordeste,16,32000.0,772,0
+C01769,Ribeiro & Castro Tecnologia ME,Varejo,Sudeste,17,56000.0,516,1
+C01770,Moreira & Castro Alimentos Ltda,Middle Market,Sudeste,61,380000.0,871,0
+C01771,Carvalho & Souza Agronegócio ME,Varejo,Sudeste,12,36000.0,634,1
+C01772,Ribeiro & Moreira Autopeças Ltda,Middle Market,Sudeste,58,487000.0,509,3
+C01773,Moura & Oliveira Tecnologia Ltda,Middle Market,Sudeste,23,108000.0,599,2
+C01774,Silva & Pinto Supermercados Ltda,Middle Market,Sudeste,13,175000.0,616,0
+C01775,Nunes & Oliveira Química Ltda,Middle Market,Sudeste,37,83000.0,515,0
+C01776,Mendes & Almeida Embalagens ME,Varejo,Nordeste,13,56000.0,408,0
+C01777,Moura & Vieira Construtora Ltda,Middle Market,Nordeste,40,191000.0,861,0
+C01778,Moura & Pinto Papelaria ME,Varejo,Sudeste,27,26000.0,415,7
+C01779,Oliveira & Ferreira Construtora ME,Varejo,Sudeste,4,293000.0,689,0
+C01780,Duarte & Souza Bebidas ME,Varejo,Nordeste,14,46000.0,483,2
+C01781,Silva & Freitas Bebidas ME,Varejo,Sudeste,21,49000.0,545,5
+C01782,Dias & Ferreira Metalúrgica Ltda,Middle Market,Sudeste,62,302000.0,742,1
+C01783,Ribeiro & Pinto Comércio ME,Varejo,Sul,32,144000.0,471,8
+C01784,Cardoso & Costa Supermercados ME,Varejo,Norte,10,118000.0,622,5
+C01785,Cardoso & Almeida Metalúrgica ME,Varejo,Sudeste,18,25000.0,260,2
+C01786,Araújo & Carvalho Bebidas Ltda,Middle Market,Norte,49,203000.0,717,1
+C01787,Teixeira & Lima Atacadista ME,Varejo,Sudeste,17,16000.0,201,7
+C01788,Silva & Santos Atacadista Ltda,Middle Market,Sudeste,19,260000.0,606,0
+C01789,Teixeira & Santos Supermercados Ltda,Middle Market,Sudeste,34,84000.0,766,0
+C01790,Costa & Pinto Alimentos ME,Varejo,Nordeste,26,46000.0,639,3
+C01791,Duarte & Campos Bebidas Ltda,Middle Market,Sul,16,143000.0,454,2
+C01792,Freitas & Rocha Agronegócio ME,Varejo,Sul,30,67000.0,390,5
+C01793,Barbosa & Cardoso Autopeças ME,Varejo,Norte,22,50000.0,453,1
+C01794,Silva & Oliveira Logística Ltda,Middle Market,Sul,54,380000.0,684,0
+C01795,Castro & Duarte Comércio S.A.,Corporate,Sudeste,55,848000.0,485,0
+C01796,Pinto & Dias Farma ME,Varejo,Nordeste,60,89000.0,570,1
+C01797,Campos & Nunes Alimentos ME,Varejo,Sudeste,26,36000.0,595,3
+C01798,Costa & Carvalho Química ME,Varejo,Sul,33,143000.0,516,2
+C01799,Barbosa & Freitas Tecnologia ME,Varejo,Centro-Oeste,30,45000.0,628,2
+C01800,Carvalho & Barbosa Farma Ltda,Middle Market,Sul,31,421000.0,676,0
+C01801,Costa & Castro Supermercados Ltda,Middle Market,Sudeste,42,443000.0,575,1
+C01802,Martins & Barbosa Materiais Elétricos Ltda,Middle Market,Sul,22,168000.0,368,3
+C01803,Rodrigues & Moura Química ME,Varejo,Sudeste,57,109000.0,589,3
+C01804,Ribeiro & Rocha Comércio Ltda,Middle Market,Sudeste,49,33000.0,522,0
+C01805,Ferreira & Almeida Atacadista Ltda,Middle Market,Sul,18,144000.0,556,0
+C01806,Santos & Pinto Química Ltda,Middle Market,Sudeste,85,324000.0,744,1
+C01807,Ferreira & Moreira Comércio ME,Varejo,Sudeste,18,119000.0,745,1
+C01808,Santos & Nunes Calçados ME,Varejo,Sul,37,34000.0,553,2
+C01809,Castro & Campos Embalagens ME,Varejo,Sudeste,4,58000.0,616,2
+C01810,Martins & Costa Distribuidora ME,Varejo,Sudeste,43,15000.0,360,2
+C01811,Teixeira & Barbosa Papelaria ME,Varejo,Norte,27,80000.0,587,0
+C01812,Duarte & Castro Supermercados ME,Varejo,Sudeste,10,24000.0,534,5
+C01813,Duarte & Freitas Autopeças Ltda,Middle Market,Sudeste,47,350000.0,826,0
+C01814,Vieira & Campos Metalúrgica ME,Varejo,Centro-Oeste,53,108000.0,492,4
+C01815,Souza & Moura Química Ltda,Middle Market,Sudeste,22,131000.0,605,0
+C01816,Castro & Rodrigues Logística ME,Varejo,Centro-Oeste,12,93000.0,691,1
+C01817,Almeida & Nunes Autopeças Ltda,Middle Market,Nordeste,30,152000.0,631,1
+C01818,Duarte & Almeida Construtora ME,Varejo,Sul,21,60000.0,393,0
+C01819,Araújo & Carvalho Agronegócio ME,Varejo,Sudeste,38,48000.0,916,0
+C01820,Pinto & Costa Construtora Ltda,Middle Market,Sudeste,49,206000.0,504,1
+C01821,Teixeira & Silva Agronegócio S.A.,Corporate,Nordeste,50,332000.0,757,1
+C01822,Ferreira & Silva Bebidas ME,Varejo,Sudeste,25,26000.0,600,0
+C01823,Barbosa & Freitas Embalagens ME,Varejo,Nordeste,59,63000.0,609,2
+C01824,Pinto & Moura Logística Ltda,Middle Market,Nordeste,55,153000.0,632,0
+C01825,Pinto & Mendes Calçados Ltda,Middle Market,Nordeste,33,193000.0,620,1
+C01826,Duarte & Moreira Metalúrgica ME,Varejo,Sudeste,17,44000.0,513,5
+C01827,Silva & Souza Autopeças ME,Varejo,Nordeste,24,138000.0,394,4
+C01828,Pinto & Duarte Metalúrgica ME,Varejo,Nordeste,38,88000.0,860,0
+C01829,Campos & Cardoso Construtora S.A.,Corporate,Sudeste,33,826000.0,725,0
+C01830,Martins & Freitas Bebidas ME,Varejo,Centro-Oeste,34,75000.0,640,2
+C01831,Teixeira & Campos Bebidas ME,Varejo,Sudeste,18,99000.0,500,0
+C01832,Pereira & Ferreira Logística S.A.,Corporate,Norte,60,978000.0,722,0
+C01833,Rocha & Ferreira Supermercados ME,Varejo,Sudeste,91,77000.0,527,1
+C01834,Nunes & Silva Calçados ME,Varejo,Sudeste,32,73000.0,338,1
+C01835,Freitas & Costa Atacadista ME,Varejo,Nordeste,13,25000.0,521,3
+C01836,Rocha & Castro Farma ME,Varejo,Sudeste,27,24000.0,495,4
+C01837,Barbosa & Carvalho Têxtil ME,Varejo,Sudeste,39,71000.0,723,0
+C01838,Dias & Araújo Construtora ME,Varejo,Sudeste,32,48000.0,388,4
+C01839,Campos & Rodrigues Construtora Ltda,Middle Market,Nordeste,4,210000.0,548,3
+C01840,Barbosa & Nunes Alimentos Ltda,Middle Market,Sudeste,35,155000.0,521,3
+C01841,Dias & Santos Embalagens ME,Varejo,Sul,28,101000.0,755,1
+C01842,Nunes & Mendes Calçados ME,Varejo,Sul,26,30000.0,430,2
+C01843,Martins & Campos Móveis ME,Varejo,Sul,14,67000.0,623,1
+C01844,Freitas & Araújo Supermercados S.A.,Corporate,Sudeste,96,439000.0,929,0
+C01845,Duarte & Ribeiro Autopeças ME,Varejo,Sudeste,43,76000.0,541,3
+C01846,Carvalho & Santos Móveis Ltda,Middle Market,Norte,8,55000.0,438,4
+C01847,Rocha & Pereira Materiais Elétricos ME,Varejo,Nordeste,4,60000.0,347,6
+C01848,Oliveira & Silva Metalúrgica Ltda,Middle Market,Centro-Oeste,47,92000.0,775,1
+C01849,Carvalho & Castro Papelaria ME,Varejo,Nordeste,35,44000.0,381,2
+C01850,Carvalho & Campos Farma Ltda,Middle Market,Nordeste,22,280000.0,694,1
+C01851,Martins & Castro Atacadista ME,Varejo,Norte,2,71000.0,553,2
+C01852,Santos & Ferreira Distribuidora S.A.,Corporate,Sul,59,349000.0,824,0
+C01853,Silva & Duarte Agronegócio ME,Varejo,Centro-Oeste,26,48000.0,618,3
+C01854,Cardoso & Duarte Bebidas Ltda,Middle Market,Sudeste,28,72000.0,512,1
+C01855,Souza & Rodrigues Autopeças Ltda,Middle Market,Sudeste,70,66000.0,531,1
+C01856,Duarte & Almeida Farma S.A.,Corporate,Sul,74,878000.0,880,0
+C01857,Dias & Moreira Logística ME,Varejo,Sul,12,76000.0,455,4
+C01858,Pinto & Pereira Tecnologia ME,Varejo,Sudeste,13,49000.0,159,3
+C01859,Lima & Teixeira Embalagens ME,Varejo,Sul,20,92000.0,639,2
+C01860,Ferreira & Vieira Construtora ME,Varejo,Sul,15,54000.0,400,6
+C01861,Lima & Mendes Farma ME,Varejo,Centro-Oeste,4,58000.0,604,2
+C01862,Campos & Lima Comércio S.A.,Corporate,Sudeste,69,516000.0,972,0
+C01863,Cardoso & Freitas Construtora S.A.,Corporate,Sudeste,37,607000.0,761,0
+C01864,Ribeiro & Barbosa Calçados ME,Varejo,Nordeste,15,37000.0,684,0
+C01865,Santos & Ferreira Atacadista Ltda,Middle Market,Sul,14,114000.0,656,1
+C01866,Mendes & Araújo Química Ltda,Middle Market,Nordeste,95,220000.0,905,0
+C01867,Lima & Almeida Comércio S.A.,Corporate,Sudeste,90,645000.0,641,0
+C01868,Santos & Oliveira Materiais Elétricos ME,Varejo,Sudeste,63,298000.0,573,0
+C01869,Barbosa & Lima Calçados ME,Varejo,Norte,16,35000.0,640,4
+C01870,Mendes & Rodrigues Bebidas Ltda,Middle Market,Sudeste,56,160000.0,633,1
+C01871,Santos & Moura Bebidas ME,Varejo,Nordeste,24,36000.0,712,1
+C01872,Martins & Araújo Móveis ME,Varejo,Sudeste,12,49000.0,483,4
+C01873,Gomes & Pereira Supermercados S.A.,Corporate,Sudeste,47,757000.0,1000,0
+C01874,Nunes & Castro Autopeças S.A.,Corporate,Centro-Oeste,90,1373000.0,1000,0
+C01875,Oliveira & Dias Logística S.A.,Corporate,Sudeste,24,618000.0,790,0
+C01876,Freitas & Santos Móveis Ltda,Middle Market,Sudeste,70,170000.0,745,0
+C01877,Cardoso & Rodrigues Logística ME,Varejo,Nordeste,23,59000.0,717,0
+C01878,Araújo & Campos Química ME,Varejo,Sudeste,37,27000.0,392,3
+C01879,Rodrigues & Silva Bebidas ME,Varejo,Sudeste,27,38000.0,369,3
+C01880,Vieira & Barbosa Química ME,Varejo,Sul,5,60000.0,715,1
+C01881,Silva & Vieira Têxtil ME,Varejo,Sudeste,20,68000.0,586,0
+C01882,Barbosa & Moreira Móveis Ltda,Middle Market,Sul,71,226000.0,637,2
+C01883,Carvalho & Cardoso Papelaria ME,Varejo,Sudeste,22,56000.0,551,6
+C01884,Freitas & Mendes Supermercados Ltda,Middle Market,Sudeste,35,108000.0,313,3
+C01885,Freitas & Araújo Papelaria ME,Varejo,Sudeste,22,26000.0,523,2
+C01886,Freitas & Souza Alimentos ME,Varejo,Centro-Oeste,3,73000.0,432,3
+C01887,Barbosa & Ferreira Construtora ME,Varejo,Sudeste,44,50000.0,691,1
+C01888,Martins & Silva Química ME,Varejo,Norte,2,103000.0,677,2
+C01889,Oliveira & Rodrigues Papelaria Ltda,Middle Market,Sudeste,87,365000.0,759,0
+C01890,Vieira & Duarte Bebidas ME,Varejo,Sudeste,15,60000.0,600,2
+C01891,Barbosa & Cardoso Farma ME,Varejo,Nordeste,28,30000.0,343,2
+C01892,Almeida & Souza Química Ltda,Middle Market,Sudeste,6,180000.0,712,0
+C01893,Moura & Souza Têxtil ME,Varejo,Sul,34,82000.0,645,0
+C01894,Rodrigues & Dias Bebidas ME,Varejo,Centro-Oeste,30,63000.0,728,0
+C01895,Moreira & Araújo Autopeças ME,Varejo,Centro-Oeste,29,61000.0,850,0
+C01896,Teixeira & Gomes Alimentos ME,Varejo,Sul,3,64000.0,301,3
+C01897,Dias & Rodrigues Farma Ltda,Middle Market,Nordeste,19,208000.0,583,0
+C01898,Pereira & Rocha Atacadista ME,Varejo,Sudeste,27,48000.0,448,2
+C01899,Dias & Moreira Tecnologia ME,Varejo,Nordeste,43,28000.0,586,4
+C01900,Moura & Almeida Materiais Elétricos ME,Varejo,Sudeste,9,79000.0,543,3
+C01901,Lima & Santos Farma ME,Varejo,Sudeste,10,41000.0,509,3
+C01902,Freitas & Pereira Papelaria ME,Varejo,Sul,25,80000.0,695,2
+C01903,Vieira & Nunes Comércio Ltda,Middle Market,Sudeste,150,172000.0,562,0
+C01904,Ribeiro & Freitas Construtora ME,Varejo,Nordeste,12,21000.0,397,3
+C01905,Duarte & Rocha Alimentos Ltda,Middle Market,Sudeste,26,156000.0,498,3
+C01906,Silva & Moreira Comércio ME,Varejo,Sudeste,13,77000.0,493,4
+C01907,Rocha & Oliveira Papelaria ME,Varejo,Nordeste,18,72000.0,375,3
+C01908,Rocha & Santos Papelaria ME,Varejo,Sul,45,67000.0,556,1
+C01909,Vieira & Mendes Logística Ltda,Middle Market,Norte,34,63000.0,623,2
+C01910,Costa & Oliveira Bebidas Ltda,Middle Market,Sudeste,159,316000.0,611,0
+C01911,Duarte & Ribeiro Alimentos ME,Varejo,Sudeste,22,86000.0,672,1
+C01912,Silva & Ribeiro Têxtil ME,Varejo,Sudeste,48,35000.0,556,2
+C01913,Rodrigues & Pinto Alimentos S.A.,Corporate,Sudeste,47,572000.0,913,0
+C01914,Moreira & Dias Metalúrgica ME,Varejo,Sudeste,7,68000.0,513,2
+C01915,Moreira & Vieira Atacadista ME,Varejo,Nordeste,19,88000.0,544,0
+C01916,Moreira & Rocha Tecnologia ME,Varejo,Sudeste,30,46000.0,475,3
+C01917,Nunes & Santos Supermercados Ltda,Middle Market,Centro-Oeste,19,257000.0,636,5
+C01918,Moreira & Duarte Papelaria Ltda,Middle Market,Sul,75,78000.0,771,1
+C01919,Souza & Carvalho Farma ME,Varejo,Nordeste,14,35000.0,487,2
+C01920,Duarte & Pinto Embalagens S.A.,Corporate,Sudeste,24,283000.0,823,0
+C01921,Moreira & Souza Química ME,Varejo,Sudeste,80,37000.0,470,2
+C01922,Duarte & Campos Alimentos ME,Varejo,Sudeste,10,146000.0,648,1
+C01923,Lima & Duarte Autopeças ME,Varejo,Sul,14,162000.0,463,3
+C01924,Moura & Lima Calçados ME,Varejo,Sul,33,79000.0,675,0
+C01925,Rocha & Vieira Comércio ME,Varejo,Sudeste,16,46000.0,554,2
+C01926,Costa & Ribeiro Distribuidora ME,Varejo,Sudeste,8,67000.0,754,1
+C01927,Ribeiro & Ferreira Papelaria ME,Varejo,Norte,12,67000.0,382,3
+C01928,Vieira & Mendes Tecnologia Ltda,Middle Market,Sudeste,115,68000.0,488,4
+C01929,Ribeiro & Gomes Materiais Elétricos ME,Varejo,Sudeste,30,44000.0,468,2
+C01930,Oliveira & Barbosa Móveis ME,Varejo,Sudeste,34,106000.0,363,1
+C01931,Oliveira & Pinto Embalagens Ltda,Middle Market,Sudeste,43,85000.0,458,2
+C01932,Duarte & Dias Atacadista Ltda,Middle Market,Sudeste,48,128000.0,742,0
+C01933,Duarte & Freitas Logística Ltda,Middle Market,Sul,26,172000.0,641,0
+C01934,Barbosa & Moura Agronegócio Ltda,Middle Market,Sul,39,187000.0,582,0
+C01935,Cardoso & Castro Autopeças Ltda,Middle Market,Nordeste,5,118000.0,575,2
+C01936,Teixeira & Santos Distribuidora ME,Varejo,Sudeste,39,61000.0,476,7
+C01937,Barbosa & Gomes Atacadista ME,Varejo,Sudeste,15,104000.0,776,0
+C01938,Lima & Pinto Calçados Ltda,Middle Market,Nordeste,13,412000.0,531,0
+C01939,Teixeira & Oliveira Atacadista ME,Varejo,Sudeste,23,49000.0,365,1
+C01940,Martins & Castro Alimentos ME,Varejo,Sudeste,17,68000.0,658,1
+C01941,Barbosa & Vieira Alimentos ME,Varejo,Sul,38,133000.0,529,3
+C01942,Castro & Martins Calçados ME,Varejo,Nordeste,19,61000.0,833,0
+C01943,Santos & Rodrigues Metalúrgica ME,Varejo,Sudeste,12,30000.0,470,8
+C01944,Rocha & Rodrigues Alimentos ME,Varejo,Centro-Oeste,20,79000.0,666,2
+C01945,Freitas & Teixeira Química Ltda,Middle Market,Sudeste,90,342000.0,832,0
+C01946,Mendes & Castro Logística S.A.,Corporate,Norte,114,885000.0,731,0
+C01947,Pinto & Araújo Embalagens ME,Varejo,Sudeste,30,54000.0,450,5
+C01948,Ferreira & Cardoso Química S.A.,Corporate,Nordeste,117,410000.0,910,0
+C01949,Gomes & Oliveira Calçados ME,Varejo,Sudeste,32,66000.0,636,2
+C01950,Souza & Santos Alimentos S.A.,Corporate,Centro-Oeste,28,1173000.0,555,1
+C01951,Souza & Moreira Tecnologia S.A.,Corporate,Sul,101,369000.0,639,0
+C01952,Gomes & Nunes Embalagens ME,Varejo,Centro-Oeste,43,38000.0,207,4
+C01953,Silva & Castro Logística Ltda,Middle Market,Nordeste,79,155000.0,757,0
+C01954,Ferreira & Castro Papelaria S.A.,Corporate,Sul,23,513000.0,713,0
+C01955,Ribeiro & Martins Papelaria S.A.,Corporate,Sudeste,40,840000.0,737,0
+C01956,Campos & Santos Farma S.A.,Corporate,Sudeste,35,764000.0,520,4
+C01957,Araújo & Campos Atacadista ME,Varejo,Norte,16,66000.0,392,3
+C01958,Cardoso & Ribeiro Papelaria ME,Varejo,Centro-Oeste,28,36000.0,486,1
+C01959,Ribeiro & Lima Calçados Ltda,Middle Market,Sudeste,40,70000.0,556,1
+C01960,Carvalho & Moura Construtora Ltda,Middle Market,Sudeste,40,199000.0,666,1
+C01961,Araújo & Ferreira Química Ltda,Middle Market,Sudeste,11,141000.0,714,0
+C01962,Freitas & Barbosa Autopeças ME,Varejo,Sudeste,13,205000.0,862,2
+C01963,Araújo & Gomes Embalagens ME,Varejo,Sudeste,47,163000.0,561,0
+C01964,Mendes & Dias Metalúrgica ME,Varejo,Centro-Oeste,43,198000.0,718,0
+C01965,Rodrigues & Cardoso Distribuidora Ltda,Middle Market,Sudeste,34,97000.0,530,1
+C01966,Moreira & Duarte Agronegócio ME,Varejo,Centro-Oeste,35,66000.0,323,2
+C01967,Gomes & Moreira Móveis Ltda,Middle Market,Norte,46,256000.0,604,0
+C01968,Costa & Carvalho Construtora Ltda,Middle Market,Sudeste,65,206000.0,441,3
+C01969,Ferreira & Pinto Tecnologia ME,Varejo,Sul,36,53000.0,560,1
+C01970,Almeida & Vieira Materiais Elétricos ME,Varejo,Sul,20,107000.0,439,4
+C01971,Dias & Moreira Química ME,Varejo,Sudeste,30,47000.0,280,3
+C01972,Souza & Pereira Calçados S.A.,Corporate,Nordeste,80,960000.0,1000,0
+C01973,Duarte & Nunes Agronegócio Ltda,Middle Market,Sul,36,75000.0,572,0
+C01974,Santos & Freitas Tecnologia ME,Varejo,Sudeste,18,68000.0,318,2
+C01975,Gomes & Cardoso Farma ME,Varejo,Centro-Oeste,60,63000.0,698,2
+C01976,Ribeiro & Pereira Construtora ME,Varejo,Sudeste,21,72000.0,447,2
+C01977,Silva & Lima Autopeças ME,Varejo,Sudeste,33,82000.0,708,0
+C01978,Pereira & Teixeira Papelaria S.A.,Corporate,Norte,167,811000.0,734,0
+C01979,Castro & Rodrigues Tecnologia Ltda,Middle Market,Sudeste,53,159000.0,582,0
+C01980,Carvalho & Rodrigues Móveis ME,Varejo,Sudeste,29,98000.0,602,2
+C01981,Freitas & Cardoso Embalagens Ltda,Middle Market,Sudeste,37,167000.0,731,0
+C01982,Campos & Moura Tecnologia ME,Varejo,Sudeste,28,34000.0,660,3
+C01983,Barbosa & Carvalho Atacadista Ltda,Middle Market,Sudeste,29,225000.0,631,2
+C01984,Vieira & Rocha Supermercados ME,Varejo,Nordeste,98,47000.0,669,1
+C01985,Costa & Santos Agronegócio Ltda,Middle Market,Sudeste,11,96000.0,737,2
+C01986,Pinto & Carvalho Logística S.A.,Corporate,Sul,54,466000.0,796,0
+C01987,Araújo & Vieira Comércio ME,Varejo,Sudeste,31,72000.0,535,0
+C01988,Dias & Ribeiro Metalúrgica Ltda,Middle Market,Sudeste,51,136000.0,454,1
+C01989,Lima & Castro Supermercados S.A.,Corporate,Norte,48,279000.0,849,1
+C01990,Castro & Mendes Atacadista ME,Varejo,Nordeste,4,52000.0,544,3
+C01991,Campos & Vieira Logística ME,Varejo,Nordeste,7,106000.0,482,3
+C01992,Mendes & Nunes Têxtil Ltda,Middle Market,Sudeste,42,159000.0,830,0
+C01993,Cardoso & Ribeiro Supermercados ME,Varejo,Sul,3,46000.0,338,3
+C01994,Nunes & Moreira Logística ME,Varejo,Centro-Oeste,32,130000.0,785,0
+C01995,Moura & Campos Atacadista ME,Varejo,Centro-Oeste,46,95000.0,560,2
+C01996,Rocha & Duarte Distribuidora Ltda,Middle Market,Nordeste,63,302000.0,708,0
+C01997,Moura & Freitas Têxtil ME,Varejo,Sul,41,15000.0,505,3
+C01998,Dias & Barbosa Logística ME,Varejo,Sudeste,3,115000.0,304,3
+C01999,Lima & Rocha Papelaria Ltda,Middle Market,Sudeste,30,232000.0,624,1
+C02000,Pereira & Campos Agronegócio ME,Varejo,Sudeste,9,224000.0,588,1

@@ -1,0 +1,139 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1142.7105373125958,
+            "y": 229.89896902640987
+          },
+          "nodeIndex": "_Medidas",
+          "nodeLineageTag": "40c653f2-906a-4cb0-a3c8-de56c810a80e",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 908.71053731259576,
+            "y": 130.87824282560109
+          },
+          "nodeIndex": "clientes_score_preditivo",
+          "nodeLineageTag": "2b91f221-ec6f-4576-abe0-97894a18a64c",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1426.7105373125958,
+            "y": 267.89896902640987
+          },
+          "nodeIndex": "Corte PD",
+          "nodeLineageTag": "31c30f26-a0a0-48e7-826a-d0d7068d4da6",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 233.2882605742534,
+            "y": 509.79793805281975
+          },
+          "nodeIndex": "dim_aging",
+          "nodeLineageTag": "377be022-5867-4e69-9a48-d18bfef09845",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": -50
+          },
+          "nodeIndex": "dim_calendario",
+          "nodeLineageTag": "2ab45a3e-9a2e-4244-b6aa-0c7b026f87e9",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 624.517510059967,
+            "y": 234.81370530303934
+          },
+          "nodeIndex": "dim_clientes",
+          "nodeLineageTag": "09b96d34-7a17-4122-ae41-c0a507d0aa16",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 335.82106823444758,
+            "y": 157.59352274185119
+          },
+          "nodeIndex": "fato_faturas",
+          "nodeLineageTag": "caedd947-8b9c-421f-b8ce-1a2884ea7e72",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1710.7105373125958,
+            "y": 279.89896902640987
+          },
+          "nodeIndex": "feature_importance",
+          "nodeLineageTag": "fb7f05d8-0ca4-4284-a615-962e9537fb73",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1994.7105373125958,
+            "y": 267.89896902640987
+          },
+          "nodeIndex": "Margem Contribuição",
+          "nodeLineageTag": "e171fbbe-1507-4694-92ce-ad5214d5e734",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

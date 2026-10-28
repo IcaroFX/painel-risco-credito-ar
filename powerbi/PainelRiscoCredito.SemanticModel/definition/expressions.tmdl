@@ -1,0 +1,6 @@
+/// Pasta com os CSVs gerados pelos scripts Python (termine com \). Ajuste ao clonar o repositório.
+expression PastaDados = "C:\Users\Icaro\Documents\projetos linkedin\BI\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: dce6d42c-eaa0-4332-b934-fcdf047e4efe
+
+	annotation PBI_ResultType = Text
+

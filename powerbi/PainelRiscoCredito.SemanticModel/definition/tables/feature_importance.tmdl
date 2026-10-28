@@ -1,0 +1,49 @@
+table feature_importance
+	lineageTag: fb7f05d8-0ca4-4284-a615-962e9537fb73
+
+	column variavel
+		dataType: string
+		lineageTag: a2cbab6a-500e-4d82-8c99-e1afb6e885ea
+		summarizeBy: none
+		sourceColumn: variavel
+
+	column coeficiente_logit
+		dataType: double
+		formatString: 0.000
+		lineageTag: 1db06413-7840-439d-85bf-f148d00100a2
+		summarizeBy: none
+		sourceColumn: coeficiente_logit
+
+	column efeito
+		dataType: string
+		lineageTag: 6ebfe7fb-7784-43bb-bf82-46afe30e9cf5
+		summarizeBy: none
+		sourceColumn: efeito
+
+	column importancia_pct
+		dataType: double
+		formatString: 0.0%
+		lineageTag: cc717ec7-2fd8-44d5-bb4d-51182681d1fd
+		summarizeBy: sum
+		sourceColumn: importancia_pct
+
+	column importancia_rf_pct
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 9bda0207-009c-4ceb-93e3-b62d2315c1e9
+		summarizeBy: sum
+		sourceColumn: importancia_rf_pct
+
+	partition feature_importance = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "feature_importance.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalhos = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalhos, {
+				        {"variavel", type text}, {"coeficiente_logit", type number}, {"efeito", type text},
+				        {"importancia_pct", type number}, {"importancia_rf_pct", type number}
+				    }, "en-US")
+				in
+				    Tipos
+

@@ -1,0 +1,137 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "tRegua",
+  "position": {
+    "x": 24,
+    "y": 446,
+    "z": 10000,
+    "width": 480,
+    "height": 258,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_aging"
+                    }
+                  },
+                  "Property": "Faixa"
+                }
+              },
+              "queryRef": "dim_aging.Faixa",
+              "nativeQueryRef": "Faixa"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Taxa PDD da Faixa"
+                }
+              },
+              "queryRef": "_Medidas.Taxa PDD da Faixa",
+              "nativeQueryRef": "Taxa PDD da Faixa",
+              "displayName": "Taxa"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Carteira Total Ativa (AR)"
+                }
+              },
+              "queryRef": "_Medidas.Carteira Total Ativa (AR)",
+              "nativeQueryRef": "Carteira Total Ativa (AR)",
+              "displayName": "Carteira"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "PDD Estimada"
+                }
+              },
+              "queryRef": "_Medidas.PDD Estimada",
+              "nativeQueryRef": "PDD Estimada",
+              "displayName": "PDD"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "% da Carteira"
+                }
+              },
+              "queryRef": "_Medidas.% da Carteira",
+              "nativeQueryRef": "% da Carteira",
+              "displayName": "% carteira"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dim_aging"
+                  }
+                },
+                "Property": "Faixa"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Régua de PDD (matriz de provisão — CPC 48)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

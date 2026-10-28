@@ -1,0 +1,54 @@
+table dim_calendario
+	lineageTag: 2ab45a3e-9a2e-4244-b6aa-0c7b026f87e9
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: dd/mm/yyyy
+		lineageTag: 72fcaa6c-9d86-4cbb-b599-55fd01a865db
+		summarizeBy: none
+		sourceColumn: [Date]
+
+	column Ano
+		dataType: int64
+		formatString: 0
+		lineageTag: a13d6bb5-6f85-49bb-82a8-f07e1560eeae
+		summarizeBy: none
+		sourceColumn: [Ano]
+
+	column Mês
+		dataType: int64
+		formatString: 0
+		lineageTag: bcad15ef-c8be-40fc-b32a-da3768a86c3e
+		summarizeBy: none
+		sourceColumn: [Mês]
+
+	column Ano-Mês
+		dataType: string
+		lineageTag: 20d73c93-7a4d-4f1e-a708-f230a50c5220
+		summarizeBy: none
+		sourceColumn: [Ano-Mês]
+
+	column Mês/Ano
+		dataType: string
+		lineageTag: 48b28eda-6d1d-4a7b-a5f4-cb72c0637ac9
+		summarizeBy: none
+		sourceColumn: [Mês/Ano]
+		sortByColumn: Ano-Mês
+
+	/// Calendário contínuo do 1º mês com emissão até o mês da data de corte.
+	partition dim_calendario = calculated
+		mode: import
+		source =
+				VAR _inicio = DATE ( YEAR ( MIN ( fato_faturas[data_emissao] ) ), MONTH ( MIN ( fato_faturas[data_emissao] ) ), 1 )
+				VAR _fim    = EOMONTH ( MAX ( fato_faturas[data_emissao] ), 0 )
+				RETURN
+				    ADDCOLUMNS (
+				        CALENDAR ( _inicio, _fim ),
+				        "Ano",     YEAR ( [Date] ),
+				        "Mês",     MONTH ( [Date] ),
+				        "Ano-Mês", FORMAT ( [Date], "yyyy-mm" ),
+				        "Mês/Ano", FORMAT ( [Date], "mmm/yy" )
+				    )
+

@@ -1,0 +1,95 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "mRatingSeg",
+  "position": {
+    "x": 826,
+    "y": 456,
+    "z": 13000,
+    "width": 430,
+    "height": 248,
+    "tabOrder": 13000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "clientes_score_preditivo"
+                    }
+                  },
+                  "Property": "faixa_risco"
+                }
+              },
+              "queryRef": "clientes_score_preditivo.faixa_risco",
+              "nativeQueryRef": "faixa_risco"
+            }
+          ]
+        },
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_clientes"
+                    }
+                  },
+                  "Property": "segmento"
+                }
+              },
+              "queryRef": "dim_clientes.segmento",
+              "nativeQueryRef": "segmento"
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Perda Esperada (EL)"
+                }
+              },
+              "queryRef": "_Medidas.Perda Esperada (EL)",
+              "nativeQueryRef": "Perda Esperada (EL)"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Perda Esperada por rating × segmento'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

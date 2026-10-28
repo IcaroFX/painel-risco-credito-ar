@@ -1,0 +1,132 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "gDispersao",
+  "position": {
+    "x": 828,
+    "y": 184,
+    "z": 11000,
+    "width": 428,
+    "height": 260,
+    "tabOrder": 11000
+  },
+  "visual": {
+    "visualType": "scatterChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_clientes"
+                    }
+                  },
+                  "Property": "nome_cliente"
+                }
+              },
+              "queryRef": "dim_clientes.nome_cliente",
+              "nativeQueryRef": "nome_cliente"
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "clientes_score_preditivo"
+                    }
+                  },
+                  "Property": "faixa_risco"
+                }
+              },
+              "queryRef": "clientes_score_preditivo.faixa_risco",
+              "nativeQueryRef": "faixa_risco"
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "PD Média"
+                }
+              },
+              "queryRef": "_Medidas.PD Média",
+              "nativeQueryRef": "PD Média",
+              "displayName": "PD"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Limite Disponível"
+                }
+              },
+              "queryRef": "_Medidas.Limite Disponível",
+              "nativeQueryRef": "Limite Disponível"
+            }
+          ]
+        },
+        "Size": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Carteira Total Ativa (AR)"
+                }
+              },
+              "queryRef": "_Medidas.Carteira Total Ativa (AR)",
+              "nativeQueryRef": "Carteira Total Ativa (AR)"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Limite disponível × PD (bolha = carteira)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

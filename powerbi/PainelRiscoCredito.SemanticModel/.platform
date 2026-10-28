@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "PainelRiscoCredito"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "aeaad332-6143-4bf8-8692-424a7c509a80"
+  }
+}

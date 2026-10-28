@@ -1,0 +1,24 @@
+/// Parâmetro What-If: PD máxima aceitável na política de crédito (5% a 50%).
+table 'Corte PD'
+	lineageTag: 31c30f26-a0a0-48e7-826a-d0d7068d4da6
+
+	measure 'Valor Corte PD' = SELECTEDVALUE ( 'Corte PD'[Corte PD], 0.20 )
+		formatString: 0%
+		lineageTag: 57d57065-6b39-40ea-96c0-02dc3a7902ec
+
+	column 'Corte PD'
+		dataType: double
+		formatString: 0%
+		lineageTag: 52c567de-36c6-4548-90b1-152047f9f8b1
+		summarizeBy: none
+		sourceColumn: [Corte PD]
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 0
+				}
+
+	partition 'Corte PD' = calculated
+		mode: import
+		source = SELECTCOLUMNS ( GENERATESERIES ( 5, 50, 1 ), "Corte PD", [Value] / 100 )
+

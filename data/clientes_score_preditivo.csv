@@ -1,0 +1,2001 @@
+﻿cliente_id,probabilidade_default,faixa_risco,fator_risco_1,fator_risco_2,fator_risco_3,pd_backtest
+C00001,0.1688,C,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.2306
+C00002,0.01,A,Segmento Varejo,Pouco tempo de relacionamento,,0.012
+C00003,0.0128,A,Score de bureau baixo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0266
+C00004,0.3061,D,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.2395
+C00005,0.0059,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0182
+C00006,0.0018,A,Limite muito comprometido,,,0.0036
+C00007,0.0013,A,Limite muito comprometido,,,0.0007
+C00008,0.0015,A,Limite muito comprometido,,,0.0009
+C00009,0.217,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.2255
+C00010,0.0311,B,Score de bureau baixo,Segmento Varejo,Limite muito comprometido,0.013
+C00011,0.0473,B,Paga com atraso com frequência,Segmento Varejo,Score de bureau baixo,0.0424
+C00012,0.0009,A,Limite muito comprometido,,,0.0038
+C00013,0.0015,A,,,,0.0022
+C00014,0.0085,A,Paga com atraso com frequência,Pouco tempo de relacionamento,Pior atraso elevado,0.0146
+C00015,0.0605,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0519
+C00016,0.0431,B,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.126
+C00017,0.0078,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0115
+C00018,0.0347,B,Score de bureau baixo,Pouco tempo de relacionamento,Segmento Varejo,0.044
+C00019,0.007,A,Score de bureau baixo,,,0.0044
+C00020,0.0061,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,,0.009
+C00021,0.0176,A,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0112
+C00022,0.6451,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.3907
+C00023,0.0001,A,,,,0.0001
+C00024,0.002,A,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,,0.0061
+C00025,0.0055,A,,,,0.0093
+C00026,0.0132,A,Segmento Varejo,Paga com atraso com frequência,Pior atraso elevado,0.0179
+C00027,0.9104,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.7666
+C00028,0.0486,B,Limite muito comprometido,Segmento Varejo,Paga com atraso com frequência,0.0283
+C00029,0.0267,A,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.037
+C00030,0.0167,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0181
+C00031,0.0078,A,Limite muito comprometido,Pior atraso elevado,,0.004
+C00032,0.0096,A,Pior atraso elevado,Muitos atrasos nos últimos 12m,,0.0179
+C00033,0.9772,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.9438
+C00034,0.0139,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0163
+C00035,0.0344,B,Segmento Varejo,Score de bureau baixo,Pior atraso elevado,0.1267
+C00036,0.2203,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.1349
+C00037,0.4922,E,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1721
+C00038,0.8987,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.3784
+C00039,0.0663,B,Segmento Varejo,Score de bureau baixo,Paga com atraso com frequência,0.103
+C00040,0.001,A,Pouco tempo de relacionamento,,,0.0011
+C00041,0.0649,B,Paga com atraso com frequência,Segmento Varejo,Score de bureau baixo,0.0598
+C00042,0.0252,A,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0307
+C00043,0.568,E,Limite muito comprometido,Pior atraso elevado,,0.3043
+C00044,0.0525,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0848
+C00045,0.0021,A,Pouco tempo de relacionamento,,,0.0045
+C00046,0.0042,A,Pouco tempo de relacionamento,,,0.0046
+C00047,0.8176,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.7215
+C00048,0.036,B,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0425
+C00049,0.1507,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.1198
+C00050,0.0259,A,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0122
+C00051,0.0529,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0526
+C00052,0.0457,B,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.0721
+C00053,0.2266,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.0888
+C00054,0.0275,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0137
+C00055,0.0059,A,Limite muito comprometido,,,0.003
+C00056,0.0221,A,Limite muito comprometido,Pior atraso elevado,,0.015
+C00057,0.0958,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0798
+C00058,0.1325,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1366
+C00059,0.0149,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0274
+C00060,0.9122,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.6449
+C00061,0.0013,A,,,,0.0013
+C00062,0.7979,E,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.1592
+C00063,0.0829,C,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.1188
+C00064,0.159,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.2227
+C00065,0.0107,A,Pouco tempo de relacionamento,Limite muito comprometido,,0.0096
+C00066,0.0523,B,Limite muito comprometido,Segmento Varejo,,0.0351
+C00067,0.9978,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.9934
+C00068,0.0372,B,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.0523
+C00069,0.0518,B,Paga com atraso com frequência,Score de bureau baixo,Segmento Varejo,0.0188
+C00070,0.0602,B,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0833
+C00071,0.0095,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0275
+C00072,0.2692,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.295
+C00073,0.0108,A,Limite muito comprometido,Muitos atrasos nos últimos 12m,,0.0098
+C00074,0.0107,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0076
+C00075,0.0177,A,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0105
+C00076,0.0299,A,Paga com atraso com frequência,Pior atraso elevado,Segmento Varejo,0.0521
+C00077,0.043,B,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0615
+C00078,0.0107,A,Score de bureau baixo,Limite muito comprometido,,0.0166
+C00079,0.0556,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0811
+C00080,0.0013,A,,,,0.0095
+C00081,0.0105,A,Score de bureau baixo,,,0.0164
+C00082,0.0144,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0201
+C00083,0.0017,A,Limite muito comprometido,,,0.0009
+C00084,0.1287,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.1036
+C00085,0.423,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.4873
+C00086,0.4661,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.2751
+C00087,0.0013,A,,,,0.0018
+C00088,0.0284,A,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0508
+C00089,0.8154,E,Limite muito comprometido,Pior atraso elevado,Paga com atraso com frequência,0.5951
+C00090,0.1418,C,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.1369
+C00091,0.0068,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0136
+C00092,0.0082,A,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,,0.0084
+C00093,0.2179,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1417
+C00094,0.0379,B,Limite muito comprometido,Score de bureau baixo,Segmento Varejo,0.0229
+C00095,0.956,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.8784
+C00096,0.0006,A,Pouco tempo de relacionamento,,,0.0009
+C00097,0.1427,C,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.1855
+C00098,0.0141,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0212
+C00099,0.0815,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0936
+C00100,0.0051,A,Limite muito comprometido,,,0.0039
+C00101,0.0028,A,Limite muito comprometido,,,0.0057
+C00102,0.0028,A,Limite muito comprometido,,,0.0017
+C00103,0.1555,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1826
+C00104,0.003,A,Limite muito comprometido,,,0.0004
+C00105,0.0023,A,,,,0.0022
+C00106,0.0087,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0132
+C00107,0.0045,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0185
+C00108,0.0472,B,Segmento Varejo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0553
+C00109,0.0139,A,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0154
+C00110,0.0019,A,Limite muito comprometido,,,0.0022
+C00111,0.1845,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.3224
+C00112,0.1546,C,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.0655
+C00113,0.6413,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.418
+C00114,0.4897,E,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.3708
+C00115,0.0043,A,Segmento Varejo,,,0.0085
+C00116,0.003,A,Limite muito comprometido,,,0.0069
+C00117,0.0084,A,Pouco tempo de relacionamento,Pior atraso elevado,,0.0131
+C00118,0.0972,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.208
+C00119,0.0027,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0035
+C00120,0.0733,B,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.1194
+C00121,0.0039,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0037
+C00122,0.0491,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0986
+C00123,0.0825,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.095
+C00124,0.8675,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.7987
+C00125,0.042,B,Paga com atraso com frequência,Segmento Varejo,Muitos atrasos nos últimos 12m,0.1103
+C00126,0.2474,D,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.3335
+C00127,0.0918,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0906
+C00128,0.32,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.3589
+C00129,0.026,A,Segmento Varejo,Paga com atraso com frequência,Pior atraso elevado,0.0253
+C00130,0.0212,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0268
+C00131,0.0032,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0053
+C00132,0.0019,A,,,,0.003
+C00133,0.0587,B,Segmento Varejo,Score de bureau baixo,Pouco tempo de relacionamento,0.1281
+C00134,0.4304,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.293
+C00135,0.084,C,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.0142
+C00136,0.0704,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0886
+C00137,0.0058,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0046
+C00138,0.0067,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0094
+C00139,0.0084,A,Limite muito comprometido,,,0.0039
+C00140,0.6353,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.2731
+C00141,0.0457,B,Limite muito comprometido,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.028
+C00142,0.1449,C,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.4441
+C00143,0.0025,A,Limite muito comprometido,,,0.0033
+C00144,0.1774,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.1859
+C00145,0.0931,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1762
+C00146,0.0068,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0136
+C00147,0.0379,B,Paga com atraso com frequência,Segmento Varejo,Score de bureau baixo,0.0555
+C00148,0.0123,A,Segmento Varejo,Score de bureau baixo,,0.0162
+C00149,0.068,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1
+C00150,0.0014,A,Segmento Varejo,Limite muito comprometido,,0.0018
+C00151,0.0018,A,Pouco tempo de relacionamento,,,0.0034
+C00152,0.0299,A,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0152
+C00153,0.1389,C,Pior atraso elevado,Score de bureau baixo,Paga com atraso com frequência,0.1875
+C00154,0.0372,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0598
+C00155,0.0341,B,Paga com atraso com frequência,Segmento Varejo,Score de bureau baixo,0.0711
+C00156,0.0146,A,Score de bureau baixo,Limite muito comprometido,Muitos atrasos nos últimos 12m,0.0115
+C00157,0.0163,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0188
+C00158,0.0017,A,Pouco tempo de relacionamento,,,0.0027
+C00159,0.2165,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.2665
+C00160,0.0086,A,Score de bureau baixo,Pior atraso elevado,,0.0055
+C00161,0.0965,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1245
+C00162,0.0044,A,Limite muito comprometido,,,0.0012
+C00163,0.002,A,Segmento Varejo,,,0.0024
+C00164,0.0088,A,Segmento Varejo,Paga com atraso com frequência,Pior atraso elevado,0.0089
+C00165,0.0078,A,Segmento Varejo,,,0.0087
+C00166,0.0695,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0294
+C00167,0.004,A,Limite muito comprometido,,,0.0026
+C00168,0.0018,A,Score de bureau baixo,,,0.0009
+C00169,0.018,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0279
+C00170,0.0031,A,Limite muito comprometido,,,0.0174
+C00171,0.0108,A,Paga com atraso com frequência,Segmento Varejo,Pior atraso elevado,0.0164
+C00172,0.0575,B,Paga com atraso com frequência,Score de bureau baixo,Segmento Varejo,0.0376
+C00173,0.1463,C,Limite muito comprometido,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.101
+C00174,0.0108,A,Limite muito comprometido,,,0.0008
+C00175,0.0525,B,Pior atraso elevado,Limite muito comprometido,Segmento Varejo,0.0178
+C00176,0.1275,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1424
+C00177,0.0102,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0164
+C00178,0.0003,A,Limite muito comprometido,,,0.0001
+C00179,0.0166,A,Score de bureau baixo,Pior atraso elevado,,0.0219
+C00180,0.0969,C,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.0553
+C00181,0.0308,B,Pouco tempo de relacionamento,Limite muito comprometido,Paga com atraso com frequência,0.0489
+C00182,0.0017,A,Pouco tempo de relacionamento,,,0.0039
+C00183,0.0054,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0266
+C00184,0.056,B,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.0931
+C00185,0.0006,A,Limite muito comprometido,,,0.0005
+C00186,0.0073,A,Pouco tempo de relacionamento,,,0.01
+C00187,0.0017,A,Segmento Varejo,,,0.0013
+C00188,0.4639,E,Pior atraso elevado,Limite muito comprometido,Score de bureau baixo,0.2236
+C00189,0.0086,A,Limite muito comprometido,Score de bureau baixo,,0.0025
+C00190,0.8962,E,Pior atraso elevado,Score de bureau baixo,Limite muito comprometido,0.7223
+C00191,0.0062,A,Score de bureau baixo,,,0.0043
+C00192,0.0103,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0488
+C00193,0.0425,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0633
+C00194,0.0206,A,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0159
+C00195,0.2832,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3278
+C00196,0.2628,D,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.1203
+C00197,0.0042,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0054
+C00198,0.0002,A,,,,0.0008
+C00199,0.3065,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.3348
+C00200,0.1104,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.125
+C00201,0.0014,A,Score de bureau baixo,,,0.0008
+C00202,0.0002,A,Limite muito comprometido,,,0.0003
+C00203,0.1175,C,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0487
+C00204,0.0887,C,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.1218
+C00205,0.0543,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.113
+C00206,0.7357,E,Pior atraso elevado,Limite muito comprometido,Score de bureau baixo,0.4808
+C00207,0.0079,A,Segmento Varejo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0062
+C00208,0.0019,A,,,,0.0045
+C00209,0.0255,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0248
+C00210,0.664,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.6236
+C00211,0.0108,A,Limite muito comprometido,,,0.0076
+C00212,0.0078,A,Limite muito comprometido,Pouco tempo de relacionamento,Segmento Varejo,0.0041
+C00213,0.0038,A,Segmento Varejo,,,0.0048
+C00214,0.2719,D,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.0576
+C00215,0.0343,B,Paga com atraso com frequência,Pouco tempo de relacionamento,Score de bureau baixo,0.0221
+C00216,0.0385,B,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0508
+C00217,0.0049,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0086
+C00218,0.0152,A,Segmento Varejo,Score de bureau baixo,Pouco tempo de relacionamento,0.0263
+C00219,0.0267,A,Limite muito comprometido,Muitos atrasos nos últimos 12m,,0.0156
+C00220,0.0519,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0639
+C00221,0.8727,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.6952
+C00222,0.1655,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2348
+C00223,0.0128,A,Pouco tempo de relacionamento,Pior atraso elevado,,0.0519
+C00224,0.0022,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.001
+C00225,0.9202,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.8787
+C00226,0.0006,A,Limite muito comprometido,,,0.0005
+C00227,0.0108,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0136
+C00228,0.4126,D,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.3322
+C00229,0.0112,A,Pouco tempo de relacionamento,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.0354
+C00230,0.0135,A,Segmento Varejo,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.0099
+C00231,0.0048,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0135
+C00232,0.0613,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0677
+C00233,0.005,A,Pouco tempo de relacionamento,,,0.0069
+C00234,0.0378,B,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0583
+C00235,0.0268,A,Limite muito comprometido,Score de bureau baixo,,0.0167
+C00236,0.014,A,Pouco tempo de relacionamento,Limite muito comprometido,Score de bureau baixo,0.0467
+C00237,0.0495,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0274
+C00238,0.0098,A,Muitos atrasos nos últimos 12m,,,0.0144
+C00239,0.04,B,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0522
+C00240,0.0135,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.0143
+C00241,0.0387,B,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.0331
+C00242,0.0021,A,,,,0.0029
+C00243,0.0077,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0165
+C00244,0.5113,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.2968
+C00245,0.0065,A,Pouco tempo de relacionamento,,,0.0053
+C00246,0.0046,A,Limite muito comprometido,,,0.0049
+C00247,0.023,A,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0562
+C00248,0.4664,E,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.3385
+C00249,0.0077,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0218
+C00250,0.2526,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.2774
+C00251,0.0022,A,Pouco tempo de relacionamento,,,0.0019
+C00252,0.0218,A,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.0191
+C00253,0.1372,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3412
+C00254,0.0051,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0076
+C00255,0.0266,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0213
+C00256,0.0167,A,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0188
+C00257,0.0012,A,,,,0.0013
+C00258,0.0305,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0307
+C00259,0.3219,D,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.0591
+C00260,0.8415,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.2434
+C00261,0.0413,B,Limite muito comprometido,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0166
+C00262,0.0075,A,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.0114
+C00263,0.0061,A,Segmento Varejo,Pouco tempo de relacionamento,,0.009
+C00264,0.0507,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0595
+C00265,0.001,A,Limite muito comprometido,,,0.0011
+C00266,0.0145,A,Segmento Varejo,Paga com atraso com frequência,Pior atraso elevado,0.014
+C00267,0.1124,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0791
+C00268,0.0918,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1425
+C00269,0.103,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0666
+C00270,0.0067,A,Segmento Varejo,,,0.0051
+C00271,0.0345,B,Score de bureau baixo,Segmento Varejo,,0.0361
+C00272,0.0232,A,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0301
+C00273,0.0266,A,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0254
+C00274,0.0134,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.021
+C00275,0.0118,A,Limite muito comprometido,,,0.0153
+C00276,0.0042,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0067
+C00277,0.1242,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1219
+C00278,0.0471,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.1151
+C00279,0.0113,A,Limite muito comprometido,,,0.0081
+C00280,0.1242,C,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1039
+C00281,0.0856,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0595
+C00282,0.1449,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1357
+C00283,0.0068,A,Segmento Varejo,Limite muito comprometido,,0.0048
+C00284,0.0243,A,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0242
+C00285,0.0961,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1262
+C00286,0.0066,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0098
+C00287,0.0109,A,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0191
+C00288,0.007,A,Pouco tempo de relacionamento,Segmento Varejo,,0.0108
+C00289,0.2208,D,Pior atraso elevado,Score de bureau baixo,Segmento Varejo,0.0862
+C00290,0.1159,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2272
+C00291,0.001,A,Limite muito comprometido,,,0.0007
+C00292,0.139,C,Paga com atraso com frequência,Limite muito comprometido,Segmento Varejo,0.1363
+C00293,0.0001,A,Limite muito comprometido,,,0.0001
+C00294,0.0177,A,Segmento Varejo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0303
+C00295,0.0016,A,,,,0.0018
+C00296,0.0236,A,Limite muito comprometido,Pouco tempo de relacionamento,Pior atraso elevado,0.0105
+C00297,0.0103,A,Limite muito comprometido,,,0.0082
+C00298,0.0031,A,Limite muito comprometido,,,0.0011
+C00299,0.0064,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,,0.0045
+C00300,0.0196,A,Paga com atraso com frequência,Pior atraso elevado,Limite muito comprometido,0.013
+C00301,0.007,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.0051
+C00302,0.1862,C,Score de bureau baixo,Pior atraso elevado,Segmento Varejo,0.3443
+C00303,0.0661,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0814
+C00304,0.0242,A,Segmento Varejo,Paga com atraso com frequência,Pior atraso elevado,0.0211
+C00305,0.0049,A,,,,0.0065
+C00306,0.1198,C,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.0567
+C00307,0.1023,C,Limite muito comprometido,Score de bureau baixo,Segmento Varejo,0.0628
+C00308,0.0483,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1293
+C00309,0.0173,A,Segmento Varejo,Paga com atraso com frequência,Limite muito comprometido,0.0147
+C00310,0.0072,A,Segmento Varejo,,,0.0128
+C00311,0.0398,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.1217
+C00312,0.0401,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.032
+C00313,0.0223,A,Segmento Varejo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0165
+C00314,0.4198,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3234
+C00315,0.0055,A,Segmento Varejo,,,0.0047
+C00316,0.0008,A,Segmento Varejo,,,0.002
+C00317,0.1136,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1119
+C00318,0.0057,A,Pior atraso elevado,Paga com atraso com frequência,,0.0078
+C00319,0.0179,A,Paga com atraso com frequência,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0239
+C00320,0.0001,A,,,,0.0001
+C00321,0.001,A,Limite muito comprometido,,,0.0006
+C00322,0.9577,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.8937
+C00323,0.0386,B,Segmento Varejo,Limite muito comprometido,Pouco tempo de relacionamento,0.0666
+C00324,0.0055,A,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0069
+C00325,0.0016,A,,,,0.0029
+C00326,0.0378,B,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.0323
+C00327,0.0189,A,Limite muito comprometido,Paga com atraso com frequência,Pior atraso elevado,0.0125
+C00328,0.3854,D,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.2409
+C00329,0.0004,A,,,,0.0002
+C00330,0.5252,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.269
+C00331,0.0062,A,Muitos atrasos nos últimos 12m,,,0.0089
+C00332,0.2448,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.2027
+C00333,0.0036,A,Score de bureau baixo,,,0.0034
+C00334,0.003,A,Limite muito comprometido,,,0.0102
+C00335,0.2314,D,Limite muito comprometido,Paga com atraso com frequência,Score de bureau baixo,0.0927
+C00336,0.0102,A,Score de bureau baixo,Pior atraso elevado,,0.0119
+C00337,0.1552,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.2172
+C00338,0.7113,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.4839
+C00339,0.4611,E,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.2371
+C00340,0.0009,A,,,,0.0012
+C00341,0.0251,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.027
+C00342,0.0125,A,Limite muito comprometido,,,0.0025
+C00343,0.001,A,Pouco tempo de relacionamento,,,0.0018
+C00344,0.074,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0318
+C00345,0.0117,A,Pouco tempo de relacionamento,Score de bureau baixo,,0.0169
+C00346,0.0508,B,Score de bureau baixo,Limite muito comprometido,Pouco tempo de relacionamento,0.0578
+C00347,0.0006,A,,,,0.0013
+C00348,0.0037,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0044
+C00349,0.2353,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.382
+C00350,0.4933,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.338
+C00351,0.0018,A,Pouco tempo de relacionamento,,,0.0025
+C00352,0.4014,D,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.4325
+C00353,0.0179,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0322
+C00354,0.0151,A,Segmento Varejo,Limite muito comprometido,Pouco tempo de relacionamento,0.0107
+C00355,0.0134,A,Segmento Varejo,Score de bureau baixo,Pior atraso elevado,0.015
+C00356,0.0603,B,Limite muito comprometido,Segmento Varejo,Paga com atraso com frequência,0.0257
+C00357,0.0006,A,,,,0.0012
+C00358,0.0003,A,,,,0.0004
+C00359,0.2648,D,Pior atraso elevado,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.1426
+C00360,0.0639,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0719
+C00361,0.0182,A,Limite muito comprometido,Paga com atraso com frequência,Pior atraso elevado,0.0339
+C00362,0.0676,B,Limite muito comprometido,Segmento Varejo,Paga com atraso com frequência,0.0188
+C00363,0.3366,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.4927
+C00364,0.1983,C,Score de bureau baixo,Limite muito comprometido,Pouco tempo de relacionamento,0.1131
+C00365,0.0329,B,Limite muito comprometido,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0736
+C00366,0.1794,C,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.2633
+C00367,0.0022,A,,,,0.0023
+C00368,0.0002,A,,,,0.0005
+C00369,0.0961,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1192
+C00370,0.0235,A,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0256
+C00371,0.0028,A,Limite muito comprometido,,,0.0008
+C00372,0.0294,A,Segmento Varejo,Score de bureau baixo,Pouco tempo de relacionamento,0.0558
+C00373,0.0108,A,Pouco tempo de relacionamento,Segmento Varejo,Paga com atraso com frequência,0.0189
+C00374,0.0508,B,Paga com atraso com frequência,Segmento Varejo,Score de bureau baixo,0.0705
+C00375,0.0811,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0741
+C00376,0.9893,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.9836
+C00377,0.0409,B,Limite muito comprometido,Score de bureau baixo,,0.0144
+C00378,0.7343,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.4049
+C00379,0.1192,C,Limite muito comprometido,Paga com atraso com frequência,Segmento Varejo,0.0197
+C00380,0.0161,A,Score de bureau baixo,Pior atraso elevado,,0.0107
+C00381,0.007,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0097
+C00382,0.0027,A,Limite muito comprometido,,,0.002
+C00383,0.0101,A,Muitos atrasos nos últimos 12m,Pior atraso elevado,,0.0123
+C00384,0.348,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3419
+C00385,0.072,B,Muitos atrasos nos últimos 12m,Pior atraso elevado,Paga com atraso com frequência,0.0931
+C00386,0.0101,A,Limite muito comprometido,,,0.0182
+C00387,0.0899,C,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0381
+C00388,0.0005,A,,,,0.0006
+C00389,0.0091,A,Segmento Varejo,,,0.017
+C00390,0.2388,D,Limite muito comprometido,Pior atraso elevado,,0.0786
+C00391,0.0066,A,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,,0.0109
+C00392,0.0411,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0701
+C00393,0.0251,A,Segmento Varejo,Pouco tempo de relacionamento,Score de bureau baixo,0.0629
+C00394,0.0063,A,Score de bureau baixo,,,0.0074
+C00395,0.0037,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0023
+C00396,0.1132,C,Score de bureau baixo,Pior atraso elevado,Segmento Varejo,0.1595
+C00397,0.0065,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0017
+C00398,0.0472,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.1175
+C00399,0.0082,A,Segmento Varejo,,,0.0096
+C00400,0.049,B,Limite muito comprometido,Pouco tempo de relacionamento,Segmento Varejo,0.024
+C00401,0.006,A,Segmento Varejo,,,0.0041
+C00402,0.0095,A,Limite muito comprometido,,,0.0078
+C00403,0.0003,A,,,,0.0003
+C00404,0.0028,A,Segmento Varejo,,,0.0024
+C00405,0.001,A,,,,0.0015
+C00406,0.0063,A,Pior atraso elevado,,,0.0067
+C00407,0.0158,A,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0238
+C00408,0.0168,A,Paga com atraso com frequência,Score de bureau baixo,Pior atraso elevado,0.0454
+C00409,0.0052,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0054
+C00410,0.0117,A,Limite muito comprometido,Paga com atraso com frequência,,0.0087
+C00411,0.0248,A,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.0307
+C00412,0.0007,A,,,,0.0009
+C00413,0.0248,A,Segmento Varejo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0238
+C00414,0.0013,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0006
+C00415,0.1028,C,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.1411
+C00416,0.1004,C,Limite muito comprometido,Score de bureau baixo,Segmento Varejo,0.0666
+C00417,0.3238,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.3733
+C00418,0.008,A,Limite muito comprometido,,,0.0071
+C00419,0.3598,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.5363
+C00420,0.0003,A,Limite muito comprometido,,,0.0002
+C00421,0.0051,A,Pouco tempo de relacionamento,,,0.0078
+C00422,0.0507,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0361
+C00423,0.165,C,Score de bureau baixo,Pouco tempo de relacionamento,Segmento Varejo,0.1483
+C00424,0.4158,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.6374
+C00425,0.006,A,Paga com atraso com frequência,Pior atraso elevado,Pouco tempo de relacionamento,0.0076
+C00426,0.9932,E,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.9798
+C00427,0.1604,C,Pior atraso elevado,Limite muito comprometido,Segmento Varejo,0.0598
+C00428,0.0022,A,Limite muito comprometido,,,0.0005
+C00429,0.0032,A,Segmento Varejo,,,0.0049
+C00430,0.2398,D,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.2211
+C00431,0.006,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0061
+C00432,0.0038,A,,,,0.0144
+C00433,0.0014,A,Muitos atrasos nos últimos 12m,,,0.0011
+C00434,0.0013,A,Score de bureau baixo,,,0.0052
+C00435,0.0146,A,Segmento Varejo,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.0146
+C00436,0.0477,B,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0356
+C00437,0.0043,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0061
+C00438,0.0508,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0573
+C00439,0.0013,A,,,,0.0018
+C00440,0.0338,B,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.0825
+C00441,0.02,A,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0132
+C00442,0.1491,C,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0346
+C00443,0.0013,A,Pouco tempo de relacionamento,,,0.0037
+C00444,0.0579,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0518
+C00445,0.0362,B,Segmento Varejo,Score de bureau baixo,Paga com atraso com frequência,0.0223
+C00446,0.0764,B,Score de bureau baixo,Limite muito comprometido,Muitos atrasos nos últimos 12m,0.4222
+C00447,0.0005,A,Limite muito comprometido,,,0.0001
+C00448,0.0014,A,,,,0.0024
+C00449,0.2099,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1331
+C00450,0.0108,A,Limite muito comprometido,,,0.0094
+C00451,0.0297,A,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0086
+C00452,0.0584,B,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.0639
+C00453,0.0003,A,Limite muito comprometido,,,0.0002
+C00454,0.6951,E,Limite muito comprometido,Pior atraso elevado,Paga com atraso com frequência,0.4313
+C00455,0.5183,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.55
+C00456,0.0801,C,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0754
+C00457,0.0565,B,Score de bureau baixo,Pouco tempo de relacionamento,Limite muito comprometido,0.1291
+C00458,0.1821,C,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.1413
+C00459,0.0009,A,,,,0.0039
+C00460,0.0034,A,,,,0.0061
+C00461,0.0016,A,Segmento Varejo,,,0.0015
+C00462,0.1885,C,Paga com atraso com frequência,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.1169
+C00463,0.0014,A,,,,0.0011
+C00464,0.0142,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0139
+C00465,0.8548,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.7937
+C00466,0.0076,A,Paga com atraso com frequência,Pouco tempo de relacionamento,Pior atraso elevado,0.0078
+C00467,0.0056,A,Pouco tempo de relacionamento,,,0.0126
+C00468,0.0002,A,,,,0.0003
+C00469,0.0068,A,Segmento Varejo,,,0.0126
+C00470,0.7089,E,Pior atraso elevado,Score de bureau baixo,Limite muito comprometido,0.4336
+C00471,0.0198,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0183
+C00472,0.1187,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1169
+C00473,0.3323,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.4175
+C00474,0.0371,B,Paga com atraso com frequência,Segmento Varejo,Score de bureau baixo,0.0481
+C00475,0.1473,C,Pior atraso elevado,Score de bureau baixo,Segmento Varejo,0.0544
+C00476,0.0172,A,Pouco tempo de relacionamento,Segmento Varejo,Paga com atraso com frequência,0.0085
+C00477,0.0052,A,Segmento Varejo,,,0.0059
+C00478,0.0008,A,,,,0.002
+C00479,0.001,A,,,,0.0012
+C00480,0.007,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0122
+C00481,0.0155,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0301
+C00482,0.007,A,Limite muito comprometido,Segmento Varejo,,0.0034
+C00483,0.0396,B,Segmento Varejo,Limite muito comprometido,Paga com atraso com frequência,0.0101
+C00484,0.2703,D,Limite muito comprometido,Paga com atraso com frequência,Segmento Varejo,0.0932
+C00485,0.0074,A,Segmento Varejo,Limite muito comprometido,,0.0048
+C00486,0.0271,A,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0479
+C00487,0.0195,A,Segmento Varejo,Score de bureau baixo,Paga com atraso com frequência,0.0107
+C00488,0.0145,A,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0037
+C00489,0.0046,A,Segmento Varejo,,,0.0024
+C00490,0.0917,C,Limite muito comprometido,Score de bureau baixo,Segmento Varejo,0.0549
+C00491,0.011,A,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0169
+C00492,0.0048,A,Limite muito comprometido,,,0.0018
+C00493,0.0006,A,,,,0.0011
+C00494,0.0154,A,Segmento Varejo,Score de bureau baixo,Pior atraso elevado,0.0244
+C00495,0.0099,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,,0.025
+C00496,0.0403,B,Pouco tempo de relacionamento,Segmento Varejo,Score de bureau baixo,0.2076
+C00497,0.0371,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.018
+C00498,0.0071,A,Score de bureau baixo,,,0.0097
+C00499,0.653,E,Limite muito comprometido,Pior atraso elevado,Paga com atraso com frequência,0.1377
+C00500,0.0289,A,Segmento Varejo,Score de bureau baixo,Paga com atraso com frequência,0.0446
+C00501,0.0129,A,Paga com atraso com frequência,Score de bureau baixo,Pior atraso elevado,0.0212
+C00502,0.0053,A,Limite muito comprometido,,,0.0005
+C00503,0.0001,A,Limite muito comprometido,,,0.0
+C00504,0.0294,A,Limite muito comprometido,Segmento Varejo,,0.0098
+C00505,0.0776,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1245
+C00506,0.0025,A,,,,0.0032
+C00507,0.3376,D,Pior atraso elevado,Paga com atraso com frequência,Score de bureau baixo,0.2423
+C00508,0.2254,D,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.1303
+C00509,0.0557,B,Paga com atraso com frequência,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0839
+C00510,0.071,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0349
+C00511,0.0016,A,Segmento Varejo,Pouco tempo de relacionamento,,0.002
+C00512,0.0003,A,,,,0.0003
+C00513,0.0059,A,Segmento Varejo,,,0.0071
+C00514,0.0154,A,Segmento Varejo,Pior atraso elevado,Score de bureau baixo,0.0165
+C00515,0.0393,B,Limite muito comprometido,Segmento Varejo,Paga com atraso com frequência,0.0321
+C00516,0.1069,C,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.0421
+C00517,0.9085,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.7677
+C00518,0.0013,A,Score de bureau baixo,,,0.0016
+C00519,0.0577,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0492
+C00520,0.8116,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.589
+C00521,0.2014,D,Limite muito comprometido,Score de bureau baixo,Pouco tempo de relacionamento,0.0494
+C00522,0.0899,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0602
+C00523,0.0444,B,Score de bureau baixo,Pior atraso elevado,Segmento Varejo,0.047
+C00524,0.0066,A,Score de bureau baixo,Pior atraso elevado,,0.008
+C00525,0.1399,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.1559
+C00526,0.0029,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0043
+C00527,0.0021,A,Limite muito comprometido,,,0.0027
+C00528,0.001,A,Limite muito comprometido,,,0.0005
+C00529,0.0013,A,,,,0.0016
+C00530,0.1904,C,Paga com atraso com frequência,Score de bureau baixo,Segmento Varejo,0.1177
+C00531,0.9825,E,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.7976
+C00532,0.0319,B,Score de bureau baixo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.032
+C00533,0.0356,B,Limite muito comprometido,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0246
+C00534,0.0054,A,Score de bureau baixo,,,0.0139
+C00535,0.2986,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.196
+C00536,0.0605,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0597
+C00537,0.0478,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.045
+C00538,0.9639,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.8989
+C00539,0.0391,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0249
+C00540,0.0021,A,Pouco tempo de relacionamento,,,0.0024
+C00541,0.0081,A,Limite muito comprometido,,,0.0021
+C00542,0.0014,A,Segmento Varejo,,,0.0018
+C00543,0.0008,A,Limite muito comprometido,,,0.0007
+C00544,0.0065,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0044
+C00545,0.0033,A,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0024
+C00546,0.0319,B,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0105
+C00547,0.0689,B,Paga com atraso com frequência,Score de bureau baixo,Segmento Varejo,0.0685
+C00548,0.0155,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0141
+C00549,0.0154,A,Score de bureau baixo,Pior atraso elevado,,0.0209
+C00550,0.0446,B,Paga com atraso com frequência,Score de bureau baixo,Segmento Varejo,0.1296
+C00551,0.0515,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.0582
+C00552,0.0354,B,Paga com atraso com frequência,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0347
+C00553,0.1009,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0469
+C00554,0.0022,A,,,,0.0018
+C00555,0.0593,B,Limite muito comprometido,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0121
+C00556,0.0938,C,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0913
+C00557,0.4777,E,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.4352
+C00558,0.2017,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1884
+C00559,0.5559,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.327
+C00560,0.2321,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3058
+C00561,0.0186,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.0136
+C00562,0.0537,B,Paga com atraso com frequência,Segmento Varejo,Score de bureau baixo,0.0602
+C00563,0.0009,A,,,,0.0034
+C00564,0.0055,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0085
+C00565,0.0021,A,Pouco tempo de relacionamento,,,0.0031
+C00566,0.0047,A,Pouco tempo de relacionamento,Limite muito comprometido,,0.0052
+C00567,0.0428,B,Limite muito comprometido,Pouco tempo de relacionamento,Pior atraso elevado,0.0125
+C00568,0.0065,A,Segmento Varejo,,,0.0068
+C00569,0.0229,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0434
+C00570,0.0116,A,Segmento Varejo,,,0.0092
+C00571,0.0061,A,Segmento Varejo,Pouco tempo de relacionamento,,0.027
+C00572,0.1616,C,Score de bureau baixo,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.2744
+C00573,0.1819,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.1855
+C00574,0.0037,A,Limite muito comprometido,,,0.0032
+C00575,0.0015,A,Limite muito comprometido,,,0.0012
+C00576,0.0037,A,Segmento Varejo,,,0.0026
+C00577,0.0192,A,Limite muito comprometido,Score de bureau baixo,,0.0076
+C00578,0.011,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0221
+C00579,0.016,A,Score de bureau baixo,,,0.054
+C00580,0.4789,E,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.2531
+C00581,0.0938,C,Score de bureau baixo,Segmento Varejo,Limite muito comprometido,0.0747
+C00582,0.1806,C,Limite muito comprometido,Score de bureau baixo,Segmento Varejo,0.1537
+C00583,0.4346,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.3413
+C00584,0.0149,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0266
+C00585,0.0014,A,Limite muito comprometido,,,0.0082
+C00586,0.002,A,Pouco tempo de relacionamento,,,0.0029
+C00587,0.0622,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0221
+C00588,0.0213,A,Segmento Varejo,Score de bureau baixo,Limite muito comprometido,0.0115
+C00589,0.0076,A,Segmento Varejo,Score de bureau baixo,Limite muito comprometido,0.0039
+C00590,0.0051,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0036
+C00591,0.0496,B,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1335
+C00592,0.1057,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1192
+C00593,0.0554,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0629
+C00594,0.3278,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.3728
+C00595,0.173,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1589
+C00596,0.2183,D,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.2324
+C00597,0.0188,A,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0573
+C00598,0.0106,A,Pouco tempo de relacionamento,Paga com atraso com frequência,,0.0104
+C00599,0.0004,A,,,,0.0009
+C00600,0.0033,A,,,,0.0075
+C00601,0.2009,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.2096
+C00602,0.0068,A,Pouco tempo de relacionamento,,,0.0286
+C00603,0.0066,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0158
+C00604,0.1755,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.2333
+C00605,0.001,A,Limite muito comprometido,,,0.0009
+C00606,0.0596,B,Paga com atraso com frequência,Score de bureau baixo,Pouco tempo de relacionamento,0.0558
+C00607,0.001,A,,,,0.001
+C00608,0.0161,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.016
+C00609,0.0027,A,Pouco tempo de relacionamento,,,0.0028
+C00610,0.4421,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.2116
+C00611,0.1182,C,Score de bureau baixo,Pouco tempo de relacionamento,Segmento Varejo,0.1086
+C00612,0.0933,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0961
+C00613,0.0162,A,Pouco tempo de relacionamento,Limite muito comprometido,Pior atraso elevado,0.0197
+C00614,0.0005,A,,,,0.0011
+C00615,0.0094,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0088
+C00616,0.1319,C,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.0183
+C00617,0.0082,A,Score de bureau baixo,,,0.0176
+C00618,0.1514,C,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.1137
+C00619,0.0216,A,Segmento Varejo,Paga com atraso com frequência,Pior atraso elevado,0.0462
+C00620,0.9736,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.3316
+C00621,0.1451,C,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.1
+C00622,0.0533,B,Limite muito comprometido,Segmento Varejo,Pior atraso elevado,0.0172
+C00623,0.1056,C,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.0715
+C00624,0.0962,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1141
+C00625,0.0015,A,Pouco tempo de relacionamento,,,0.0025
+C00626,0.0308,B,Paga com atraso com frequência,Segmento Varejo,Pior atraso elevado,0.0315
+C00627,0.0093,A,Limite muito comprometido,Paga com atraso com frequência,Pior atraso elevado,0.0041
+C00628,0.1042,C,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.0308
+C00629,0.0117,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0163
+C00630,0.0196,A,Limite muito comprometido,Pouco tempo de relacionamento,Pior atraso elevado,0.0078
+C00631,0.0029,A,,,,0.0038
+C00632,0.0065,A,Limite muito comprometido,,,0.0051
+C00633,0.0181,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0197
+C00634,0.0145,A,Pouco tempo de relacionamento,Segmento Varejo,Limite muito comprometido,0.0093
+C00635,0.0108,A,Segmento Varejo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0046
+C00636,0.0072,A,Segmento Varejo,,,0.0127
+C00637,0.0218,A,Limite muito comprometido,Score de bureau baixo,,0.0256
+C00638,0.0106,A,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.0187
+C00639,0.0243,A,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,Score de bureau baixo,0.0331
+C00640,0.0119,A,Pouco tempo de relacionamento,Pior atraso elevado,,0.0136
+C00641,0.0417,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0332
+C00642,0.0009,A,,,,0.0017
+C00643,0.0546,B,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0411
+C00644,0.0446,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0658
+C00645,0.0068,A,Limite muito comprometido,,,0.0029
+C00646,0.0016,A,,,,0.0026
+C00647,0.0123,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0103
+C00648,0.3294,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.4891
+C00649,0.0189,A,Limite muito comprometido,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.0121
+C00650,0.6267,E,Pior atraso elevado,Limite muito comprometido,Paga com atraso com frequência,0.3519
+C00651,0.0057,A,Segmento Varejo,,,0.0067
+C00652,0.0142,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,Limite muito comprometido,0.0377
+C00653,0.1857,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.4275
+C00654,0.1632,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3181
+C00655,0.0362,B,Limite muito comprometido,Paga com atraso com frequência,Pior atraso elevado,0.0613
+C00656,0.0374,B,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0937
+C00657,0.001,A,Pouco tempo de relacionamento,,,0.0011
+C00658,0.0717,B,Paga com atraso com frequência,Pouco tempo de relacionamento,Segmento Varejo,0.2116
+C00659,0.0394,B,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0381
+C00660,0.4386,D,Pior atraso elevado,Limite muito comprometido,Score de bureau baixo,0.1866
+C00661,0.0232,A,Pior atraso elevado,Limite muito comprometido,Segmento Varejo,0.0053
+C00662,0.006,A,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0161
+C00663,0.0319,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0925
+C00664,0.3245,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2803
+C00665,0.0072,A,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0072
+C00666,0.0141,A,Limite muito comprometido,,,0.0042
+C00667,0.0081,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,,0.044
+C00668,0.0024,A,Pior atraso elevado,,,0.0158
+C00669,0.0488,B,Segmento Varejo,Pior atraso elevado,Paga com atraso com frequência,0.0927
+C00670,0.0935,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0494
+C00671,0.085,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1802
+C00672,0.1485,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.193
+C00673,0.0016,A,,,,0.002
+C00674,0.0034,A,Score de bureau baixo,,,0.0044
+C00675,0.2245,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.3132
+C00676,0.5545,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.2836
+C00677,0.0016,A,,,,0.0039
+C00678,0.1611,C,Limite muito comprometido,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.0842
+C00679,0.0677,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0752
+C00680,0.0666,B,Muitos atrasos nos últimos 12m,Segmento Varejo,Paga com atraso com frequência,0.0532
+C00681,0.2218,D,Limite muito comprometido,Pior atraso elevado,Segmento Varejo,0.0144
+C00682,0.4666,E,Limite muito comprometido,Pior atraso elevado,Paga com atraso com frequência,0.028
+C00683,0.0262,A,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.0297
+C00684,0.0978,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.0584
+C00685,0.026,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0277
+C00686,0.5472,E,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.239
+C00687,0.0796,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0895
+C00688,0.0032,A,Pouco tempo de relacionamento,,,0.0056
+C00689,0.1024,C,Pior atraso elevado,Limite muito comprometido,Score de bureau baixo,0.0366
+C00690,0.0471,B,Paga com atraso com frequência,Segmento Varejo,Score de bureau baixo,0.0305
+C00691,0.2624,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.3982
+C00692,0.0711,B,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.0658
+C00693,0.0195,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0208
+C00694,0.1957,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Limite muito comprometido,0.1001
+C00695,0.0104,A,Limite muito comprometido,,,0.0118
+C00696,0.2869,D,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.4559
+C00697,0.0009,A,,,,0.001
+C00698,0.0195,A,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.0352
+C00699,0.025,A,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0392
+C00700,0.104,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.1072
+C00701,0.0072,A,Segmento Varejo,,,0.0062
+C00702,0.6535,E,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.509
+C00703,0.0031,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0039
+C00704,0.0003,A,,,,0.0004
+C00705,0.7961,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.8765
+C00706,0.0702,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0493
+C00707,0.0064,A,Score de bureau baixo,,,0.0097
+C00708,0.0135,A,Pouco tempo de relacionamento,Score de bureau baixo,,0.0103
+C00709,0.063,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0603
+C00710,0.0048,A,Segmento Varejo,,,0.0032
+C00711,0.0023,A,Pior atraso elevado,,,0.0126
+C00712,0.1419,C,Limite muito comprometido,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.0647
+C00713,0.139,C,Pior atraso elevado,Limite muito comprometido,Pouco tempo de relacionamento,0.0503
+C00714,0.0015,A,Pouco tempo de relacionamento,,,0.0167
+C00715,0.0328,B,Score de bureau baixo,Pouco tempo de relacionamento,Pior atraso elevado,0.0904
+C00716,0.6295,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.3611
+C00717,0.0034,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0079
+C00718,0.0483,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0679
+C00719,0.0114,A,Pouco tempo de relacionamento,,,0.0171
+C00720,0.0062,A,Pouco tempo de relacionamento,,,0.0088
+C00721,0.013,A,Segmento Varejo,Pior atraso elevado,,0.0145
+C00722,0.0045,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0069
+C00723,0.0171,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.0199
+C00724,0.8823,E,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.3801
+C00725,0.8831,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.9709
+C00726,0.6275,E,Pior atraso elevado,Score de bureau baixo,Limite muito comprometido,0.3592
+C00727,0.1224,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.129
+C00728,0.9694,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.8407
+C00729,0.0141,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0137
+C00730,0.2581,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2991
+C00731,0.0023,A,Segmento Varejo,,,0.0024
+C00732,0.0022,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0024
+C00733,0.0599,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0255
+C00734,0.0571,B,Muitos atrasos nos últimos 12m,Segmento Varejo,Pior atraso elevado,0.1676
+C00735,0.7137,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.4652
+C00736,0.0054,A,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.0053
+C00737,0.1759,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.1645
+C00738,0.9356,E,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.796
+C00739,0.6432,E,Limite muito comprometido,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.2095
+C00740,0.0781,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.056
+C00741,0.6021,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.2336
+C00742,0.0353,B,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.0223
+C00743,0.033,B,Score de bureau baixo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0654
+C00744,0.0036,A,Limite muito comprometido,Segmento Varejo,,0.0016
+C00745,0.1146,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1588
+C00746,0.003,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0146
+C00747,0.496,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.5861
+C00748,0.0564,B,Score de bureau baixo,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.2084
+C00749,0.0173,A,Score de bureau baixo,Pouco tempo de relacionamento,,0.0574
+C00750,0.0118,A,Limite muito comprometido,Muitos atrasos nos últimos 12m,Score de bureau baixo,0.0055
+C00751,0.0083,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.0077
+C00752,0.0023,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.0027
+C00753,0.0417,B,Limite muito comprometido,Pouco tempo de relacionamento,Segmento Varejo,0.0123
+C00754,0.0572,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0524
+C00755,0.0327,B,Limite muito comprometido,Pouco tempo de relacionamento,,0.012
+C00756,0.5108,E,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.2173
+C00757,0.6191,E,Limite muito comprometido,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.148
+C00758,0.013,A,Limite muito comprometido,Score de bureau baixo,,0.0121
+C00759,0.1391,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1247
+C00760,0.0397,B,Segmento Varejo,Paga com atraso com frequência,Score de bureau baixo,0.0265
+C00761,0.0305,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.0384
+C00762,0.0435,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.061
+C00763,0.0142,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0089
+C00764,0.0194,A,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.022
+C00765,0.0003,A,,,,0.0004
+C00766,0.2643,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.877
+C00767,0.0299,A,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0596
+C00768,0.4445,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.6699
+C00769,0.0094,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.0082
+C00770,0.0103,A,,,,0.0188
+C00771,0.0045,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0042
+C00772,0.2442,D,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.3195
+C00773,0.0082,A,Segmento Varejo,,,0.0057
+C00774,0.0076,A,Pouco tempo de relacionamento,,,0.0086
+C00775,0.1398,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.1847
+C00776,0.3512,D,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.2302
+C00777,0.0043,A,Limite muito comprometido,,,0.006
+C00778,0.0195,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0273
+C00779,0.0007,A,,,,0.0007
+C00780,0.0016,A,Pouco tempo de relacionamento,,,0.0052
+C00781,0.0896,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0756
+C00782,0.0255,A,Limite muito comprometido,Pouco tempo de relacionamento,Score de bureau baixo,0.0187
+C00783,0.193,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.1506
+C00784,0.0003,A,,,,0.0004
+C00785,0.0029,A,Limite muito comprometido,,,0.0057
+C00786,0.0031,A,Segmento Varejo,,,0.0034
+C00787,0.0011,A,,,,0.0014
+C00788,0.0242,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Score de bureau baixo,0.0288
+C00789,0.0116,A,Score de bureau baixo,Pior atraso elevado,,0.0371
+C00790,0.0018,A,,,,0.0024
+C00791,0.0109,A,Score de bureau baixo,Segmento Varejo,,0.0098
+C00792,0.124,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1576
+C00793,0.0137,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0181
+C00794,0.0175,A,Score de bureau baixo,Segmento Varejo,,0.0147
+C00795,0.0839,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0904
+C00796,0.0204,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0193
+C00797,0.0619,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.0719
+C00798,0.0106,A,Segmento Varejo,,,0.0129
+C00799,0.1406,C,Pior atraso elevado,Limite muito comprometido,Score de bureau baixo,0.0516
+C00800,0.041,B,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.0419
+C00801,0.0004,A,,,,0.0006
+C00802,0.0135,A,Limite muito comprometido,Segmento Varejo,Pior atraso elevado,0.006
+C00803,0.0009,A,,,,0.0026
+C00804,0.8402,E,Limite muito comprometido,Score de bureau baixo,Segmento Varejo,0.0854
+C00805,0.1004,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1187
+C00806,0.0069,A,Segmento Varejo,Pouco tempo de relacionamento,,0.006
+C00807,0.0396,B,Paga com atraso com frequência,Pouco tempo de relacionamento,Score de bureau baixo,0.0451
+C00808,0.0205,A,Score de bureau baixo,Segmento Varejo,,0.0297
+C00809,0.0046,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0103
+C00810,0.0001,A,,,,0.0007
+C00811,0.0049,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0045
+C00812,0.5689,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.3807
+C00813,0.0014,A,Limite muito comprometido,,,0.0011
+C00814,0.002,A,Segmento Varejo,,,0.0054
+C00815,0.0269,A,Limite muito comprometido,Paga com atraso com frequência,Segmento Varejo,0.0179
+C00816,0.0106,A,Paga com atraso com frequência,Pouco tempo de relacionamento,Score de bureau baixo,0.0145
+C00817,0.0157,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.0623
+C00818,0.0053,A,Segmento Varejo,,,0.0068
+C00819,0.0077,A,Score de bureau baixo,,,0.0128
+C00820,0.0311,B,Limite muito comprometido,Score de bureau baixo,Segmento Varejo,0.022
+C00821,0.9498,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.9171
+C00822,0.0074,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0064
+C00823,0.0084,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0123
+C00824,0.0059,A,Pior atraso elevado,,,0.0375
+C00825,0.0533,B,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.0385
+C00826,0.0069,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0049
+C00827,0.6042,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.1306
+C00828,0.1031,C,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.1204
+C00829,0.0375,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0429
+C00830,0.0384,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0507
+C00831,0.0623,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0702
+C00832,0.1416,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.205
+C00833,0.0127,A,Segmento Varejo,Paga com atraso com frequência,,0.0097
+C00834,0.0091,A,Score de bureau baixo,,,0.0107
+C00835,0.0222,A,Limite muito comprometido,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0057
+C00836,0.0595,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0598
+C00837,0.0401,B,Limite muito comprometido,Pior atraso elevado,Pouco tempo de relacionamento,0.0168
+C00838,0.0,A,,,,0.0001
+C00839,0.1061,C,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.1273
+C00840,0.0621,B,Limite muito comprometido,Pouco tempo de relacionamento,Segmento Varejo,0.0372
+C00841,0.9905,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.9721
+C00842,0.0012,A,,,,0.001
+C00843,0.5717,E,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.3748
+C00844,0.0075,A,Segmento Varejo,,,0.0084
+C00845,0.1417,C,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0591
+C00846,0.0004,A,,,,0.0009
+C00847,0.0181,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0251
+C00848,0.0057,A,Score de bureau baixo,,,0.014
+C00849,0.0233,A,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0088
+C00850,0.0104,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0354
+C00851,0.0295,A,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.0279
+C00852,0.102,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.114
+C00853,0.01,A,Limite muito comprometido,,,0.004
+C00854,0.0048,A,Pouco tempo de relacionamento,,,0.005
+C00855,0.0191,A,Segmento Varejo,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.0412
+C00856,0.8266,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.8926
+C00857,0.0084,A,Paga com atraso com frequência,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.0209
+C00858,0.0033,A,,,,0.0037
+C00859,0.3508,D,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.1472
+C00860,0.0381,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0958
+C00861,0.0031,A,,,,0.0093
+C00862,0.0192,A,Limite muito comprometido,Score de bureau baixo,,0.0233
+C00863,0.0065,A,Muitos atrasos nos últimos 12m,,,0.0115
+C00864,0.6284,E,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.3964
+C00865,0.0039,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0028
+C00866,0.0006,A,,,,0.0009
+C00867,0.0075,A,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,,0.0091
+C00868,0.003,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.003
+C00869,0.5991,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.6332
+C00870,0.9728,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.9087
+C00871,0.032,B,Muitos atrasos nos últimos 12m,Limite muito comprometido,Paga com atraso com frequência,0.0277
+C00872,0.5061,E,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.2577
+C00873,0.0011,A,Limite muito comprometido,,,0.0022
+C00874,0.0407,B,Paga com atraso com frequência,Segmento Varejo,Score de bureau baixo,0.0386
+C00875,0.0031,A,Pouco tempo de relacionamento,,,0.0028
+C00876,0.0935,C,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0335
+C00877,0.0346,B,Segmento Varejo,Limite muito comprometido,Muitos atrasos nos últimos 12m,0.0267
+C00878,0.0289,A,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0744
+C00879,0.0017,A,,,,0.0023
+C00880,0.0462,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0668
+C00881,0.0054,A,Segmento Varejo,Paga com atraso com frequência,,0.0102
+C00882,0.0086,A,Limite muito comprometido,,,0.0065
+C00883,0.0001,A,,,,0.0003
+C00884,0.2131,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.1895
+C00885,0.0367,B,Segmento Varejo,Pior atraso elevado,Pouco tempo de relacionamento,0.022
+C00886,0.033,B,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.0239
+C00887,0.0745,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0661
+C00888,0.0218,A,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0263
+C00889,0.1204,C,Limite muito comprometido,Score de bureau baixo,Segmento Varejo,0.0701
+C00890,0.6745,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.3628
+C00891,0.8055,E,Score de bureau baixo,Pior atraso elevado,Segmento Varejo,0.5795
+C00892,0.0002,A,Limite muito comprometido,,,0.0008
+C00893,0.0133,A,Muitos atrasos nos últimos 12m,Segmento Varejo,Pouco tempo de relacionamento,0.0134
+C00894,0.0112,A,Limite muito comprometido,Segmento Varejo,Pior atraso elevado,0.0123
+C00895,0.0093,A,Pouco tempo de relacionamento,,,0.0079
+C00896,0.0325,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0635
+C00897,0.0619,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1098
+C00898,0.3705,D,Pior atraso elevado,Score de bureau baixo,Limite muito comprometido,0.1637
+C00899,0.3461,D,Score de bureau baixo,Pior atraso elevado,Segmento Varejo,0.3212
+C00900,0.0064,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.007
+C00901,0.0021,A,Segmento Varejo,Limite muito comprometido,,0.0017
+C00902,0.014,A,Segmento Varejo,Pior atraso elevado,Paga com atraso com frequência,0.0174
+C00903,0.0993,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.1259
+C00904,0.8981,E,Pior atraso elevado,Score de bureau baixo,Limite muito comprometido,0.7458
+C00905,0.0002,A,Limite muito comprometido,,,0.0004
+C00906,0.6278,E,Limite muito comprometido,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.0215
+C00907,0.1166,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1539
+C00908,0.0307,B,Segmento Varejo,Paga com atraso com frequência,Pior atraso elevado,0.0274
+C00909,0.2805,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.2635
+C00910,0.0161,A,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.032
+C00911,0.0115,A,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.0595
+C00912,0.0018,A,Pouco tempo de relacionamento,,,0.013
+C00913,0.0013,A,,,,0.0028
+C00914,0.0004,A,Limite muito comprometido,,,0.0003
+C00915,0.0022,A,Pouco tempo de relacionamento,,,0.0137
+C00916,0.0046,A,Limite muito comprometido,,,0.0035
+C00917,0.235,D,Score de bureau baixo,Pior atraso elevado,Segmento Varejo,0.2671
+C00918,0.0096,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0108
+C00919,0.1967,C,Score de bureau baixo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.2281
+C00920,0.2781,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1552
+C00921,0.0665,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.1509
+C00922,0.0057,A,Limite muito comprometido,,,0.0058
+C00923,0.0631,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1301
+C00924,0.5865,E,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.3507
+C00925,0.0464,B,Segmento Varejo,Limite muito comprometido,Pior atraso elevado,0.0212
+C00926,0.0284,A,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0331
+C00927,0.058,B,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.0261
+C00928,0.0039,A,,,,0.0052
+C00929,0.0589,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0783
+C00930,0.0129,A,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.0174
+C00931,0.0327,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0464
+C00932,0.1771,C,Limite muito comprometido,Pior atraso elevado,Segmento Varejo,0.0391
+C00933,0.5207,E,Score de bureau baixo,Limite muito comprometido,Muitos atrasos nos últimos 12m,0.3119
+C00934,0.0022,A,,,,0.0046
+C00935,0.0272,A,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0397
+C00936,0.0396,B,Segmento Varejo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.021
+C00937,0.0046,A,Pouco tempo de relacionamento,Paga com atraso com frequência,,0.0066
+C00938,0.2539,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2031
+C00939,0.0046,A,,,,0.0082
+C00940,0.6971,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.238
+C00941,0.1473,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1219
+C00942,0.038,B,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.0437
+C00943,0.2478,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.5547
+C00944,0.0084,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0104
+C00945,0.1182,C,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.1227
+C00946,0.024,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0214
+C00947,0.0367,B,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0759
+C00948,0.0114,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0495
+C00949,0.0249,A,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0261
+C00950,0.0863,C,Score de bureau baixo,Segmento Varejo,Limite muito comprometido,0.1049
+C00951,0.0593,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0767
+C00952,0.0031,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0053
+C00953,0.057,B,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.0322
+C00954,0.1317,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1952
+C00955,0.0004,A,,,,0.0015
+C00956,0.001,A,Limite muito comprometido,,,0.0005
+C00957,0.037,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0613
+C00958,0.084,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0882
+C00959,0.542,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.2012
+C00960,0.6961,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.2269
+C00961,0.1078,C,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.1204
+C00962,0.3029,D,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.435
+C00963,0.0109,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0071
+C00964,0.8469,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.4398
+C00965,0.0015,A,Limite muito comprometido,,,0.0017
+C00966,0.0085,A,Segmento Varejo,Pouco tempo de relacionamento,,0.011
+C00967,0.0,A,,,,0.0002
+C00968,0.2468,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2203
+C00969,0.6546,E,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.6355
+C00970,0.0145,A,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0268
+C00971,0.2007,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2154
+C00972,0.0437,B,Segmento Varejo,Score de bureau baixo,Paga com atraso com frequência,0.0447
+C00973,0.393,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.4324
+C00974,0.0005,A,Limite muito comprometido,,,0.0006
+C00975,0.0445,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1059
+C00976,0.0033,A,,,,0.0053
+C00977,0.0035,A,Segmento Varejo,,,0.0079
+C00978,0.0901,C,Score de bureau baixo,Pouco tempo de relacionamento,Segmento Varejo,0.0565
+C00979,0.1364,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0995
+C00980,0.0952,C,Score de bureau baixo,Pior atraso elevado,Segmento Varejo,0.1784
+C00981,0.0005,A,,,,0.0025
+C00982,0.0072,A,Paga com atraso com frequência,,,0.0089
+C00983,0.0125,A,Score de bureau baixo,Pior atraso elevado,,0.0174
+C00984,0.7886,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.7751
+C00985,0.1271,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1678
+C00986,0.0005,A,,,,0.0011
+C00987,0.0532,B,Limite muito comprometido,Segmento Varejo,Score de bureau baixo,0.0308
+C00988,0.0062,A,Segmento Varejo,Paga com atraso com frequência,,0.0071
+C00989,0.0035,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0029
+C00990,0.0122,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0033
+C00991,0.0008,A,,,,0.0011
+C00992,0.0044,A,Limite muito comprometido,,,0.0037
+C00993,0.0009,A,Pouco tempo de relacionamento,,,0.0013
+C00994,0.0057,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0035
+C00995,0.0002,A,Limite muito comprometido,,,0.0004
+C00996,0.1077,C,Limite muito comprometido,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0512
+C00997,0.0094,A,Muitos atrasos nos últimos 12m,,,0.0181
+C00998,0.8824,E,Limite muito comprometido,Pior atraso elevado,Paga com atraso com frequência,0.7112
+C00999,0.0036,A,Limite muito comprometido,,,0.0041
+C01000,0.0328,B,Pouco tempo de relacionamento,Segmento Varejo,Pior atraso elevado,0.056
+C01001,0.1916,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.2237
+C01002,0.09,C,Score de bureau baixo,Segmento Varejo,Limite muito comprometido,0.0571
+C01003,0.3268,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.5003
+C01004,0.0028,A,Segmento Varejo,,,0.0047
+C01005,0.0045,A,,,,0.011
+C01006,0.0275,A,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.055
+C01007,0.0017,A,Limite muito comprometido,,,0.0014
+C01008,0.4943,E,Limite muito comprometido,Pior atraso elevado,Paga com atraso com frequência,0.1944
+C01009,0.0006,A,Limite muito comprometido,,,0.0008
+C01010,0.3364,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.2444
+C01011,0.0004,A,,,,0.0004
+C01012,0.0218,A,Paga com atraso com frequência,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0148
+C01013,0.0144,A,Segmento Varejo,Score de bureau baixo,,0.0264
+C01014,0.0006,A,,,,0.0004
+C01015,0.2915,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.6001
+C01016,0.1394,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1416
+C01017,0.0003,A,,,,0.0015
+C01018,0.3167,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.615
+C01019,0.0693,B,Limite muito comprometido,Segmento Varejo,Paga com atraso com frequência,0.021
+C01020,0.0324,B,Segmento Varejo,Limite muito comprometido,Pior atraso elevado,0.0219
+C01021,0.0003,A,,,,0.0015
+C01022,0.1481,C,Score de bureau baixo,Limite muito comprometido,Muitos atrasos nos últimos 12m,0.1165
+C01023,0.0001,A,,,,0.0001
+C01024,0.1131,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1003
+C01025,0.0075,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,,0.0094
+C01026,0.1768,C,Score de bureau baixo,Pouco tempo de relacionamento,Segmento Varejo,0.1447
+C01027,0.0585,B,Limite muito comprometido,Score de bureau baixo,,0.0138
+C01028,0.0986,C,Limite muito comprometido,Paga com atraso com frequência,Segmento Varejo,0.0341
+C01029,0.0854,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0587
+C01030,0.0166,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0143
+C01031,0.3337,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1379
+C01032,0.0304,B,Score de bureau baixo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0432
+C01033,0.0532,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0471
+C01034,0.0017,A,,,,0.0023
+C01035,0.0641,B,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0593
+C01036,0.0107,A,Limite muito comprometido,Paga com atraso com frequência,Pior atraso elevado,0.0064
+C01037,0.0363,B,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0489
+C01038,0.0152,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0205
+C01039,0.1593,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1586
+C01040,0.3557,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.3827
+C01041,0.0756,B,Muitos atrasos nos últimos 12m,Score de bureau baixo,Segmento Varejo,0.0596
+C01042,0.0021,A,,,,0.0031
+C01043,0.0425,B,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1354
+C01044,0.0322,B,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.0175
+C01045,0.1876,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2315
+C01046,0.1189,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2149
+C01047,0.2516,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.4222
+C01048,0.0028,A,Pouco tempo de relacionamento,,,0.0032
+C01049,0.05,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.1159
+C01050,0.5428,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.5738
+C01051,0.0178,A,Limite muito comprometido,Score de bureau baixo,,0.0098
+C01052,0.179,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.3044
+C01053,0.6529,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.6988
+C01054,0.17,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.2013
+C01055,0.0471,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0785
+C01056,0.0096,A,Score de bureau baixo,,,0.0074
+C01057,0.0003,A,,,,0.0011
+C01058,0.1094,C,Score de bureau baixo,Pior atraso elevado,Segmento Varejo,0.1285
+C01059,0.008,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0082
+C01060,0.0004,A,,,,0.0025
+C01061,0.0121,A,Limite muito comprometido,Pior atraso elevado,,0.0135
+C01062,0.0075,A,Limite muito comprometido,,,0.0076
+C01063,0.1113,C,Muitos atrasos nos últimos 12m,Limite muito comprometido,Segmento Varejo,0.0921
+C01064,0.001,A,,,,0.0013
+C01065,0.0814,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0912
+C01066,0.0017,A,Limite muito comprometido,,,0.0019
+C01067,0.1363,C,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1451
+C01068,0.0016,A,Pouco tempo de relacionamento,,,0.0022
+C01069,0.0046,A,Segmento Varejo,Pior atraso elevado,,0.0059
+C01070,0.0304,B,Paga com atraso com frequência,Segmento Varejo,Score de bureau baixo,0.0341
+C01071,0.0754,B,Limite muito comprometido,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.027
+C01072,0.0133,A,Limite muito comprometido,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0051
+C01073,0.0298,A,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0343
+C01074,0.0005,A,Limite muito comprometido,,,0.0009
+C01075,0.0261,A,Limite muito comprometido,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0399
+C01076,0.6449,E,Pior atraso elevado,Score de bureau baixo,Paga com atraso com frequência,0.3734
+C01077,0.1318,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.094
+C01078,0.3965,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.3067
+C01079,0.0027,A,,,,0.0036
+C01080,0.6796,E,Pior atraso elevado,Score de bureau baixo,Limite muito comprometido,0.4137
+C01081,0.005,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0069
+C01082,0.0359,B,Limite muito comprometido,Score de bureau baixo,Pouco tempo de relacionamento,0.0323
+C01083,0.0014,A,Limite muito comprometido,,,0.0027
+C01084,0.0111,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0023
+C01085,0.0712,B,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.0348
+C01086,0.0005,A,,,,0.001
+C01087,0.0167,A,Limite muito comprometido,Score de bureau baixo,Pouco tempo de relacionamento,0.0135
+C01088,0.0242,A,Limite muito comprometido,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0229
+C01089,0.0046,A,Segmento Varejo,,,0.0101
+C01090,0.0743,B,Pior atraso elevado,Pouco tempo de relacionamento,Limite muito comprometido,0.0471
+C01091,0.027,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.0299
+C01092,0.0019,A,Pouco tempo de relacionamento,,,0.0047
+C01093,0.016,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0752
+C01094,0.003,A,Segmento Varejo,Limite muito comprometido,,0.0025
+C01095,0.023,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0284
+C01096,0.0067,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.006
+C01097,0.0275,A,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.0339
+C01098,0.1309,C,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.0802
+C01099,0.0003,A,Pouco tempo de relacionamento,,,0.0007
+C01100,0.1712,C,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1218
+C01101,0.0102,A,Paga com atraso com frequência,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0039
+C01102,0.1194,C,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.0563
+C01103,0.0016,A,Pouco tempo de relacionamento,,,0.004
+C01104,0.0162,A,Score de bureau baixo,Limite muito comprometido,,0.0239
+C01105,0.1633,C,Pior atraso elevado,Paga com atraso com frequência,Limite muito comprometido,0.0686
+C01106,0.01,A,Pior atraso elevado,,,0.0224
+C01107,0.001,A,Segmento Varejo,,,0.0018
+C01108,0.0513,B,Limite muito comprometido,Segmento Varejo,Paga com atraso com frequência,0.0213
+C01109,0.0009,A,Limite muito comprometido,,,0.0023
+C01110,0.2354,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2965
+C01111,0.0633,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.066
+C01112,0.0379,B,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0472
+C01113,0.0081,A,Pouco tempo de relacionamento,Pior atraso elevado,,0.0076
+C01114,0.0021,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0017
+C01115,0.0036,A,Limite muito comprometido,,,0.0022
+C01116,0.2402,D,Paga com atraso com frequência,Score de bureau baixo,Pior atraso elevado,0.1739
+C01117,0.003,A,Segmento Varejo,,,0.0078
+C01118,0.0624,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0702
+C01119,0.0361,B,Paga com atraso com frequência,Segmento Varejo,Limite muito comprometido,0.0327
+C01120,0.0425,B,Limite muito comprometido,Paga com atraso com frequência,Score de bureau baixo,0.0259
+C01121,0.0316,B,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0261
+C01122,0.0331,B,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0298
+C01123,0.0026,A,Limite muito comprometido,,,0.0013
+C01124,0.0074,A,Segmento Varejo,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.0134
+C01125,0.0699,B,Limite muito comprometido,Score de bureau baixo,Segmento Varejo,0.0519
+C01126,0.0057,A,Segmento Varejo,,,0.0069
+C01127,0.0018,A,Segmento Varejo,Limite muito comprometido,,0.0025
+C01128,0.0389,B,Limite muito comprometido,Pior atraso elevado,Pouco tempo de relacionamento,0.0301
+C01129,0.0083,A,Score de bureau baixo,,,0.0139
+C01130,0.0032,A,,,,0.0049
+C01131,0.0002,A,,,,0.0026
+C01132,0.0654,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.093
+C01133,0.1159,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1296
+C01134,0.058,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0576
+C01135,0.0005,A,,,,0.0008
+C01136,0.2466,D,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.1193
+C01137,0.0385,B,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0291
+C01138,0.0093,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0119
+C01139,0.5129,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.3469
+C01140,0.0087,A,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,,0.0106
+C01141,0.3209,D,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.315
+C01142,0.0057,A,Paga com atraso com frequência,Pior atraso elevado,,0.0063
+C01143,0.0011,A,,,,0.001
+C01144,0.2028,D,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0458
+C01145,0.0268,A,Pouco tempo de relacionamento,Segmento Varejo,Paga com atraso com frequência,0.0289
+C01146,0.0051,A,Segmento Varejo,,,0.0047
+C01147,0.0105,A,Paga com atraso com frequência,Limite muito comprometido,,0.0087
+C01148,0.0099,A,Muitos atrasos nos últimos 12m,Pior atraso elevado,Pouco tempo de relacionamento,0.0185
+C01149,0.1649,C,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0612
+C01150,0.0047,A,Pouco tempo de relacionamento,,,0.0077
+C01151,0.0333,B,Limite muito comprometido,Segmento Varejo,Pior atraso elevado,0.0246
+C01152,0.0102,A,Limite muito comprometido,Pouco tempo de relacionamento,Paga com atraso com frequência,0.007
+C01153,0.1412,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2106
+C01154,0.0066,A,Segmento Varejo,,,0.0079
+C01155,0.0051,A,Segmento Varejo,,,0.0058
+C01156,0.0297,A,Segmento Varejo,Score de bureau baixo,Pior atraso elevado,0.0287
+C01157,0.2118,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.4417
+C01158,0.0327,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0383
+C01159,0.1103,C,Paga com atraso com frequência,Segmento Varejo,Limite muito comprometido,0.0539
+C01160,0.378,D,Pior atraso elevado,Score de bureau baixo,Limite muito comprometido,0.1682
+C01161,0.0246,A,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0369
+C01162,0.1114,C,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.0795
+C01163,0.003,A,Pouco tempo de relacionamento,,,0.0048
+C01164,0.0367,B,Segmento Varejo,Paga com atraso com frequência,Score de bureau baixo,0.0464
+C01165,0.3947,D,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.5639
+C01166,0.001,A,Limite muito comprometido,,,0.0055
+C01167,0.4554,E,Limite muito comprometido,Pior atraso elevado,Pouco tempo de relacionamento,0.2177
+C01168,0.0815,C,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0823
+C01169,0.0049,A,Score de bureau baixo,,,0.0076
+C01170,0.1604,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1283
+C01171,0.1037,C,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.1161
+C01172,0.0072,A,Score de bureau baixo,,,0.0164
+C01173,0.0248,A,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0406
+C01174,0.0029,A,,,,0.0074
+C01175,0.0384,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0485
+C01176,0.0331,B,Limite muito comprometido,Score de bureau baixo,Pouco tempo de relacionamento,0.0494
+C01177,0.2048,D,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.0919
+C01178,0.0086,A,Limite muito comprometido,Pouco tempo de relacionamento,Segmento Varejo,0.0022
+C01179,0.1683,C,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.136
+C01180,0.0844,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0697
+C01181,0.001,A,Limite muito comprometido,,,0.0005
+C01182,0.0146,A,Segmento Varejo,Pior atraso elevado,Paga com atraso com frequência,0.0162
+C01183,0.1372,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1186
+C01184,0.0131,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.0157
+C01185,0.192,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.4355
+C01186,0.0019,A,,,,0.0028
+C01187,0.1435,C,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.1588
+C01188,0.0018,A,,,,0.0032
+C01189,0.0049,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0046
+C01190,0.0204,A,Limite muito comprometido,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0063
+C01191,0.0085,A,Segmento Varejo,,,0.0113
+C01192,0.1358,C,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0409
+C01193,0.0072,A,Score de bureau baixo,Pior atraso elevado,,0.0119
+C01194,0.0024,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0073
+C01195,0.0011,A,,,,0.0011
+C01196,0.0537,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1019
+C01197,0.003,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0098
+C01198,0.0019,A,Pouco tempo de relacionamento,,,0.0017
+C01199,0.0865,C,Pior atraso elevado,Pouco tempo de relacionamento,Score de bureau baixo,0.1179
+C01200,0.0373,B,Limite muito comprometido,,,0.0047
+C01201,0.0406,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1037
+C01202,0.576,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.387
+C01203,0.0281,A,Limite muito comprometido,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0165
+C01204,0.011,A,Limite muito comprometido,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.0048
+C01205,0.0904,C,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.1027
+C01206,0.0431,B,Segmento Varejo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0692
+C01207,0.0014,A,Limite muito comprometido,,,0.0007
+C01208,0.0193,A,Segmento Varejo,Paga com atraso com frequência,Pior atraso elevado,0.0253
+C01209,0.0112,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.02
+C01210,0.1068,C,Limite muito comprometido,Paga com atraso com frequência,Segmento Varejo,0.0903
+C01211,0.0987,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0766
+C01212,0.0008,A,,,,0.0006
+C01213,0.3326,D,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.1681
+C01214,0.1058,C,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0674
+C01215,0.1434,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.1215
+C01216,0.2759,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1398
+C01217,0.0041,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0034
+C01218,0.0078,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0055
+C01219,0.0032,A,,,,0.0055
+C01220,0.6105,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0596
+C01221,0.0211,A,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.049
+C01222,0.0151,A,Segmento Varejo,Score de bureau baixo,Pior atraso elevado,0.0265
+C01223,0.0032,A,Muitos atrasos nos últimos 12m,,,0.0042
+C01224,0.0071,A,Limite muito comprometido,,,0.0036
+C01225,0.0625,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.1337
+C01226,0.007,A,Limite muito comprometido,,,0.0128
+C01227,0.0206,A,Segmento Varejo,Paga com atraso com frequência,Score de bureau baixo,0.0378
+C01228,0.0517,B,Pior atraso elevado,Pouco tempo de relacionamento,Segmento Varejo,0.1438
+C01229,0.0074,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0173
+C01230,0.0169,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0061
+C01231,0.1832,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0708
+C01232,0.1561,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2706
+C01233,0.0342,B,Score de bureau baixo,Segmento Varejo,,0.0548
+C01234,0.0757,B,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0338
+C01235,0.0066,A,Segmento Varejo,,,0.0061
+C01236,0.1809,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.13
+C01237,0.2302,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2383
+C01238,0.0245,A,Pouco tempo de relacionamento,Segmento Varejo,Limite muito comprometido,0.0148
+C01239,0.9483,E,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.8574
+C01240,0.1209,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0925
+C01241,0.0538,B,Score de bureau baixo,Limite muito comprometido,Muitos atrasos nos últimos 12m,0.0231
+C01242,0.0182,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.0511
+C01243,0.0112,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0085
+C01244,0.0109,A,Segmento Varejo,Pior atraso elevado,,0.0159
+C01245,0.0079,A,Limite muito comprometido,Segmento Varejo,,0.0071
+C01246,0.9527,E,Limite muito comprometido,Pior atraso elevado,Paga com atraso com frequência,0.0738
+C01247,0.0126,A,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0077
+C01248,0.2188,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2026
+C01249,0.0015,A,Pouco tempo de relacionamento,,,0.001
+C01250,0.0005,A,Limite muito comprometido,,,0.0019
+C01251,0.5685,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.3352
+C01252,0.0876,C,Paga com atraso com frequência,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.0264
+C01253,0.1205,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1144
+C01254,0.0097,A,Score de bureau baixo,Paga com atraso com frequência,,0.012
+C01255,0.0814,C,Paga com atraso com frequência,Pior atraso elevado,Segmento Varejo,0.1112
+C01256,0.0086,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0075
+C01257,0.0104,A,Score de bureau baixo,,,0.0155
+C01258,0.2853,D,Limite muito comprometido,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.0437
+C01259,0.5398,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.7933
+C01260,0.0049,A,Limite muito comprometido,,,0.0026
+C01261,0.0732,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.0563
+C01262,0.3293,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.3316
+C01263,0.359,D,Limite muito comprometido,Pior atraso elevado,Segmento Varejo,0.0389
+C01264,0.0492,B,Limite muito comprometido,Pouco tempo de relacionamento,,0.0576
+C01265,0.0692,B,Limite muito comprometido,Pouco tempo de relacionamento,Segmento Varejo,0.0192
+C01266,0.0103,A,Pouco tempo de relacionamento,Score de bureau baixo,,0.0064
+C01267,0.255,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1707
+C01268,0.0004,A,Limite muito comprometido,,,0.0005
+C01269,0.9809,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.9447
+C01270,0.0081,A,Segmento Varejo,Limite muito comprometido,,0.0042
+C01271,0.0461,B,Limite muito comprometido,Pouco tempo de relacionamento,Pior atraso elevado,0.0182
+C01272,0.121,C,Limite muito comprometido,Pior atraso elevado,Segmento Varejo,0.0395
+C01273,0.0641,B,Score de bureau baixo,Pior atraso elevado,Segmento Varejo,0.0803
+C01274,0.0156,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0139
+C01275,0.1363,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1634
+C01276,0.0871,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1339
+C01277,0.0353,B,Pouco tempo de relacionamento,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0127
+C01278,0.0054,A,Segmento Varejo,,,0.017
+C01279,0.0005,A,,,,0.0006
+C01280,0.0386,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0261
+C01281,0.0039,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0029
+C01282,0.112,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2888
+C01283,0.0039,A,Segmento Varejo,,,0.0045
+C01284,0.0186,A,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.0091
+C01285,0.002,A,Pouco tempo de relacionamento,,,0.0241
+C01286,0.0107,A,Score de bureau baixo,,,0.0074
+C01287,0.9573,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.9349
+C01288,0.0148,A,Segmento Varejo,Limite muito comprometido,,0.0121
+C01289,0.8821,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.7461
+C01290,0.0309,B,Segmento Varejo,Pouco tempo de relacionamento,Score de bureau baixo,0.0169
+C01291,0.0174,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.015
+C01292,0.3591,D,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.1571
+C01293,0.2137,D,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.283
+C01294,0.1197,C,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.2341
+C01295,0.3168,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.412
+C01296,0.0244,A,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.02
+C01297,0.0572,B,Paga com atraso com frequência,Score de bureau baixo,Segmento Varejo,0.0367
+C01298,0.0732,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1456
+C01299,0.0004,A,,,,0.0006
+C01300,0.1664,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.1864
+C01301,0.0084,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.0035
+C01302,0.8838,E,Pior atraso elevado,Limite muito comprometido,Score de bureau baixo,0.6932
+C01303,0.0026,A,,,,0.0021
+C01304,0.0264,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0263
+C01305,0.0013,A,,,,0.0038
+C01306,0.0053,A,Limite muito comprometido,,,0.0022
+C01307,0.0118,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.0062
+C01308,0.0065,A,Pouco tempo de relacionamento,,,0.0035
+C01309,0.0809,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.2157
+C01310,0.001,A,,,,0.0036
+C01311,0.0034,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0032
+C01312,0.0028,A,Limite muito comprometido,,,0.0013
+C01313,0.0774,B,Limite muito comprometido,Segmento Varejo,Pior atraso elevado,0.0638
+C01314,0.0283,A,Pouco tempo de relacionamento,Segmento Varejo,Paga com atraso com frequência,0.0516
+C01315,0.3137,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3027
+C01316,0.0009,A,,,,0.0008
+C01317,0.2244,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.3871
+C01318,0.3469,D,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.4918
+C01319,0.0002,A,,,,0.0006
+C01320,0.0132,A,Limite muito comprometido,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.0088
+C01321,0.3417,D,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.1497
+C01322,0.0161,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0655
+C01323,0.7448,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.2446
+C01324,0.0166,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.0139
+C01325,0.0036,A,Segmento Varejo,Pior atraso elevado,,0.0056
+C01326,0.0083,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0137
+C01327,0.4058,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.6279
+C01328,0.0228,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0096
+C01329,0.0396,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0335
+C01330,0.0211,A,Limite muito comprometido,Segmento Varejo,Pouco tempo de relacionamento,0.0146
+C01331,0.0462,B,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0163
+C01332,0.0063,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0048
+C01333,0.008,A,Paga com atraso com frequência,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0079
+C01334,0.0165,A,Limite muito comprometido,,,0.0024
+C01335,0.0005,A,,,,0.0007
+C01336,0.016,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0148
+C01337,0.275,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.4124
+C01338,0.0926,C,Segmento Varejo,Pouco tempo de relacionamento,Score de bureau baixo,0.1001
+C01339,0.0143,A,Pouco tempo de relacionamento,Score de bureau baixo,,0.0138
+C01340,0.0508,B,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0696
+C01341,0.0377,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0265
+C01342,0.0099,A,Paga com atraso com frequência,Pouco tempo de relacionamento,,0.0118
+C01343,0.0379,B,Segmento Varejo,Paga com atraso com frequência,Score de bureau baixo,0.0365
+C01344,0.4123,D,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.56
+C01345,0.0054,A,,,,0.0042
+C01346,0.0089,A,Limite muito comprometido,,,0.0052
+C01347,0.0277,A,Score de bureau baixo,Segmento Varejo,,0.0348
+C01348,0.251,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.0984
+C01349,0.0276,A,Segmento Varejo,Paga com atraso com frequência,Score de bureau baixo,0.0386
+C01350,0.3702,D,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.4004
+C01351,0.034,B,Score de bureau baixo,Limite muito comprometido,Pouco tempo de relacionamento,0.0277
+C01352,0.0497,B,Limite muito comprometido,Paga com atraso com frequência,Score de bureau baixo,0.0226
+C01353,0.5668,E,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.2123
+C01354,0.0046,A,Segmento Varejo,,,0.0031
+C01355,0.0075,A,Limite muito comprometido,,,0.0066
+C01356,0.9892,E,Limite muito comprometido,Pior atraso elevado,Paga com atraso com frequência,0.0675
+C01357,0.0928,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0628
+C01358,0.0868,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0634
+C01359,0.0129,A,Score de bureau baixo,,,0.0155
+C01360,0.0226,A,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0133
+C01361,0.0978,C,Pior atraso elevado,Score de bureau baixo,Limite muito comprometido,0.0254
+C01362,0.5239,E,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.1244
+C01363,0.2935,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.2422
+C01364,0.3345,D,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.1939
+C01365,0.0102,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0154
+C01366,0.0206,A,Segmento Varejo,Paga com atraso com frequência,Pior atraso elevado,0.0236
+C01367,0.0055,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.0185
+C01368,0.0073,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0034
+C01369,0.0296,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0907
+C01370,0.0673,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1177
+C01371,0.188,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.3865
+C01372,0.0001,A,,,,0.0003
+C01373,0.1249,C,Paga com atraso com frequência,Pior atraso elevado,Score de bureau baixo,0.1706
+C01374,0.0004,A,Limite muito comprometido,,,0.0005
+C01375,0.0013,A,,,,0.0011
+C01376,0.0045,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0105
+C01377,0.0062,A,Muitos atrasos nos últimos 12m,Pior atraso elevado,,0.0081
+C01378,0.0005,A,,,,0.0007
+C01379,0.0008,A,Pouco tempo de relacionamento,,,0.0009
+C01380,0.1073,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1355
+C01381,0.3183,D,Limite muito comprometido,Score de bureau baixo,Segmento Varejo,0.0877
+C01382,0.2626,D,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.3202
+C01383,0.2239,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3357
+C01384,0.0004,A,,,,0.0004
+C01385,0.0046,A,Limite muito comprometido,,,0.0077
+C01386,0.0584,B,Paga com atraso com frequência,Score de bureau baixo,Segmento Varejo,0.0587
+C01387,0.003,A,,,,0.0067
+C01388,0.2257,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.2283
+C01389,0.0005,A,,,,0.0004
+C01390,0.1999,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3336
+C01391,0.0003,A,,,,0.0003
+C01392,0.0078,A,Limite muito comprometido,,,0.0487
+C01393,0.0138,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0113
+C01394,0.1391,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3422
+C01395,0.052,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1066
+C01396,0.1219,C,Paga com atraso com frequência,Score de bureau baixo,Segmento Varejo,0.0843
+C01397,0.0329,B,Segmento Varejo,Limite muito comprometido,Score de bureau baixo,0.0192
+C01398,0.0026,A,,,,0.0014
+C01399,0.0205,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0659
+C01400,0.0997,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1057
+C01401,0.4276,D,Score de bureau baixo,Pior atraso elevado,Segmento Varejo,0.3845
+C01402,0.0136,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0247
+C01403,0.0033,A,Limite muito comprometido,,,0.0018
+C01404,0.0535,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0575
+C01405,0.1258,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0916
+C01406,0.0058,A,Pouco tempo de relacionamento,Segmento Varejo,,0.0063
+C01407,0.0022,A,Limite muito comprometido,,,0.0065
+C01408,0.0118,A,Segmento Varejo,Score de bureau baixo,Paga com atraso com frequência,0.0192
+C01409,0.0044,A,Score de bureau baixo,,,0.0046
+C01410,0.0015,A,,,,0.0035
+C01411,0.0015,A,Pouco tempo de relacionamento,,,0.0074
+C01412,0.0009,A,Limite muito comprometido,,,0.0009
+C01413,0.0012,A,,,,0.001
+C01414,0.0004,A,,,,0.001
+C01415,0.4554,E,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.7147
+C01416,0.0309,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,,0.0152
+C01417,0.0796,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2067
+C01418,0.084,C,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0468
+C01419,0.1163,C,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.0393
+C01420,0.0139,A,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0035
+C01421,0.0395,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0397
+C01422,0.0791,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1436
+C01423,0.05,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0611
+C01424,0.3126,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1959
+C01425,0.0166,A,Segmento Varejo,Score de bureau baixo,Paga com atraso com frequência,0.0214
+C01426,0.4447,D,Pior atraso elevado,Score de bureau baixo,Paga com atraso com frequência,0.246
+C01427,0.0077,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0243
+C01428,0.0327,B,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0317
+C01429,0.0082,A,Limite muito comprometido,Pior atraso elevado,,0.002
+C01430,0.0134,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Score de bureau baixo,0.0078
+C01431,0.0341,B,Limite muito comprometido,Score de bureau baixo,,0.0039
+C01432,0.0259,A,Limite muito comprometido,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0511
+C01433,0.107,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0432
+C01434,0.0444,B,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.0304
+C01435,0.2419,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.1151
+C01436,0.0002,A,Limite muito comprometido,,,0.0007
+C01437,0.5559,E,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.4775
+C01438,0.2773,D,Pior atraso elevado,Limite muito comprometido,Score de bureau baixo,0.1104
+C01439,0.0016,A,Pouco tempo de relacionamento,,,0.0097
+C01440,0.0011,A,Pouco tempo de relacionamento,,,0.0009
+C01441,0.1077,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1255
+C01442,0.7247,E,Limite muito comprometido,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.2933
+C01443,0.0316,B,Score de bureau baixo,Pouco tempo de relacionamento,Segmento Varejo,0.0349
+C01444,0.0066,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0162
+C01445,0.7369,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.2753
+C01446,0.2793,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3105
+C01447,0.0002,A,,,,0.0003
+C01448,0.0299,A,Score de bureau baixo,Segmento Varejo,Limite muito comprometido,0.0238
+C01449,0.0773,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.082
+C01450,0.1573,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.1637
+C01451,0.5071,E,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.2574
+C01452,0.0636,B,Limite muito comprometido,Pouco tempo de relacionamento,Pior atraso elevado,0.0118
+C01453,0.0015,A,Limite muito comprometido,,,0.0009
+C01454,0.0092,A,Limite muito comprometido,,,0.0071
+C01455,0.0891,C,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.1103
+C01456,0.003,A,Segmento Varejo,,,0.0032
+C01457,0.3327,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3551
+C01458,0.2567,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.3074
+C01459,0.0087,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0032
+C01460,0.0896,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.1756
+C01461,0.0091,A,Limite muito comprometido,Pior atraso elevado,,0.0105
+C01462,0.5387,E,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.375
+C01463,0.0441,B,Pior atraso elevado,Segmento Varejo,Score de bureau baixo,0.1053
+C01464,0.0325,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.028
+C01465,0.0039,A,Limite muito comprometido,Pior atraso elevado,,0.0022
+C01466,0.0036,A,,,,0.0021
+C01467,0.4304,D,Limite muito comprometido,Pior atraso elevado,Segmento Varejo,0.088
+C01468,0.5601,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.3419
+C01469,0.0029,A,Pouco tempo de relacionamento,,,0.0038
+C01470,0.3459,D,Limite muito comprometido,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.0978
+C01471,0.0012,A,,,,0.0043
+C01472,0.0106,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0055
+C01473,0.0304,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0302
+C01474,0.0075,A,Segmento Varejo,,,0.0082
+C01475,0.0069,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0085
+C01476,0.0861,C,Limite muito comprometido,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0801
+C01477,0.1906,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1587
+C01478,0.0148,A,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.0019
+C01479,0.0236,A,Pouco tempo de relacionamento,Segmento Varejo,Pior atraso elevado,0.0377
+C01480,0.0383,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0135
+C01481,0.3742,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1272
+C01482,0.0099,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0231
+C01483,0.2042,D,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.6394
+C01484,0.0267,A,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0522
+C01485,0.0008,A,,,,0.0018
+C01486,0.2615,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.3302
+C01487,0.0011,A,Limite muito comprometido,,,0.0005
+C01488,0.0248,A,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0348
+C01489,0.0075,A,Muitos atrasos nos últimos 12m,Pior atraso elevado,,0.019
+C01490,0.0053,A,Segmento Varejo,,,0.0126
+C01491,0.0044,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0041
+C01492,0.0082,A,Pior atraso elevado,,,0.0384
+C01493,0.8603,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.842
+C01494,0.02,A,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.0119
+C01495,0.0188,A,Segmento Varejo,Limite muito comprometido,Pouco tempo de relacionamento,0.0135
+C01496,0.0167,A,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.016
+C01497,0.0225,A,Limite muito comprometido,Paga com atraso com frequência,Score de bureau baixo,0.0164
+C01498,0.0012,A,,,,0.0022
+C01499,0.0059,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0169
+C01500,0.0183,A,Muitos atrasos nos últimos 12m,Score de bureau baixo,Limite muito comprometido,0.018
+C01501,0.0755,B,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0213
+C01502,0.0025,A,Limite muito comprometido,,,0.0032
+C01503,0.0224,A,Segmento Varejo,Pouco tempo de relacionamento,Score de bureau baixo,0.0331
+C01504,0.6174,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.1746
+C01505,0.0013,A,,,,0.0011
+C01506,0.1485,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.1805
+C01507,0.0014,A,,,,0.0013
+C01508,0.0197,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.026
+C01509,0.0668,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0164
+C01510,0.0015,A,Limite muito comprometido,,,0.001
+C01511,0.101,C,Limite muito comprometido,Pior atraso elevado,Segmento Varejo,0.1284
+C01512,0.0184,A,Pouco tempo de relacionamento,Segmento Varejo,Paga com atraso com frequência,0.0231
+C01513,0.2923,D,Limite muito comprometido,Pior atraso elevado,Pouco tempo de relacionamento,0.1208
+C01514,0.0207,A,Limite muito comprometido,Muitos atrasos nos últimos 12m,,0.0477
+C01515,0.018,A,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0093
+C01516,0.2307,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.1606
+C01517,0.0122,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0128
+C01518,0.0004,A,,,,0.0006
+C01519,0.2499,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.1831
+C01520,0.0387,B,Segmento Varejo,Score de bureau baixo,Paga com atraso com frequência,0.0795
+C01521,0.9671,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.9073
+C01522,0.6263,E,Pior atraso elevado,Score de bureau baixo,Paga com atraso com frequência,0.4188
+C01523,0.0021,A,,,,0.0023
+C01524,0.0146,A,Pouco tempo de relacionamento,Pior atraso elevado,,0.0116
+C01525,0.0167,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0075
+C01526,1.0,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,1.0
+C01527,0.1894,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1239
+C01528,0.0239,A,Segmento Varejo,Score de bureau baixo,Pouco tempo de relacionamento,0.0393
+C01529,0.0223,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0202
+C01530,0.0218,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0364
+C01531,0.1031,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.072
+C01532,0.054,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0605
+C01533,0.3317,D,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.5823
+C01534,0.0048,A,,,,0.0077
+C01535,0.6053,E,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.2289
+C01536,0.8064,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.5808
+C01537,0.2276,D,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0524
+C01538,0.0048,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0102
+C01539,0.0443,B,Limite muito comprometido,Pior atraso elevado,Pouco tempo de relacionamento,0.008
+C01540,0.0408,B,Segmento Varejo,Score de bureau baixo,Pouco tempo de relacionamento,0.0525
+C01541,0.0528,B,Paga com atraso com frequência,Score de bureau baixo,Pouco tempo de relacionamento,0.0342
+C01542,0.62,E,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.7932
+C01543,0.0051,A,Segmento Varejo,,,0.0042
+C01544,0.9629,E,Score de bureau baixo,Limite muito comprometido,Muitos atrasos nos últimos 12m,0.8911
+C01545,0.264,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.093
+C01546,0.0869,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.105
+C01547,0.026,A,Segmento Varejo,Paga com atraso com frequência,Score de bureau baixo,0.0103
+C01548,0.0215,A,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0193
+C01549,0.8185,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.7287
+C01550,0.2003,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.313
+C01551,0.2031,D,Score de bureau baixo,Pior atraso elevado,Segmento Varejo,0.0547
+C01552,0.3683,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.2146
+C01553,0.0307,B,Segmento Varejo,Limite muito comprometido,Paga com atraso com frequência,0.0345
+C01554,0.5489,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.1677
+C01555,0.1836,C,Limite muito comprometido,Segmento Varejo,Pior atraso elevado,0.0522
+C01556,0.0055,A,Pouco tempo de relacionamento,,,0.0075
+C01557,0.0,A,,,,0.0001
+C01558,0.0316,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0239
+C01559,0.0011,A,,,,0.0012
+C01560,0.2875,D,Limite muito comprometido,Pior atraso elevado,,0.1183
+C01561,0.0018,A,Pouco tempo de relacionamento,,,0.0033
+C01562,0.5419,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.4247
+C01563,0.3492,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1431
+C01564,0.002,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0081
+C01565,0.0109,A,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0087
+C01566,0.0144,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0169
+C01567,0.272,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.5471
+C01568,0.0078,A,Segmento Varejo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.008
+C01569,0.2012,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.0824
+C01570,0.0325,B,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0987
+C01571,0.0483,B,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0448
+C01572,0.0025,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.005
+C01573,0.0879,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1009
+C01574,0.0047,A,Score de bureau baixo,,,0.0043
+C01575,0.5772,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.8803
+C01576,0.0063,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.007
+C01577,0.0186,A,Limite muito comprometido,,,0.0035
+C01578,0.0016,A,Limite muito comprometido,,,0.0015
+C01579,0.0001,A,,,,0.0001
+C01580,0.0064,A,Pouco tempo de relacionamento,Limite muito comprometido,,0.0028
+C01581,0.0293,A,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0299
+C01582,0.2345,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.7282
+C01583,0.2564,D,Score de bureau baixo,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.0375
+C01584,0.1182,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1662
+C01585,0.3063,D,Limite muito comprometido,Paga com atraso com frequência,Pior atraso elevado,0.0084
+C01586,0.0058,A,Pouco tempo de relacionamento,,,0.0087
+C01587,0.318,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.3288
+C01588,0.0059,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0035
+C01589,0.3219,D,Limite muito comprometido,Segmento Varejo,Paga com atraso com frequência,0.0607
+C01590,0.7429,E,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.4901
+C01591,0.0123,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0117
+C01592,0.035,B,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0338
+C01593,0.0588,B,Limite muito comprometido,Pouco tempo de relacionamento,,0.0112
+C01594,0.0103,A,Segmento Varejo,,,0.0081
+C01595,0.01,A,Limite muito comprometido,Pior atraso elevado,,0.0075
+C01596,0.0006,A,,,,0.001
+C01597,0.0303,B,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0253
+C01598,0.032,B,Segmento Varejo,Score de bureau baixo,Pior atraso elevado,0.0337
+C01599,0.0327,B,Limite muito comprometido,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0121
+C01600,0.0076,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0053
+C01601,0.0031,A,Limite muito comprometido,,,0.0013
+C01602,0.0099,A,Segmento Varejo,Limite muito comprometido,,0.0105
+C01603,0.0153,A,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0065
+C01604,0.0687,B,Score de bureau baixo,Limite muito comprometido,Pouco tempo de relacionamento,0.0347
+C01605,0.1082,C,Score de bureau baixo,Muitos atrasos nos últimos 12m,Segmento Varejo,0.2312
+C01606,0.0463,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.1328
+C01607,0.009,A,Limite muito comprometido,Muitos atrasos nos últimos 12m,,0.0025
+C01608,0.7691,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.5256
+C01609,0.1093,C,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.0384
+C01610,0.084,C,Pouco tempo de relacionamento,Segmento Varejo,Pior atraso elevado,0.0635
+C01611,0.0084,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0142
+C01612,0.0031,A,,,,0.0085
+C01613,0.5935,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.0557
+C01614,0.0269,A,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0279
+C01615,0.0204,A,Limite muito comprometido,Score de bureau baixo,,0.0037
+C01616,0.2939,D,Limite muito comprometido,Paga com atraso com frequência,Pior atraso elevado,0.1064
+C01617,0.0597,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0589
+C01618,0.0602,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0903
+C01619,0.0005,A,,,,0.0002
+C01620,0.0787,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0807
+C01621,0.0042,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0042
+C01622,0.0505,B,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0545
+C01623,0.0028,A,Pouco tempo de relacionamento,Limite muito comprometido,,0.0054
+C01624,0.018,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0258
+C01625,0.0261,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0131
+C01626,0.1361,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0933
+C01627,0.0078,A,Segmento Varejo,Paga com atraso com frequência,,0.0066
+C01628,0.4196,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.3507
+C01629,0.0223,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0137
+C01630,0.2874,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1654
+C01631,0.2917,D,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.2441
+C01632,0.0024,A,Pouco tempo de relacionamento,Paga com atraso com frequência,Pior atraso elevado,0.0011
+C01633,0.0175,A,Score de bureau baixo,Paga com atraso com frequência,,0.0063
+C01634,0.0028,A,Limite muito comprometido,,,0.0018
+C01635,0.0135,A,Limite muito comprometido,,,0.0044
+C01636,0.0768,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1911
+C01637,0.5911,E,Pior atraso elevado,Limite muito comprometido,Score de bureau baixo,0.3094
+C01638,0.0012,A,Limite muito comprometido,,,0.0003
+C01639,0.0563,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0518
+C01640,0.0216,A,Score de bureau baixo,Limite muito comprometido,,0.009
+C01641,0.015,A,Pior atraso elevado,Score de bureau baixo,Paga com atraso com frequência,0.039
+C01642,0.0135,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.007
+C01643,0.0194,A,Segmento Varejo,Score de bureau baixo,Paga com atraso com frequência,0.0636
+C01644,0.3894,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.4649
+C01645,0.0157,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0553
+C01646,0.0437,B,Muitos atrasos nos últimos 12m,Score de bureau baixo,Segmento Varejo,0.063
+C01647,0.1231,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2126
+C01648,0.0004,A,,,,0.0003
+C01649,0.0009,A,Limite muito comprometido,,,0.0007
+C01650,0.0158,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.0094
+C01651,0.0063,A,Pouco tempo de relacionamento,Segmento Varejo,,0.0054
+C01652,0.0385,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0456
+C01653,0.025,A,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0846
+C01654,0.0859,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1216
+C01655,0.001,A,Pouco tempo de relacionamento,,,0.0031
+C01656,0.0718,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.112
+C01657,0.8647,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.7789
+C01658,0.027,A,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0242
+C01659,0.0226,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0149
+C01660,0.0172,A,Segmento Varejo,Pior atraso elevado,Pouco tempo de relacionamento,0.2034
+C01661,0.0605,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0845
+C01662,0.0015,A,Pouco tempo de relacionamento,,,0.0015
+C01663,0.0048,A,Pouco tempo de relacionamento,,,0.0032
+C01664,0.0442,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0424
+C01665,0.002,A,Pouco tempo de relacionamento,,,0.0033
+C01666,0.0056,A,Limite muito comprometido,,,0.0052
+C01667,0.0259,A,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.0282
+C01668,0.0291,A,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0277
+C01669,0.0157,A,Segmento Varejo,Score de bureau baixo,Pouco tempo de relacionamento,0.0192
+C01670,0.2044,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.4869
+C01671,0.045,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0294
+C01672,0.0141,A,Pouco tempo de relacionamento,Score de bureau baixo,Pior atraso elevado,0.007
+C01673,0.0006,A,,,,0.0004
+C01674,0.1799,C,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.1438
+C01675,0.0056,A,Score de bureau baixo,,,0.0036
+C01676,0.0007,A,Limite muito comprometido,,,0.0019
+C01677,0.0022,A,Pouco tempo de relacionamento,,,0.0058
+C01678,0.0749,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0496
+C01679,0.0007,A,,,,0.0004
+C01680,0.006,A,Segmento Varejo,,,0.0069
+C01681,0.0602,B,Pouco tempo de relacionamento,Limite muito comprometido,Score de bureau baixo,0.0196
+C01682,0.0119,A,Limite muito comprometido,,,0.0033
+C01683,0.0194,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0107
+C01684,0.0254,A,Segmento Varejo,Paga com atraso com frequência,Pior atraso elevado,0.0175
+C01685,0.1487,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0975
+C01686,0.2326,D,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.5064
+C01687,0.0167,A,Segmento Varejo,,,0.0215
+C01688,0.0107,A,Segmento Varejo,Pior atraso elevado,Pouco tempo de relacionamento,0.0067
+C01689,0.9803,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.6193
+C01690,0.0037,A,Segmento Varejo,,,0.004
+C01691,0.032,B,Limite muito comprometido,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.006
+C01692,0.0082,A,Score de bureau baixo,,,0.0053
+C01693,0.9956,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.9714
+C01694,0.1329,C,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.0577
+C01695,0.0103,A,Pouco tempo de relacionamento,,,0.005
+C01696,0.0649,B,Paga com atraso com frequência,Score de bureau baixo,Segmento Varejo,0.0486
+C01697,0.0157,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0156
+C01698,0.0112,A,Score de bureau baixo,Pior atraso elevado,,0.0075
+C01699,0.0014,A,,,,0.0013
+C01700,0.007,A,Score de bureau baixo,,,0.0068
+C01701,0.0018,A,,,,0.0017
+C01702,0.0033,A,Limite muito comprometido,,,0.0017
+C01703,0.1144,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1357
+C01704,0.0004,A,,,,0.0003
+C01705,0.1037,C,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.0481
+C01706,0.0003,A,,,,0.0003
+C01707,0.0682,B,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.0256
+C01708,0.0081,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0088
+C01709,0.002,A,,,,0.0015
+C01710,0.207,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.3232
+C01711,0.0011,A,,,,0.0006
+C01712,0.0044,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0027
+C01713,0.0007,A,,,,0.0007
+C01714,0.0008,A,,,,0.0003
+C01715,0.018,A,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.0265
+C01716,0.0312,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0207
+C01717,0.1373,C,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.2535
+C01718,0.0938,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.048
+C01719,0.0072,A,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,,0.0094
+C01720,0.014,A,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.018
+C01721,0.1593,C,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.2085
+C01722,0.9041,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.4919
+C01723,0.0109,A,Paga com atraso com frequência,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.0067
+C01724,0.0267,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0549
+C01725,0.0373,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.061
+C01726,0.8135,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.4371
+C01727,0.1148,C,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.0983
+C01728,0.0496,B,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.024
+C01729,0.1005,C,Limite muito comprometido,Paga com atraso com frequência,Segmento Varejo,0.2638
+C01730,0.0117,A,Segmento Varejo,Pior atraso elevado,,0.0121
+C01731,0.0006,A,,,,0.0009
+C01732,0.199,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.298
+C01733,0.0028,A,Muitos atrasos nos últimos 12m,Pior atraso elevado,,0.0069
+C01734,0.6227,E,Pior atraso elevado,Score de bureau baixo,Muitos atrasos nos últimos 12m,0.3544
+C01735,0.0433,B,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0279
+C01736,0.0036,A,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,,0.0035
+C01737,0.0128,A,Limite muito comprometido,,,0.001
+C01738,0.0121,A,Pouco tempo de relacionamento,Segmento Varejo,,0.0241
+C01739,0.1673,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3846
+C01740,0.0024,A,Pouco tempo de relacionamento,Pior atraso elevado,,0.0018
+C01741,0.2991,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.2235
+C01742,0.0191,A,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0195
+C01743,0.1813,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.0988
+C01744,0.0016,A,Limite muito comprometido,,,0.0004
+C01745,0.0948,C,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.0264
+C01746,0.1066,C,Limite muito comprometido,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0621
+C01747,0.0137,A,Limite muito comprometido,,,0.0033
+C01748,0.0998,C,Score de bureau baixo,Segmento Varejo,Limite muito comprometido,0.072
+C01749,0.0017,A,Segmento Varejo,,,0.0012
+C01750,0.2182,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.2417
+C01751,0.0397,B,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0837
+C01752,0.2999,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.6458
+C01753,0.0053,A,Score de bureau baixo,,,0.0032
+C01754,0.0104,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0021
+C01755,0.0166,A,Muitos atrasos nos últimos 12m,Segmento Varejo,Pouco tempo de relacionamento,0.0186
+C01756,0.2557,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0809
+C01757,0.1074,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1236
+C01758,0.0055,A,Score de bureau baixo,,,0.0079
+C01759,0.0005,A,Limite muito comprometido,,,0.0006
+C01760,0.0021,A,Limite muito comprometido,,,0.0003
+C01761,0.1547,C,Pior atraso elevado,Score de bureau baixo,Limite muito comprometido,0.0733
+C01762,0.2214,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3161
+C01763,0.1841,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2128
+C01764,0.0222,A,Segmento Varejo,Score de bureau baixo,Pouco tempo de relacionamento,0.0246
+C01765,0.0244,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0361
+C01766,0.2194,D,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.2675
+C01767,0.0042,A,Pouco tempo de relacionamento,,,0.0029
+C01768,0.0033,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0033
+C01769,0.0801,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0518
+C01770,0.0004,A,,,,0.0003
+C01771,0.0249,A,Segmento Varejo,Pouco tempo de relacionamento,Pior atraso elevado,0.0159
+C01772,0.0407,B,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.0238
+C01773,0.0093,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0051
+C01774,0.0223,A,Limite muito comprometido,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0185
+C01775,0.0211,A,Score de bureau baixo,Paga com atraso com frequência,,0.0092
+C01776,0.1482,C,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.1847
+C01777,0.0007,A,,,,0.0033
+C01778,0.5865,E,Score de bureau baixo,Pior atraso elevado,Muitos atrasos nos últimos 12m,0.4507
+C01779,0.0298,A,Limite muito comprometido,Pouco tempo de relacionamento,Segmento Varejo,0.0178
+C01780,0.1126,C,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1595
+C01781,0.0942,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.3571
+C01782,0.0015,A,,,,0.0017
+C01783,0.2327,D,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.3687
+C01784,0.0508,B,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,Segmento Varejo,0.1363
+C01785,0.5181,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.8351
+C01786,0.0025,A,,,,0.0064
+C01787,0.6474,E,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.7756
+C01788,0.0394,B,Limite muito comprometido,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0106
+C01789,0.0018,A,,,,0.001
+C01790,0.0132,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Pouco tempo de relacionamento,0.0182
+C01791,0.0754,B,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.0522
+C01792,0.1756,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.1873
+C01793,0.0947,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1771
+C01794,0.0028,A,,,,0.0013
+C01795,0.0694,B,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.0901
+C01796,0.0097,A,Segmento Varejo,Score de bureau baixo,,0.0079
+C01797,0.0386,B,Segmento Varejo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0283
+C01798,0.071,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0745
+C01799,0.0352,B,Paga com atraso com frequência,Segmento Varejo,Pior atraso elevado,0.0349
+C01800,0.0043,A,,,,0.0028
+C01801,0.0434,B,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0069
+C01802,0.5971,E,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0908
+C01803,0.0336,B,Paga com atraso com frequência,Segmento Varejo,Muitos atrasos nos últimos 12m,0.038
+C01804,0.0095,A,Score de bureau baixo,,,0.0071
+C01805,0.0101,A,Score de bureau baixo,Pouco tempo de relacionamento,,0.0075
+C01806,0.0017,A,,,,0.0009
+C01807,0.0101,A,Segmento Varejo,Pouco tempo de relacionamento,Limite muito comprometido,0.0052
+C01808,0.014,A,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0273
+C01809,0.0292,A,Pouco tempo de relacionamento,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0209
+C01810,0.3941,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.2828
+C01811,0.0305,B,Segmento Varejo,Score de bureau baixo,Limite muito comprometido,0.0189
+C01812,0.093,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.1796
+C01813,0.001,A,,,,0.0009
+C01814,0.0766,B,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2776
+C01815,0.0456,B,Limite muito comprometido,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0401
+C01816,0.017,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0339
+C01817,0.0311,B,Limite muito comprometido,,,0.0222
+C01818,0.1634,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1368
+C01819,0.001,A,Segmento Varejo,,,0.0009
+C01820,0.0167,A,Score de bureau baixo,Paga com atraso com frequência,,0.0185
+C01821,0.0065,A,Limite muito comprometido,,,0.004
+C01822,0.0622,B,Limite muito comprometido,Segmento Varejo,Paga com atraso com frequência,0.0388
+C01823,0.0243,A,Paga com atraso com frequência,Segmento Varejo,Muitos atrasos nos últimos 12m,0.1416
+C01824,0.0055,A,Limite muito comprometido,,,0.0038
+C01825,0.0168,A,Pior atraso elevado,Limite muito comprometido,,0.0088
+C01826,0.4852,E,Pior atraso elevado,Limite muito comprometido,Score de bureau baixo,0.2933
+C01827,0.189,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.3033
+C01828,0.0017,A,Segmento Varejo,,,0.0027
+C01829,0.0021,A,,,,0.0019
+C01830,0.0171,A,Segmento Varejo,Pior atraso elevado,Paga com atraso com frequência,0.0233
+C01831,0.316,D,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.0755
+C01832,0.0016,A,,,,0.0009
+C01833,0.0119,A,Score de bureau baixo,Segmento Varejo,,0.0119
+C01834,0.2075,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2678
+C01835,0.1113,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2338
+C01836,0.1656,C,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.1032
+C01837,0.0042,A,Segmento Varejo,,,0.011
+C01838,0.7843,E,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.5142
+C01839,0.1111,C,Limite muito comprometido,Paga com atraso com frequência,Score de bureau baixo,0.0286
+C01840,0.2987,D,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.1447
+C01841,0.0052,A,Segmento Varejo,,,0.0079
+C01842,0.3457,D,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.2093
+C01843,0.0253,A,Segmento Varejo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.0273
+C01844,0.0002,A,,,,0.0001
+C01845,0.0418,B,Score de bureau baixo,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0455
+C01846,0.2792,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1092
+C01847,0.509,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.6813
+C01848,0.0011,A,,,,0.0018
+C01849,0.6212,E,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.353
+C01850,0.0048,A,Pouco tempo de relacionamento,,,0.0077
+C01851,0.1194,C,Paga com atraso com frequência,Score de bureau baixo,Pouco tempo de relacionamento,0.0809
+C01852,0.0006,A,,,,0.0004
+C01853,0.0381,B,Pior atraso elevado,Segmento Varejo,Paga com atraso com frequência,0.0132
+C01854,0.0417,B,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.0445
+C01855,0.0311,B,Limite muito comprometido,Score de bureau baixo,Pior atraso elevado,0.0206
+C01856,0.0004,A,,,,0.0005
+C01857,0.3625,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.2281
+C01858,0.9933,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.9879
+C01859,0.0196,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0141
+C01860,0.8391,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.7145
+C01861,0.0627,B,Pouco tempo de relacionamento,Segmento Varejo,Limite muito comprometido,0.0735
+C01862,0.0003,A,Limite muito comprometido,,,0.0009
+C01863,0.01,A,Limite muito comprometido,,,0.0061
+C01864,0.0094,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0123
+C01865,0.0064,A,Pouco tempo de relacionamento,,,0.0061
+C01866,0.0002,A,,,,0.0002
+C01867,0.0017,A,,,,0.0033
+C01868,0.0159,A,Segmento Varejo,Score de bureau baixo,Pior atraso elevado,0.0081
+C01869,0.1807,C,Pior atraso elevado,Paga com atraso com frequência,Segmento Varejo,0.0716
+C01870,0.0042,A,,,,0.0279
+C01871,0.0069,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0153
+C01872,0.1427,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.14
+C01873,0.0002,A,,,,0.0006
+C01874,0.0002,A,Limite muito comprometido,,,0.0001
+C01875,0.0033,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0025
+C01876,0.0011,A,,,,0.0006
+C01877,0.0075,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0043
+C01878,0.1764,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.162
+C01879,0.1643,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.2215
+C01880,0.0179,A,Pouco tempo de relacionamento,Segmento Varejo,Limite muito comprometido,0.0109
+C01881,0.0124,A,Segmento Varejo,Score de bureau baixo,Pouco tempo de relacionamento,0.011
+C01882,0.0039,A,Muitos atrasos nos últimos 12m,,,0.005
+C01883,0.073,B,Muitos atrasos nos últimos 12m,Score de bureau baixo,Paga com atraso com frequência,0.1471
+C01884,0.5966,E,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.1139
+C01885,0.0877,C,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1083
+C01886,0.2923,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.4895
+C01887,0.0104,A,Segmento Varejo,Paga com atraso com frequência,Pior atraso elevado,0.0084
+C01888,0.1389,C,Limite muito comprometido,Pouco tempo de relacionamento,Segmento Varejo,0.0131
+C01889,0.0011,A,Limite muito comprometido,,,0.0007
+C01890,0.0243,A,Segmento Varejo,Pouco tempo de relacionamento,Score de bureau baixo,0.0359
+C01891,0.3974,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.3639
+C01892,0.0065,A,Limite muito comprometido,Pouco tempo de relacionamento,,0.0021
+C01893,0.0188,A,Paga com atraso com frequência,Segmento Varejo,Pior atraso elevado,0.0201
+C01894,0.0138,A,Limite muito comprometido,Segmento Varejo,,0.0086
+C01895,0.0018,A,Segmento Varejo,,,0.0074
+C01896,0.9505,E,Score de bureau baixo,Limite muito comprometido,Pior atraso elevado,0.8706
+C01897,0.0123,A,Score de bureau baixo,Pouco tempo de relacionamento,Pior atraso elevado,0.0053
+C01898,0.1118,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.7885
+C01899,0.0574,B,Limite muito comprometido,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0674
+C01900,0.1051,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1739
+C01901,0.0706,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.1292
+C01902,0.013,A,Segmento Varejo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0247
+C01903,0.0015,A,Score de bureau baixo,,,0.0011
+C01904,0.4235,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.4872
+C01905,0.0438,B,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0223
+C01906,0.2426,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.3185
+C01907,0.3843,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.2619
+C01908,0.0585,B,Pior atraso elevado,Score de bureau baixo,Segmento Varejo,0.0906
+C01909,0.0132,A,Pior atraso elevado,Muitos atrasos nos últimos 12m,,0.0089
+C01910,0.0009,A,,,,0.0007
+C01911,0.0147,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0178
+C01912,0.0531,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0573
+C01913,0.0021,A,Limite muito comprometido,,,0.0005
+C01914,0.2249,D,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.1475
+C01915,0.0956,C,Paga com atraso com frequência,Score de bureau baixo,Pior atraso elevado,0.0652
+C01916,0.233,D,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.1727
+C01917,0.014,A,Muitos atrasos nos últimos 12m,Pior atraso elevado,Pouco tempo de relacionamento,0.0417
+C01918,0.0034,A,Limite muito comprometido,,,0.0024
+C01919,0.1066,C,Score de bureau baixo,Segmento Varejo,Pouco tempo de relacionamento,0.088
+C01920,0.0017,A,Pouco tempo de relacionamento,,,0.0024
+C01921,0.0329,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0317
+C01922,0.0313,B,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0165
+C01923,0.255,D,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.2344
+C01924,0.0059,A,Segmento Varejo,,,0.0062
+C01925,0.227,D,Pior atraso elevado,Score de bureau baixo,Segmento Varejo,0.089
+C01926,0.0129,A,Segmento Varejo,Pouco tempo de relacionamento,Paga com atraso com frequência,0.0087
+C01927,0.7217,E,Pior atraso elevado,Score de bureau baixo,Limite muito comprometido,0.4688
+C01928,0.0127,A,Score de bureau baixo,Muitos atrasos nos últimos 12m,Paga com atraso com frequência,0.0284
+C01929,0.401,D,Limite muito comprometido,Score de bureau baixo,Paga com atraso com frequência,0.1799
+C01930,0.2356,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2361
+C01931,0.0403,B,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.0181
+C01932,0.0032,A,Pior atraso elevado,,,0.0021
+C01933,0.0066,A,Pior atraso elevado,Pouco tempo de relacionamento,,0.0026
+C01934,0.0076,A,Score de bureau baixo,Pior atraso elevado,,0.0113
+C01935,0.0255,A,Pouco tempo de relacionamento,Paga com atraso com frequência,Score de bureau baixo,0.0295
+C01936,0.5461,E,Pior atraso elevado,Score de bureau baixo,Limite muito comprometido,0.3978
+C01937,0.0054,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0058
+C01938,0.0268,A,Score de bureau baixo,Pouco tempo de relacionamento,Pior atraso elevado,0.0581
+C01939,0.2407,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.1391
+C01940,0.008,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0083
+C01941,0.0474,B,Score de bureau baixo,Segmento Varejo,Pior atraso elevado,0.0443
+C01942,0.0035,A,Segmento Varejo,Pouco tempo de relacionamento,,0.0051
+C01943,0.458,E,Score de bureau baixo,Muitos atrasos nos últimos 12m,Pior atraso elevado,0.6793
+C01944,0.0295,A,Paga com atraso com frequência,Segmento Varejo,Pouco tempo de relacionamento,0.0204
+C01945,0.0006,A,Limite muito comprometido,,,0.0004
+C01946,0.0007,A,,,,0.0027
+C01947,0.1476,C,Score de bureau baixo,Paga com atraso com frequência,Muitos atrasos nos últimos 12m,0.1979
+C01948,0.0001,A,,,,0.0001
+C01949,0.0535,B,Limite muito comprometido,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0491
+C01950,0.0134,A,Score de bureau baixo,Limite muito comprometido,,0.0061
+C01951,0.0022,A,,,,0.0012
+C01952,0.49,E,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.7279
+C01953,0.0016,A,Limite muito comprometido,,,0.0011
+C01954,0.0839,C,Limite muito comprometido,Pouco tempo de relacionamento,,0.0084
+C01955,0.0025,A,Limite muito comprometido,,,0.0019
+C01956,0.0405,B,Score de bureau baixo,Limite muito comprometido,Muitos atrasos nos últimos 12m,0.0149
+C01957,0.2782,D,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.4545
+C01958,0.7624,E,Limite muito comprometido,Pior atraso elevado,Score de bureau baixo,0.5163
+C01959,0.0077,A,Score de bureau baixo,,,0.0076
+C01960,0.0039,A,,,,0.0033
+C01961,0.0055,A,Pouco tempo de relacionamento,Limite muito comprometido,,0.0045
+C01962,0.0022,A,Segmento Varejo,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0033
+C01963,0.0184,A,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0377
+C01964,0.0052,A,Segmento Varejo,,,0.0031
+C01965,0.0249,A,Score de bureau baixo,Limite muito comprometido,,0.0093
+C01966,0.7732,E,Score de bureau baixo,Pior atraso elevado,Limite muito comprometido,0.5315
+C01967,0.0062,A,Score de bureau baixo,Pior atraso elevado,,0.0065
+C01968,0.1458,C,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.3798
+C01969,0.087,C,Limite muito comprometido,Score de bureau baixo,Segmento Varejo,0.0137
+C01970,0.2878,D,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.2611
+C01971,0.7135,E,Score de bureau baixo,Limite muito comprometido,Paga com atraso com frequência,0.5015
+C01972,0.0006,A,Limite muito comprometido,,,0.0004
+C01973,0.0134,A,Score de bureau baixo,Paga com atraso com frequência,Pior atraso elevado,0.0101
+C01974,0.4808,E,Score de bureau baixo,Paga com atraso com frequência,Limite muito comprometido,0.3528
+C01975,0.0036,A,Segmento Varejo,Muitos atrasos nos últimos 12m,,0.0038
+C01976,0.1568,C,Score de bureau baixo,Segmento Varejo,Limite muito comprometido,0.106
+C01977,0.006,A,Segmento Varejo,,,0.0049
+C01978,0.0007,A,Limite muito comprometido,,,0.0005
+C01979,0.0071,A,Score de bureau baixo,Pior atraso elevado,,0.0035
+C01980,0.0276,A,Segmento Varejo,Pior atraso elevado,Paga com atraso com frequência,0.0359
+C01981,0.0031,A,,,,0.0066
+C01982,0.0415,B,Limite muito comprometido,Segmento Varejo,Muitos atrasos nos últimos 12m,0.0269
+C01983,0.0082,A,Pior atraso elevado,Muitos atrasos nos últimos 12m,,0.0064
+C01984,0.0044,A,Segmento Varejo,,,0.0115
+C01985,0.011,A,Limite muito comprometido,Pouco tempo de relacionamento,Muitos atrasos nos últimos 12m,0.0055
+C01986,0.0008,A,,,,0.0014
+C01987,0.0688,B,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.0439
+C01988,0.0642,B,Score de bureau baixo,Pior atraso elevado,Paga com atraso com frequência,0.0862
+C01989,0.0009,A,,,,0.0011
+C01990,0.1093,C,Paga com atraso com frequência,Score de bureau baixo,Pouco tempo de relacionamento,0.0807
+C01991,0.1084,C,Score de bureau baixo,Paga com atraso com frequência,Segmento Varejo,0.1868
+C01992,0.0009,A,,,,0.0009
+C01993,0.4813,E,Score de bureau baixo,Paga com atraso com frequência,Pouco tempo de relacionamento,0.4295
+C01994,0.0075,A,Segmento Varejo,Limite muito comprometido,Pior atraso elevado,0.0035
+C01995,0.0249,A,Score de bureau baixo,Segmento Varejo,Paga com atraso com frequência,0.035
+C01996,0.002,A,,,,0.0086
+C01997,0.1023,C,Score de bureau baixo,Limite muito comprometido,Segmento Varejo,0.0709
+C01998,0.3941,D,Score de bureau baixo,Pouco tempo de relacionamento,Segmento Varejo,0.4545
+C01999,0.0099,A,,,,0.0106
+C02000,0.0347,B,Segmento Varejo,Pouco tempo de relacionamento,Score de bureau baixo,0.0295

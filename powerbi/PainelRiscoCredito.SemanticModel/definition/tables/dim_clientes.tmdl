@@ -1,0 +1,70 @@
+table dim_clientes
+	lineageTag: 09b96d34-7a17-4122-ae41-c0a507d0aa16
+
+	column cliente_id
+		dataType: string
+		isKey
+		lineageTag: d878072f-eb78-4365-b047-35b9f5042af3
+		summarizeBy: none
+		sourceColumn: cliente_id
+
+	column nome_cliente
+		dataType: string
+		lineageTag: 78812e29-8f9e-4547-b572-77ea0aa2cc1d
+		summarizeBy: none
+		sourceColumn: nome_cliente
+
+	column segmento
+		dataType: string
+		lineageTag: 47b003bd-2dce-443e-8c96-83dcce823bbe
+		summarizeBy: none
+		sourceColumn: segmento
+
+	column regiao
+		dataType: string
+		lineageTag: 967fe71c-c993-4f93-802e-66cedec5197e
+		summarizeBy: none
+		sourceColumn: regiao
+
+	column tempo_relacionamento_meses
+		dataType: int64
+		formatString: 0
+		lineageTag: 974d0ae6-9077-4ac3-8bcb-3dda01091e80
+		summarizeBy: none
+		sourceColumn: tempo_relacionamento_meses
+
+	column limite_credito
+		dataType: double
+		formatString: \R$ #,0
+		lineageTag: ed8dbcbb-49df-4359-971c-77f49828b631
+		summarizeBy: sum
+		sourceColumn: limite_credito
+
+	column score_bureau_externo
+		dataType: int64
+		formatString: 0
+		lineageTag: ef61a3e4-7106-453d-a1bc-8cc76d880e44
+		summarizeBy: none
+		sourceColumn: score_bureau_externo
+
+	column historico_atraso_12m
+		dataType: int64
+		formatString: 0
+		lineageTag: 2b52d903-9515-49d9-9109-cec777f02dec
+		summarizeBy: none
+		sourceColumn: historico_atraso_12m
+
+	partition dim_clientes = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaDados & "dim_clientes.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalhos = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalhos, {
+				        {"cliente_id", type text}, {"nome_cliente", type text}, {"segmento", type text}, {"regiao", type text},
+				        {"tempo_relacionamento_meses", Int64.Type}, {"limite_credito", type number},
+				        {"score_bureau_externo", Int64.Type}, {"historico_atraso_12m", Int64.Type}
+				    }, "en-US")
+				in
+				    Tipos
+

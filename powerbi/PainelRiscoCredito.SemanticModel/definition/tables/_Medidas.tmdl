@@ -1,0 +1,407 @@
+/// Tabela que só guarda as medidas do relatório, organizadas por pasta.
+table _Medidas
+	lineageTag: 40c653f2-906a-4cb0-a3c8-de56c810a80e
+
+	/// Data de corte da base ("hoje"). Independente de qualquer filtro.
+	measure 'Data Corte' = CALCULATE ( MAX ( fato_faturas[data_emissao] ), REMOVEFILTERS () )
+		formatString: dd/mm/yyyy
+		displayFolder: 1. Executivo
+		lineageTag: 63c39371-2cbd-4324-adf4-572dbe498803
+
+	/// Data da "foto" da carteira: último dia do período em contexto, limitado à data de corte.
+	measure 'Data Referência' = MIN ( MAX ( dim_calendario[Date] ), [Data Corte] )
+		formatString: dd/mm/yyyy
+		displayFolder: 1. Executivo
+		lineageTag: de04bec0-6691-4bda-801c-a1db1293b86f
+
+	/// Faturamento bruto emitido no período (relacionamento ativo: data_emissao).
+	measure Faturamento = SUM ( fato_faturas[valor_fatura] )
+		formatString: \R$ #,0
+		displayFolder: 1. Executivo
+		lineageTag: 5cf8b763-b9bd-4028-a6d2-8aef33a50642
+
+	/// Caixa recebido no período (ativa o relacionamento por data_pagamento).
+	measure Recebimentos = CALCULATE ( SUM ( fato_faturas[valor_fatura] ), USERELATIONSHIP ( dim_calendario[Date], fato_faturas[data_pagamento] ) )
+		formatString: \R$ #,0
+		displayFolder: 1. Executivo
+		lineageTag: 959a0cbc-4c34-4e40-bf8a-00855a98499a
+
+	/// Carteira (AR) = saldo em aberto na Data Referência: emitido até a data E não pago até a data.
+	/// KEEPFILTERS preserva filtros externos sobre as mesmas colunas (usado pelo simulador).
+	measure 'Carteira Total Ativa (AR)' =
+			VAR _ref = [Data Referência]
+			RETURN
+			    CALCULATE (
+			        SUM ( fato_faturas[valor_fatura] ),
+			        REMOVEFILTERS ( dim_calendario ),
+			        KEEPFILTERS ( fato_faturas[data_emissao] <= _ref ),
+			        KEEPFILTERS ( ISBLANK ( fato_faturas[data_pagamento] ) || fato_faturas[data_pagamento] > _ref )
+			    )
+		formatString: \R$ #,0
+		displayFolder: 1. Executivo
+		lineageTag: b30cb27d-4528-401d-b497-6c3fde8c4c98
+
+	/// Parte da carteira com vencimento ultrapassado na Data Referência.
+	measure 'Valor Vencido' =
+			VAR _ref = [Data Referência]
+			RETURN
+			    CALCULATE ( [Carteira Total Ativa (AR)], KEEPFILTERS ( fato_faturas[data_vencimento] < _ref ) )
+		formatString: \R$ #,0
+		displayFolder: 1. Executivo
+		lineageTag: 1a7a59fb-754e-4207-8ab8-04df118aad46
+
+	/// Vencido há mais de 90 dias (proxy de default / NPL 90).
+	measure 'Valor Vencido 90+' =
+			VAR _ref = [Data Referência]
+			RETURN
+			    CALCULATE ( [Carteira Total Ativa (AR)], KEEPFILTERS ( fato_faturas[data_vencimento] < _ref - 90 ) )
+		formatString: \R$ #,0
+		displayFolder: 1. Executivo
+		lineageTag: 6def552e-8f64-4fdc-b26f-2e6e1992dc25
+
+	/// % de Inadimplência (Overdue %) = Vencido / Carteira.
+	measure '% Inadimplência' = DIVIDE ( [Valor Vencido], [Carteira Total Ativa (AR)] )
+		formatString: 0.0%
+		displayFolder: 1. Executivo
+		lineageTag: 4d131833-6a5b-44b2-ac96-ee379e3adca3
+
+	/// NPL 90: participação da carteira vencida há mais de 90 dias.
+	measure '% Inadimplência 90+' = DIVIDE ( [Valor Vencido 90+], [Carteira Total Ativa (AR)] )
+		formatString: 0.0%
+		displayFolder: 1. Executivo
+		lineageTag: 4df3d5ca-caa3-4388-a123-1ada4e044ac9
+
+	/// DSO = Carteira (AR) / Faturamento dos últimos 90 dias × 90 — "quantos dias de venda estão na rua".
+	measure 'DSO (dias)' =
+			VAR _ref    = [Data Referência]
+			VAR _janela = 90
+			VAR _vendas =
+			    CALCULATE (
+			        SUM ( fato_faturas[valor_fatura] ),
+			        REMOVEFILTERS ( dim_calendario ),
+			        KEEPFILTERS ( fato_faturas[data_emissao] > _ref - _janela && fato_faturas[data_emissao] <= _ref )
+			    )
+			RETURN
+			    DIVIDE ( [Carteira Total Ativa (AR)] * _janela, _vendas )
+		formatString: 0.0
+		displayFolder: 1. Executivo
+		lineageTag: 1cd6e322-de50-49d4-bbaa-eea01616190a
+
+	/// PDD por matriz de provisão: cada fatura em aberto na Data Referência × taxa da sua faixa (dim_aging).
+	/// Recalcula o aging em qualquer data -> permite a série mensal Inadimplência × PDD.
+	measure 'PDD Estimada' =
+			VAR _ref = [Data Referência]
+			VAR _abertas =
+			    CALCULATETABLE (
+			        fato_faturas,
+			        REMOVEFILTERS ( dim_calendario ),
+			        KEEPFILTERS ( fato_faturas[data_emissao] <= _ref ),
+			        KEEPFILTERS ( ISBLANK ( fato_faturas[data_pagamento] ) || fato_faturas[data_pagamento] > _ref )
+			    )
+			RETURN
+			    SUMX (
+			        _abertas,
+			        VAR _dias = INT ( _ref - fato_faturas[data_vencimento] )
+			        VAR _taxa =
+			            MAXX (
+			                FILTER ( ALL ( dim_aging ), _dias >= dim_aging[DiasMin] && _dias <= dim_aging[DiasMax] ),
+			                dim_aging[TaxaPDD]
+			            )
+			        RETURN fato_faturas[valor_fatura] * _taxa
+			    )
+		formatString: \R$ #,0
+		displayFolder: 1. Executivo
+		lineageTag: cc954460-c171-4aea-ac13-f492e59aa3dd
+
+	/// PDD como % da carteira (índice de provisão).
+	measure 'PDD % Carteira' = DIVIDE ( [PDD Estimada], [Carteira Total Ativa (AR)] )
+		formatString: 0.0%
+		displayFolder: 1. Executivo
+		lineageTag: bb50d8f9-e096-480f-9832-e2ea191b46b6
+
+	/// Cobertura: quanto do vencido já está provisionado.
+	measure '% Cobertura PDD' = DIVIDE ( [PDD Estimada], [Valor Vencido] )
+		formatString: 0.0%
+		displayFolder: 1. Executivo
+		lineageTag: f7813312-9458-44be-a4bd-103d9692e0e4
+
+	/// Número de clientes com ao menos uma fatura vencida na Data Referência.
+	measure 'Clientes em Atraso' =
+			VAR _ref = [Data Referência]
+			RETURN
+			    CALCULATE (
+			        DISTINCTCOUNT ( fato_faturas[cliente_id] ),
+			        REMOVEFILTERS ( dim_calendario ),
+			        KEEPFILTERS ( fato_faturas[data_emissao] <= _ref ),
+			        KEEPFILTERS ( ISBLANK ( fato_faturas[data_pagamento] ) || fato_faturas[data_pagamento] > _ref ),
+			        KEEPFILTERS ( fato_faturas[data_vencimento] < _ref )
+			    )
+		formatString: #,0
+		displayFolder: 1. Executivo
+		lineageTag: 88345e9e-c106-4ad9-a812-c5f16c86da62
+
+	/// Variação da inadimplência vs. mês anterior, em pontos percentuais.
+	measure 'Δ % Inadimplência (p.p. m/m)' =
+			VAR _atual    = [% Inadimplência]
+			VAR _anterior = CALCULATE ( [% Inadimplência], DATEADD ( dim_calendario[Date], -1, MONTH ) )
+			RETURN
+			    IF ( NOT ISBLANK ( _anterior ), _atual - _anterior )
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 1. Executivo
+		lineageTag: 2f033080-aaef-4f12-b16f-c9f00bd1854a
+
+	/// Participação da faixa de aging na carteira total.
+	measure '% da Carteira' = DIVIDE ( [Carteira Total Ativa (AR)], CALCULATE ( [Carteira Total Ativa (AR)], REMOVEFILTERS ( dim_aging ) ) )
+		formatString: 0.0%
+		displayFolder: 2. Aging e PDD
+		lineageTag: ec12d708-ba53-442e-bafb-83c2a93dd651
+
+	/// Taxa de provisão da faixa em contexto.
+	measure 'Taxa PDD da Faixa' = SELECTEDVALUE ( dim_aging[TaxaPDD] )
+		formatString: 0%
+		displayFolder: 2. Aging e PDD
+		lineageTag: ae7a70e1-8f52-47a5-9b09-cbe486ad7719
+
+	/// Quantidade de faturas em aberto (na data de corte).
+	measure 'Faturas em Aberto' = CALCULATE ( COUNTROWS ( fato_faturas ), NOT ISBLANK ( fato_faturas[faixa_aging] ) )
+		formatString: #,0
+		displayFolder: 2. Aging e PDD
+		lineageTag: 96ab3b75-4cca-4403-bebf-29fef6128eb4
+
+	/// Atraso médio ponderado pelo valor (só vencidas) — "quão velha" é a dívida.
+	measure 'Atraso Médio Ponderado (dias)' =
+			VAR _vencidas = FILTER ( fato_faturas, fato_faturas[dias_atraso_corte] > 0 )
+			RETURN
+			    DIVIDE (
+			        SUMX ( _vencidas, fato_faturas[valor_fatura] * fato_faturas[dias_atraso_corte] ),
+			        SUMX ( _vencidas, fato_faturas[valor_fatura] )
+			    )
+		formatString: 0
+		displayFolder: 2. Aging e PDD
+		lineageTag: a0a1c371-cc04-4126-aeff-53c65aa8d3ae
+
+	/// Dias de atraso no nível da fatura (drill-down até fatura_id).
+	measure 'Dias de Atraso' = MAX ( fato_faturas[dias_atraso_corte] )
+		formatString: 0
+		displayFolder: 2. Aging e PDD
+		lineageTag: cf65aba2-31c1-4fb0-b61e-fe183ee035c6
+
+	/// Cor para formatação condicional pelo índice de provisão da célula (PDD / Carteira).
+	measure 'Cor Risco Aging' =
+			VAR _idx = DIVIDE ( [PDD Estimada], [Carteira Total Ativa (AR)] )
+			RETURN
+			    SWITCH (
+			        TRUE (),
+			        ISBLANK ( _idx ), BLANK (),
+			        _idx >= 0.50, "#F2B8B5",
+			        _idx >= 0.10, "#F8D3A8",
+			        _idx > 0, "#FBEBA8",
+			        "#D4EDDA"
+			    )
+		displayFolder: 2. Aging e PDD
+		lineageTag: 1bc46bdb-b831-4771-b0cf-9c9e6b479ad9
+
+	measure Clientes = COUNTROWS ( clientes_score_preditivo )
+		formatString: #,0
+		displayFolder: 3. Preditivo
+		lineageTag: 85827949-04e5-42bb-833a-ee64cbaf3f7d
+
+	/// PD média simples (cada cliente pesa igual).
+	measure 'PD Média' = AVERAGE ( clientes_score_preditivo[probabilidade_default] )
+		formatString: 0.0%
+		displayFolder: 3. Preditivo
+		lineageTag: 23716e1e-73a2-4659-b9a3-6258e8b59b1b
+
+	/// PD ponderada pela exposição: o "risco médio do real a receber".
+	measure 'PD Ponderada pela Exposição' =
+			DIVIDE (
+			    SUMX ( clientes_score_preditivo, clientes_score_preditivo[probabilidade_default] * [Carteira Total Ativa (AR)] ),
+			    [Carteira Total Ativa (AR)]
+			)
+		formatString: 0.0%
+		displayFolder: 3. Preditivo
+		lineageTag: e26fbf11-0bd1-4aa9-8e09-e10c0db5aaa5
+
+	/// Perda Esperada (Expected Loss) = PD × EAD × LGD. EAD = saldo em aberto; LGD = 60%.
+	measure 'Perda Esperada (EL)' =
+			VAR _LGD = 0.60
+			RETURN
+			    SUMX ( clientes_score_preditivo, clientes_score_preditivo[probabilidade_default] * [Carteira Total Ativa (AR)] * _LGD )
+		formatString: \R$ #,0
+		displayFolder: 3. Preditivo
+		lineageTag: a1a67f60-0525-40d9-a2b5-381d27018427
+
+	measure 'Limite de Crédito' = SUM ( dim_clientes[limite_credito] )
+		formatString: \R$ #,0
+		displayFolder: 3. Preditivo
+		lineageTag: 744558e9-24c5-49f9-a86a-4f4f778a6746
+
+	/// Limite ainda disponível para novas compras (nunca negativo por cliente).
+	measure 'Limite Disponível' = SUMX ( dim_clientes, MAX ( 0, dim_clientes[limite_credito] - [Carteira Total Ativa (AR)] ) )
+		formatString: \R$ #,0
+		displayFolder: 3. Preditivo
+		lineageTag: 4bbcd286-1e46-427f-b7db-872b756e03ef
+
+	measure 'Utilização do Limite' = DIVIDE ( [Carteira Total Ativa (AR)], [Limite de Crédito] )
+		formatString: 0.0%
+		displayFolder: 3. Preditivo
+		lineageTag: 0ede3bfe-0492-4cb2-ad4f-e0af26524ba9
+
+	/// Limite aberto para clientes de rating D/E: a "porta aberta" que o crédito deveria fechar.
+	measure 'Limite Exposto em Alto Risco (D/E)' = CALCULATE ( [Limite Disponível], KEEPFILTERS ( clientes_score_preditivo[faixa_risco] IN { "D", "E" } ) )
+		formatString: \R$ #,0
+		displayFolder: 3. Preditivo
+		lineageTag: 4903b11f-a3a8-4dda-aac6-e9b61271314c
+
+	measure '% Limite Exposto em Alto Risco' = DIVIDE ( [Limite Exposto em Alto Risco (D/E)], [Limite Disponível] )
+		formatString: 0.0%
+		displayFolder: 3. Preditivo
+		lineageTag: fc55be2b-9967-4a2e-8e37-d8562de5504f
+
+	measure 'Importância (Logit)' = SUM ( feature_importance[importancia_pct] )
+		formatString: 0.0%
+		displayFolder: 3. Preditivo
+		lineageTag: 021c154f-924e-4eae-b277-acc7c14e1869
+
+	measure 'Importância (Random Forest)' = SUM ( feature_importance[importancia_rf_pct] )
+		formatString: 0.0%
+		displayFolder: 3. Preditivo
+		lineageTag: 466794b1-732c-4330-8a3a-987acd3b2ad2
+
+	/// Início da janela do backtest (T_obs = data de corte − 9 meses, igual ao credit_scoring.py).
+	measure 'Sim Início Janela' = EDATE ( [Data Corte], -9 )
+		formatString: dd/mm/yyyy
+		displayFolder: 4. Simulador What-If
+		lineageTag: 99b79256-4427-4923-ac86-95c85b3c519b
+
+	/// Clientes que a política reprovaria (PD em T_obs acima do corte).
+	measure 'Sim Clientes Reprovados' =
+			VAR _corte = [Valor Corte PD]
+			RETURN
+			    CALCULATE ( [Clientes], KEEPFILTERS ( clientes_score_preditivo[pd_backtest] > _corte ) )
+		formatString: #,0
+		displayFolder: 4. Simulador What-If
+		lineageTag: c2683987-8b52-4649-9e5d-8bfd5d0cfb13
+
+	measure 'Sim Taxa de Aprovação' = 1 - DIVIDE ( [Sim Clientes Reprovados], [Clientes] )
+		formatString: 0.0%
+		displayFolder: 4. Simulador What-If
+		lineageTag: e3a81a42-2328-43d4-847b-d426467994df
+
+	/// Economia de risco: PDD hoje constituída sobre faturas que os reprovados receberam na janela.
+	measure 'Sim PDD Evitada (Economia de Risco)' =
+			VAR _corte  = [Valor Corte PD]
+			VAR _inicio = [Sim Início Janela]
+			RETURN
+			    CALCULATE (
+			        [PDD Estimada],
+			        KEEPFILTERS ( clientes_score_preditivo[pd_backtest] > _corte ),
+			        KEEPFILTERS ( fato_faturas[data_emissao] > _inicio )
+			    )
+		formatString: \R$ #,0
+		displayFolder: 4. Simulador What-If
+		lineageTag: efbba625-b488-4752-af33-e5d63343fe73
+
+	/// Inadimplência (valor vencido) que deixaria de existir.
+	measure 'Sim Inadimplência Evitada' =
+			VAR _corte  = [Valor Corte PD]
+			VAR _inicio = [Sim Início Janela]
+			RETURN
+			    CALCULATE (
+			        [Valor Vencido],
+			        KEEPFILTERS ( clientes_score_preditivo[pd_backtest] > _corte ),
+			        KEEPFILTERS ( fato_faturas[data_emissao] > _inicio )
+			    )
+		formatString: \R$ #,0
+		displayFolder: 4. Simulador What-If
+		lineageTag: a2279c96-a652-4daf-a5d5-ffb470e872fa
+
+	measure 'Sim Carteira Evitada' =
+			VAR _corte  = [Valor Corte PD]
+			VAR _inicio = [Sim Início Janela]
+			RETURN
+			    CALCULATE (
+			        [Carteira Total Ativa (AR)],
+			        KEEPFILTERS ( clientes_score_preditivo[pd_backtest] > _corte ),
+			        KEEPFILTERS ( fato_faturas[data_emissao] > _inicio )
+			    )
+		formatString: \R$ #,0
+		displayFolder: 4. Simulador What-If
+		lineageTag: 123b7b45-2ba2-4023-929f-9dc572db0a17
+
+	/// Overdue % da carteira se a política estivesse ativa.
+	measure 'Sim % Inadimplência Pós-Política' = DIVIDE ( [Valor Vencido] - [Sim Inadimplência Evitada], [Carteira Total Ativa (AR)] - [Sim Carteira Evitada] )
+		formatString: 0.0%
+		displayFolder: 4. Simulador What-If
+		lineageTag: 5d591f41-6340-45ec-addc-93fea636da62
+
+	/// Custo de oportunidade: faturamento dos reprovados que TERIA sido pago
+	/// (exclui faturas que viraram calote = em aberto há mais de 90 dias).
+	measure 'Sim Receita Perdida (Bons Pagadores)' =
+			VAR _corte   = [Valor Corte PD]
+			VAR _inicio  = [Sim Início Janela]
+			VAR _corte90 = [Data Corte] - 90
+			RETURN
+			    CALCULATE (
+			        SUM ( fato_faturas[valor_fatura] ),
+			        REMOVEFILTERS ( dim_calendario ),
+			        KEEPFILTERS ( clientes_score_preditivo[pd_backtest] > _corte ),
+			        KEEPFILTERS ( fato_faturas[data_emissao] > _inicio ),
+			        KEEPFILTERS ( NOT ( ISBLANK ( fato_faturas[data_pagamento] ) && fato_faturas[data_vencimento] < _corte90 ) )
+			    )
+		formatString: \R$ #,0
+		displayFolder: 4. Simulador What-If
+		lineageTag: 3b59b94c-82b3-4b51-a426-68719eb2563d
+
+	/// Receita perdida só custa a MARGEM (o custo da mercadoria também não sai).
+	measure 'Sim Margem Perdida' = [Sim Receita Perdida (Bons Pagadores)] * [Valor Margem Contribuição]
+		formatString: \R$ #,0
+		displayFolder: 4. Simulador What-If
+		lineageTag: dff89d25-7ae2-47c6-a1da-2852813bd2fb
+
+	/// Impacto líquido na margem = Economia de Risco − Margem Perdida.
+	measure 'Sim Impacto Líquido' = [Sim PDD Evitada (Economia de Risco)] - [Sim Margem Perdida]
+		formatString: \R$ #,0;-\R$ #,0
+		displayFolder: 4. Simulador What-If
+		lineageTag: 4fdd419c-b0c7-467f-a15b-2862f6d1c9a6
+
+	/// Corte de PD que maximiza o impacto líquido, varrendo todos os valores do parâmetro.
+	measure 'Corte Ótimo de PD' =
+			MAXX (
+			    TOPN ( 1, ALL ( 'Corte PD'[Corte PD] ), [Sim Impacto Líquido], DESC ),
+			    'Corte PD'[Corte PD]
+			)
+		formatString: 0%
+		displayFolder: 4. Simulador What-If
+		lineageTag: 8e92c757-02dd-4194-a5f8-49fd09d01ca1
+
+	measure 'Impacto no Corte Ótimo' = MAXX ( ALL ( 'Corte PD'[Corte PD] ), [Sim Impacto Líquido] )
+		formatString: \R$ #,0;-\R$ #,0
+		displayFolder: 4. Simulador What-If
+		lineageTag: 48e1c737-7522-4f7c-b446-fb188cdaeb22
+
+	/// Cor verde/vermelha do cartão de impacto líquido.
+	measure 'Cor Impacto Líquido' = IF ( [Sim Impacto Líquido] >= 0, "#1E7B4F", "#C0392B" )
+		displayFolder: 4. Simulador What-If
+		lineageTag: b9f51d4b-c7a6-4dc3-a8a4-48b7bbbccb21
+
+	/// Texto dinâmico para o cartão narrativo da página.
+	measure 'Sim Narrativa' =
+			"Reprovando clientes com PD acima de " & FORMAT ( [Valor Corte PD], "0%" )
+			    & ", evitamos " & FORMAT ( [Sim PDD Evitada (Economia de Risco)], "R$ #,##0" ) & " de PDD"
+			    & " e abrimos mão de " & FORMAT ( [Sim Margem Perdida], "R$ #,##0" ) & " de margem."
+			    & " Impacto líquido: " & FORMAT ( [Sim Impacto Líquido], "R$ #,##0;-R$ #,##0" ) & "."
+		displayFolder: 4. Simulador What-If
+		lineageTag: f2634f6c-da8d-4559-81d6-580f4824797a
+
+	column Coluna
+		dataType: string
+		isHidden
+		lineageTag: 5f078e70-9850-4f4b-92f3-f709e03ccb03
+		summarizeBy: none
+		sourceColumn: [Coluna]
+
+	partition _Medidas = calculated
+		mode: import
+		source = ROW ( "Coluna", "" )
+
